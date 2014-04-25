@@ -1,0 +1,1202 @@
+<html class="no-js"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="renderer" content="webkit">
+  <link href="css/kry.css" media="screen" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="js/font-awesome/css/font-awesome.min.css" media="screen" rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" href="/favicon.ico">
+  <title>KRY资讯平台 | 关注互联网创业</title>
+  <meta name="keywords" content="创业, 想创业, 投资, 融资, 创投媒体, 创业公司, 金融新闻, 创业互联网, 资讯平台,互联网创业">
+  <meta name="description" content="是一个金融类资讯平台">
+  <link rel="author" href="">
+   <!-- Prefetch -->
+  <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    
+<!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+<![endif]-->
+<style>@-moz-keyframes nodeInserted{from{opacity:0.99;}to{opacity:1;}}@-webkit-keyframes nodeInserted{from{opacity:0.99;}to{opacity:1;}}@-o-keyframes nodeInserted{from{opacity:0.99;}to{opacity:1;}}@keyframes nodeInserted{from{opacity:0.99;}to{opacity:1;}}embed,object{animation-duration:.001s;-ms-animation-duration:.001s;-moz-animation-duration:.001s;-webkit-animation-duration:.001s;-o-animation-duration:.001s;animation-name:nodeInserted;-ms-animation-name:nodeInserted;-moz-animation-name:nodeInserted;-webkit-animation-name:nodeInserted;-o-animation-name:nodeInserted;}</style></head>
+<body id="home" class="js">
+    <header class="header header-normal">
+    <div class="inner row">
+      <h1 class="logo"><a href="/"><span>36Kr</span></a></h1>
+      <nav class="toggle-nav cf">
+        <ul class="left">
+          <li><a href="javascript:void(0)" class="toggle__main icon-menu"><span>导航</span></a></li>
+          <li><a href="javascript:void(0)" class="toggle__search icon-search"><span>搜索</span></a></li>
+        </ul>
+        <a href="http://www.36kr.net/report" class="toggle__submit right external" target="_blank">寻求报道</a>
+      </nav>
+      <nav class="main-nav left">
+        <ul>
+          <li class="drop-1 drop">
+            <a href="/explore" class="hasdropdown main-nav__item">分类浏览</a>
+            <div class="dropdown">
+              <div class="dropdown-list dropdown__list">
+                <section>
+                  <h2>Category</h2>
+                  <ul class="dropdown__category cf">
+                    <li><a href="/category/cn-startups">国内公司</a></li>
+                    <li><a href="/category/us-startups">国外公司</a></li>
+                    <li><a href="/category/cn-news">国内资讯</a></li>
+                    <li><a href="/category/breaking">国外资讯</a></li>
+                    <li><a href="/tag/氪周刊">氪周刊</a></li>
+                    <li><a href="/pages/krmonthly">氪月报</a></li>
+                    <li><a href="/category/column">专栏</a></li>
+                    <li><a href="/category/archives">存档</a></li>
+                  </ul>
+                </section>
+                <section>
+                  <h2>Topic</h2>
+                  <ul class="dropdown__topic cf">
+                    <li><span><a href="/topic/startups" class="startups">创业公司</a> / Startups</span></li>
+                    <li><span><a href="/topic/products" class="products">产品</a> / Products</span></li>
+                    <li><span><a href="/topic/apps" class="apps">应用软体</a> / Apps</span></li>
+                    <li><span><a href="/topic/technology" class="technology">科技</a> / Technology</span></li>
+                    <li><span><a href="/topic/websites" class="websites">网站</a> / Websites</span></li>
+                    <li><span><a href="/topic/people" class="people">人物</a> / People</span></li>
+                    <li><span><a href="/topic/brands" class="brands">品牌</a> / Brands</span></li>
+                    <li><span><a href="/topic/devices" class="devices">硬件</a> / Devices</span></li>
+                  </ul>
+                </section>
+                <section class="more">
+                  <a href="/explore">查看更多精彩文章</a>
+                </section>
+              </div>
+            </div>
+          </li>
+          <li class="drop-2 drop">
+            <a href="/events" class="hasdropdown main-nav__item">线下活动</a>
+              <div class="dropdown dropdown-normal">
+                <div class="dropdown-list dropdown__list">
+                                      <section class="dropdown__events cf">
+                    <div class="date upcoming left">
+                      <span class="month">apr</span>
+                      <span class="day">3</span>
+                    </div>
+                    <div class="intro">
+                      <h3><a href="http://www.36kr.com/p/210441.html?ref=top_nav">WISE Talk•发现不一样</a></h3>
+                      <span class="address">北京，中国</span>
+                    </div>
+                  </section>
+                  <section class="dropdown__events cf">
+                    <div class="date upcoming left">
+                      <span class="month"> apr </span>
+                      <span class="day">13</span>
+                    </div>
+                    <div class="intro">
+                      <h3><a href="http://events.36kr.com/oday-201404-gz/" class="external" target="_blank">创知汇·开放日</a></h3>
+                      <span class="address">广州，中国</span>
+                    </div>
+                  </section>
+                  <section class="dropdown__events cf">
+                    <div class="date left">
+                      <span class="month">mar</span>
+                      <span class="day">2</span>
+                    </div>
+                    <div class="intro">
+                      <h3><a href="http://www.36kr.com/events/oday-201403-sh">上海开放日</a></h3>
+                      <span class="address">上海，中国</span>
+                      <span class="status">已结束</span>
+                    </div>
+                  </section>
+                  <section class="more">
+                    <a href="/events">查看所有活动</a>
+                  </section>
+                </div>
+
+              </div>
+          </li>
+          <li><a href="http://www.36kr.net/" class="main-nav__item external" target="_blank">36氪Plus</a></li>
+          <li><a href="/topics" class="main-nav__item">北极社区</a></li>
+        </ul>
+      </nav>
+      <div class="search">
+        <form action="/search"><input name="q" type="search" placeholder="搜索"></form>
+      </div>
+      <nav class="second-nav">
+        <ul>
+          <li><a href="/pages/contribute" class="second-nav__submit">投稿</a></li>
+          <li><a href="http://www.36kr.net/report" class="second-nav__request external" target="_blank">寻求报道</a></li>
+          <li><a href="#panel-login" class="second-nav__login overlay">登录</a></li>
+        </ul>
+        <a href="/account/sign_out" data-method="delete" rel="nofollow" id="login_out_link"></a>
+      </nav>
+    </div>
+  </header>
+
+	  <div class="container row">
+    <div class="main">
+      <div class="headline cf">
+	<article class="headline__news">
+		<a href="/p/210889.html" class="topic-post-big">
+			<img class="image lazyload loaded" src="http://a.36krcnd.com/photo/2014/30953139349d23fb6c7307b3472d875d.png!slider" data-src="http://a.36krcnd.com/photo/2014/30953139349d23fb6c7307b3472d875d.png!slider" alt="">
+			<span class="spinner"></span>
+			<div class="image-overlay big"></div>
+			<h1>36公开氪：互联网理财是坑吗？</h1>
+		</a>	
+	</article>
+	<article class="headline__news">
+		<a href="/p/210938.html" class="topic-post-small">
+			<img class="image lazyload loaded" src="http://a.36krcnd.com/photo/2014/6bfbeb001fe91e75c4db6a2fed73f4e1.jpg!headline?v1" data-src="http://a.36krcnd.com/photo/2014/6bfbeb001fe91e75c4db6a2fed73f4e1.jpg!headline?v1" alt="">
+			<span class="spinner"></span>
+			<div class="image-overlay small"></div>
+			<h1>从猎豹移动招股书中所看：猎豹不是金山的，而是腾讯的，下一步重在游戏</h1>
+		</a>	
+	</article>
+	<article class="headline__news">
+		<a href="/p/210943.html" class="topic-post-small">
+			<img class="image lazyload loaded" src="http://a.36krcnd.com/photo/2014/82d18db2d165ab51031a13bd9ddaeb9c.jpg!headline?v1" data-src="http://a.36krcnd.com/photo/2014/82d18db2d165ab51031a13bd9ddaeb9c.jpg!headline?v1" alt="">
+			<span class="spinner"></span>
+			<div class="image-overlay small"></div>
+			<h1>针对女性开发的互联网产品还敢再男性思维一点么——来自白富美女票们的哭与泪</h1>
+		</a>	
+	</article>
+	<article class="headline__news">
+		<a href="/p/210937.html" class="topic-post-small">
+			<img class="image lazyload loaded" src="http://a.36krcnd.com/photo/2014/634f62def81dcac59bebdc71c4b0597e.png!headline?v1" data-src="http://a.36krcnd.com/photo/2014/634f62def81dcac59bebdc71c4b0597e.png!headline?v1" alt="">
+			<span class="spinner"></span>
+			<div class="image-overlay small"></div>
+			<h1>8点1氪：微软宣布其iPad版Office一周下载量超过1200万</h1>
+		</a>	
+	</article>
+	<article class="headline__news">
+		<a href="/p/210923.html" class="topic-post-small">
+			<img class="image lazyload loaded" src="http://a.36krcnd.com/photo/2014/6aef157049ff56f414b4386e18096626.png!headline?v1" data-src="http://a.36krcnd.com/photo/2014/6aef157049ff56f414b4386e18096626.png!headline?v1" alt="">
+			<span class="spinner"></span>
+			<div class="image-overlay small"></div>
+			<h1>为了做月嫂O2O，前诺西高管潜入一家政门店取经半年</h1>
+		</a>	
+	</article>
+</div>
+
+
+      		<div class="content" id="lastest">
+			<div class="content-wrapper">
+				<h2 class="lastest">latest news</h2>
+				<div class="articles">
+					<article class="posts post-1 cf">
+
+    <div class="info cf">
+      <div class="topic left">
+        <span><a href="/category/cn-news" class="cn-news">国内资讯</a> / cn-news
+        </span>
+      </div>
+      <div class="postmeta right"><a href="/coldsummer17" class="uname user_coldsummer17" data-name="coldsummer17" target="_blank">coldsummer17</a> • <abbr class="timeago" title="2014-04-04T10:16:42+08:00">10分钟前</abbr> </div>
+    </div>
+  <div class="left left-col">
+    <div class="meta"><a title="回应人数" href="/p/210946.html"><i class="icon icon-share"></i> 10</a></div>
+    <div class="image feature-img thumb-180"><a href="/p/210946.html"><img alt="Blank" class="image lazyload loaded" data-src="http://a.36krcnd.com/photo/2014/e79f9fdf5a229aebf48131649bf7cecd.jpg!slider" src="http://a.36krcnd.com/photo/2014/e79f9fdf5a229aebf48131649bf7cecd.jpg!slider"></a></div>
+  </div>
+  <div class="right-col">
+    <h1><a href="/p/210946.html" data-no-turbolink="true" onclick="javascript:_gaq.push(['_trackPageview', '/click/index_newtab/']);" target="_blank" title="百度获基金销售支付牌照，或从消费类理财产品切入移动支付">百度获基金销售支付牌照，或从消费类理财产品切入移动支付</a></h1>
+    <p>百度宣布获得基金销售支付牌照，将正式为基金公司和投资者提供基金第三方支付结算服务。</p>
+  </div>
+
+</article>
+
+
+
+
+
+
+
+
+<article class="posts post-1 cf">
+
+    <div class="info cf">
+      <div class="topic left">
+        <span><a href="/category/breaking" class="breaking">国外资讯 </a> / breaking
+        </span>
+      </div>
+      <div class="postmeta right"><a href="/chloe1988" class="uname user_Chloe1988" data-name="Chloe" target="_blank">Chloe</a> • <abbr class="timeago" title="2014-04-04T09:29:21+08:00">1小时前</abbr> </div>
+    </div>
+  <div class="left left-col">
+    <div class="meta"><a title="回应人数" href="/p/210944.html"><i class="icon icon-share"></i> 7</a></div>
+    <div class="image feature-img thumb-180"><a href="/p/210944.html"><img alt="Blank" class="image lazyload loaded" data-src="http://a.36krcnd.com/photo/2014/7f2c5358a95dcfb2e968a6a92d81d990.jpg!slider" src="http://a.36krcnd.com/photo/2014/7f2c5358a95dcfb2e968a6a92d81d990.jpg!slider"></a></div>
+  </div>
+  <div class="right-col">
+    <h1><a href="/p/210944.html" data-no-turbolink="true" onclick="javascript:_gaq.push(['_trackPageview', '/click/index_newtab/']);" target="_blank" title="Facebook推出PlanOut，开放部分A/B test源代码">Facebook推出PlanOut，开放部分A/B test源代码</a></h1>
+    <p>为了搞清楚哪个功能、哪个版的设计更好，每个网站或应用的数据科学家都少不了A/B这样的工具。</p>
+  </div>
+
+</article>
+
+
+
+
+
+      <article class="posts post-ad cf">
+    <div class="info cf">
+      <div class="topic left"><span><p><a href="http://cnrdn.com/7JgD" class="external" target="_blank">麦客CRM </a> /mikecrm.com</p></span></div>
+      <div class="postmeta right"><a href="http://www.36kr.com/contact-us/ad-krcom?view=1#details" target="_blank">投放广告？</a></div>
+    </div>
+  <div class="right">
+    <div class="image feature-img thumb-100"><a href="http://cnrdn.com/7JgD" target="_blank" title="麦客CRM" class="external"><img alt="麦客CRM" height="100" src="http://a.36krcnd.com/poster/fd4bfd6a04c3bb306801649d1034af4f.png" width="100"></a>
+</div>
+  </div>
+  <div class="left-col cf">
+    <h1><a href="http://cnrdn.com/7JgD" target="_blank" title="麦客CRM" class="external">麦客CRM</a></h1>
+    <p><a href="http://cnrdn.com/7JgD" class="external" target="_blank">信息收集新花样：麦客CRM推动表单工具成为创业公司标配。</a></p>
+  </div>
+</article>
+
+
+
+
+
+
+
+
+
+<article class="posts post-1 cf">
+
+    <div class="info cf">
+      <div class="topic left">
+        <span><a href="/category/breaking" class="breaking">国外资讯 </a> / breaking
+        </span>
+      </div>
+      <div class="postmeta right"><a href="/yuanlingliao" class="uname user_yuanlingliao" data-name="苑伶" target="_blank">苑伶</a> • <abbr class="timeago" title="2014-04-04T09:10:21+08:00">1小时前</abbr> </div>
+    </div>
+  <div class="left left-col">
+    <div class="meta"><a title="回应人数" href="/p/210939.html"><i class="icon icon-share"></i> 8</a></div>
+    <div class="image feature-img thumb-180"><a href="/p/210939.html"><img alt="Blank" class="image lazyload loaded" data-src="http://a.36krcnd.com/photo/2014/92ca309904eeed25b420f69363d34dce.jpg!slider" src="http://a.36krcnd.com/photo/2014/92ca309904eeed25b420f69363d34dce.jpg!slider"></a></div>
+  </div>
+  <div class="right-col">
+    <h1><a href="/p/210939.html" data-no-turbolink="true" onclick="javascript:_gaq.push(['_trackPageview', '/click/index_newtab/']);" target="_blank" title="实名的Facebook也想做匿名社交了？消息称Facebook曾和Secret谈合作">实名的Facebook也想做匿名社交了？消息称Facebook曾和Secret谈合作</a></h1>
+    <p>Secret带来的匿名之热已经让Facebook都坐不住了，据Re/code消息称，Facebook近期曾和Secret有过密谈，探讨两家公司能在什么方面进行合作。</p>
+  </div>
+
+</article>
+
+
+
+
+
+
+
+
+<article class="posts post-1 cf">
+
+    <div class="info cf">
+      <div class="topic left">
+        <span><a href="/category/digest" class="digest">生活方式 </a> / digest
+        </span>
+      </div>
+      <div class="postmeta right"><a href="/johntian" class="uname user_JohnTian" data-name="JohnTian" target="_blank">JohnTian</a> • <abbr class="timeago" title="2014-04-04T09:09:48+08:00">1小时前</abbr> </div>
+    </div>
+  <div class="left left-col">
+    <div class="meta"><a title="回应人数" href="/p/210943.html"><i class="icon icon-share"></i> 6</a></div>
+    <div class="image feature-img thumb-180"><a href="/p/210943.html"><img alt="Blank" class="image lazyload" data-src="http://a.36krcnd.com/photo/2014/82d18db2d165ab51031a13bd9ddaeb9c.jpg!slider" src="http://d.36kr.com/assets/images/blank.gif"></a></div>
+  </div>
+  <div class="right-col">
+    <h1><a href="/p/210943.html" data-no-turbolink="true" onclick="javascript:_gaq.push(['_trackPageview', '/click/index_newtab/']);" target="_blank" title="针对女性开发的互联网产品还敢再男性思维一点么——来自白富美女票们的哭与泪">针对女性开发的互联网产品还敢再男性思维一点么——来自白富美女票们的哭与泪</a></h1>
+    <p>最近看到很多新兴产品，标榜自己针对的是女性用户，口口声声说把握住了这样那样的需求，然而实际呢。</p>
+  </div>
+
+</article>
+
+
+
+
+
+
+
+
+<article class="posts post-1 cf">
+
+    <div class="info cf">
+      <div class="topic left">
+        <span><a href="/category/us-startups" class="us-startups">创业公司</a> / startups
+        </span>
+      </div>
+      <div class="postmeta right"><a href="/chloe1988" class="uname user_Chloe1988" data-name="Chloe" target="_blank">Chloe</a> • <abbr class="timeago" title="2014-04-04T09:00:38+08:00">1小时前</abbr> </div>
+    </div>
+  <div class="left left-col">
+    <div class="meta"><a title="回应人数" href="/p/210942.html"><i class="icon icon-share"></i> 13</a></div>
+    <div class="image feature-img thumb-180"><a href="/p/210942.html"><img alt="Blank" class="image lazyload" data-src="http://a.36krcnd.com/photo/2014/b3b6d66cdd687ae0cd6f4a8860098af1.png!slider" src="http://d.36kr.com/assets/images/blank.gif"></a></div>
+  </div>
+  <div class="right-col">
+    <h1><a href="/p/210942.html" data-no-turbolink="true" onclick="javascript:_gaq.push(['_trackPageview', '/click/index_newtab/']);" target="_blank" title="无需联网也能聊天的FireChat 发布Android版本">无需联网也能聊天的FireChat 发布Android版本</a></h1>
+    <p>利用 iOS 7的多点连接框架，FireChat使iPhone用户在不联网的情况下也能与周围的人进行聊天。</p>
+  </div>
+
+</article>
+
+
+
+
+
+
+
+
+<article class="posts post-1 cf">
+
+    <div class="info cf">
+      <div class="topic left">
+        <span><a href="/category/breaking" class="breaking">国外资讯 </a> / breaking
+        </span>
+      </div>
+      <div class="postmeta right"><a href="/guolee89" class="uname user_guolee89" data-name="果子" target="_blank">果子</a> • <abbr class="timeago" title="2014-04-04T08:54:49+08:00">2小时前</abbr> </div>
+    </div>
+  <div class="left left-col">
+    <div class="meta"><a title="回应人数" href="/p/210940.html"><i class="icon icon-share"></i> 9</a></div>
+    <div class="image feature-img thumb-180"><a href="/p/210940.html"><img alt="Blank" class="image lazyload" data-src="http://a.36krcnd.com/photo/2014/0366c94b032d8ceafbf95a9fe5f851a9.jpg!slider" src="http://d.36kr.com/assets/images/blank.gif"></a></div>
+  </div>
+  <div class="right-col">
+    <h1><a href="/p/210940.html" data-no-turbolink="true" onclick="javascript:_gaq.push(['_trackPageview', '/click/index_newtab/']);" target="_blank" title="Siri 今年会更好吗？苹果被爆已于去年悄悄收购语音识别技术公司 Novauris">Siri 今年会更好吗？苹果被爆已于去年悄悄收购语音识别技术公司 Novauris</a></h1>
+    <p>据 TNW 消息，为完善 Siri 表现，提升其用户体验，苹果可能已经于去年悄悄收购了一家自动语音识别技术公司 Novauris Technologies，价格未知。</p>
+  </div>
+
+</article>
+
+
+
+
+
+
+
+
+<article class="posts post-1 cf">
+
+    <div class="info cf">
+      <div class="topic left">
+        <span><a href="/category/column" class="column">专栏</a> / column
+        </span>
+      </div>
+      <div class="postmeta right"><a href="/guest" class="uname user_guest" data-name="guest" target="_blank">guest</a> • <abbr class="timeago" title="2014-04-04T08:45:12+08:00">2小时前</abbr> </div>
+    </div>
+  <div class="left left-col">
+    <div class="meta"><a title="回应人数" href="/p/210938.html"><i class="icon icon-share"></i> 12</a></div>
+    <div class="image feature-img thumb-180"><a href="/p/210938.html"><img alt="Blank" class="image lazyload" data-src="http://a.36krcnd.com/photo/2014/6bfbeb001fe91e75c4db6a2fed73f4e1.jpg!slider" src="http://d.36kr.com/assets/images/blank.gif"></a></div>
+  </div>
+  <div class="right-col">
+    <h1><a href="/p/210938.html" data-no-turbolink="true" onclick="javascript:_gaq.push(['_trackPageview', '/click/index_newtab/']);" target="_blank" title="从猎豹移动招股书中所看：猎豹不是金山的，而是腾讯的，下一步重在游戏">从猎豹移动招股书中所看：猎豹不是金山的，而是腾讯的，下一步重在游戏</a></h1>
+    <p>上市后，根据AB股的安排，腾讯拥有110,240,964股B类股，110,240,964股A类股，与金山软件相比，腾讯将对猎豹移动拥有更多投票权。</p>
+  </div>
+
+</article>
+
+
+
+
+
+
+
+
+<article class="posts post-1 cf">
+
+    <div class="info cf">
+      <div class="topic left">
+        <span><a href="/category/column" class="column">专栏</a> / column
+        </span>
+      </div>
+      <div class="postmeta right"><a href="/leon" class="uname user_leon" data-name="Leon" target="_blank">Leon</a> • <abbr class="timeago" title="2014-04-04T08:26:22+08:00">2小时前</abbr> </div>
+    </div>
+  <div class="left left-col">
+    <div class="meta"><a title="回应人数" href="/p/210937.html"><i class="icon icon-share"></i> 5</a></div>
+    <div class="image feature-img thumb-180"><a href="/p/210937.html"><img alt="Blank" class="image lazyload" data-src="http://a.36krcnd.com/photo/2014/634f62def81dcac59bebdc71c4b0597e.png!slider" src="http://d.36kr.com/assets/images/blank.gif"></a></div>
+  </div>
+  <div class="right-col">
+    <h1><a href="/p/210937.html" data-no-turbolink="true" onclick="javascript:_gaq.push(['_trackPageview', '/click/index_newtab/']);" target="_blank" title="8点1氪：微软宣布其iPad版Office一周下载量超过1200万">8点1氪：微软宣布其iPad版Office一周下载量超过1200万</a></h1>
+    <p>微软宣布其iPad版Office一周下载量超过1200万
+
+
+微软宣布其iPad版Office一周下载量超过1200万，如此高的下载量说明Office在ipad版上用户需求量还是很高的。</p>
+  </div>
+
+</article>
+
+
+
+
+
+
+
+
+<article class="posts post-1 cf">
+
+    <div class="info cf">
+      <div class="topic left">
+        <span><a href="/category/breaking" class="breaking">国外资讯 </a> / breaking
+        </span>
+      </div>
+      <div class="postmeta right"><a href="/guolee89" class="uname user_guolee89" data-name="果子" target="_blank">果子</a> • <abbr class="timeago" title="2014-04-04T08:02:42+08:00">2小时前</abbr> </div>
+    </div>
+  <div class="left left-col">
+    <div class="meta"><a title="回应人数" href="/p/210936.html"><i class="icon icon-share"></i> 11</a></div>
+    <div class="image feature-img thumb-180"><a href="/p/210936.html"><img alt="Blank" class="image lazyload" data-src="http://a.36krcnd.com/photo/2014/aa699eff14e01d82d506e3c10cab4dc1.png!slider" src="http://d.36kr.com/assets/images/blank.gif"></a></div>
+  </div>
+  <div class="right-col">
+    <h1><a href="/p/210936.html" data-no-turbolink="true" onclick="javascript:_gaq.push(['_trackPageview', '/click/index_newtab/']);" target="_blank" title="Vine 发布重大版本更新，新增私密短视频消息功能">Vine 发布重大版本更新，新增私密短视频消息功能</a></h1>
+    <p>Vine 今天上线了自推出以来“动刀”最大的新版本，新增“Messages” 选项，用户可通过 Maesages 给Vine 好友或者非Vine 用户(短信和邮件)发送 6秒短视频或文字。</p>
+  </div>
+
+</article>
+
+
+
+
+
+
+
+
+<article class="posts post-1 cf">
+
+    <div class="info cf">
+      <div class="topic left">
+        <span><a href="/category/cn-startups" class="us-startups">创业公司</a> / startups
+        </span>
+      </div>
+      <div class="postmeta right"><a href="/kimi447123410" class="uname user_kimi447123410" data-name="丁伟峰" target="_blank">丁伟峰</a> • <abbr class="timeago" title="2014-04-04T07:30:11+08:00">3小时前</abbr> </div>
+    </div>
+  <div class="left left-col">
+    <div class="meta"><a title="回应人数" href="/p/210923.html"><i class="icon icon-share"></i> 33</a></div>
+    <div class="image feature-img thumb-180"><a href="/p/210923.html"><img alt="Blank" class="image lazyload" data-src="http://a.36krcnd.com/photo/2014/6aef157049ff56f414b4386e18096626.png!slider" src="http://d.36kr.com/assets/images/blank.gif"></a></div>
+  </div>
+  <div class="right-col">
+    <h1><a href="/p/210923.html" data-no-turbolink="true" onclick="javascript:_gaq.push(['_trackPageview', '/click/index_newtab/']);" target="_blank" title="为了做月嫂O2O，前诺西高管潜入一家政门店取经半年">为了做月嫂O2O，前诺西高管潜入一家政门店取经半年</a></h1>
+    <p>“就像当年京东刘强东送快递一样，辞掉诺西工作去家政公司呆半年对我来说不是一件难决定的大事，这是一门必修课。</p>
+  </div>
+
+</article>
+
+
+
+
+
+      
+
+
+
+<article class="posts post-1 cf">
+
+    <div class="info cf">
+      <div class="topic left">
+        <span><a href="/category/column" class="column">专栏</a> / column
+        </span>
+      </div>
+      <div class="postmeta right"><a href="/medicoolthg" class="uname user_medicoolthg" data-name="Dr 2" target="_blank">Dr 2</a> • <abbr class="timeago" title="2014-04-04T07:27:50+08:00">3小时前</abbr> </div>
+    </div>
+  <div class="left left-col">
+    <div class="meta"><a title="回应人数" href="/p/210930.html"><i class="icon icon-share"></i> 4</a></div>
+    <div class="image feature-img thumb-180"><a href="/p/210930.html"><img alt="Blank" class="image lazyload" data-src="http://a.36krcnd.com/photo/2014/d271df94ee349a00b5b65c95854dfaf9.png!slider" src="http://d.36kr.com/assets/images/blank.gif"></a></div>
+  </div>
+  <div class="right-col">
+    <h1><a href="/p/210930.html" data-no-turbolink="true" onclick="javascript:_gaq.push(['_trackPageview', '/click/index_newtab/']);" target="_blank" title="漫谈投资机构对企业的估值（十三）：收购一定创造价值吗？">漫谈投资机构对企业的估值（十三）：收购一定创造价值吗？</a></h1>
+    <p>上两章我们讨论了产业资本和VC/PE的不同以及协同效应的巨大威力，但还是有一些事情没交代清楚。</p>
+  </div>
+
+</article>
+
+
+
+
+
+
+
+
+<article class="posts post-1 cf">
+
+    <div class="info cf">
+      <div class="topic left">
+        <span><a href="/category/breaking" class="breaking">国外资讯 </a> / breaking
+        </span>
+      </div>
+      <div class="postmeta right"><a href="/samchen" class="uname user_SamChen" data-name="Xingyu Chen" target="_blank">Xingyu Chen</a> • <abbr class="timeago" title="2014-04-04T07:23:45+08:00">3小时前</abbr> </div>
+    </div>
+  <div class="left left-col">
+    <div class="meta"><a title="回应人数" href="/p/210935.html"><i class="icon icon-share"></i> 22</a></div>
+    <div class="image feature-img thumb-180"><a href="/p/210935.html"><img alt="Blank" class="image lazyload" data-src="http://a.36krcnd.com/photo/2014/a7684bdaf8a1dbe3b33a98e58c0b0aa4.jpg!slider" src="http://d.36kr.com/assets/images/blank.gif"></a></div>
+  </div>
+  <div class="right-col">
+    <h1><a href="/p/210935.html" data-no-turbolink="true" onclick="javascript:_gaq.push(['_trackPageview', '/click/index_newtab/']);" target="_blank" title="新版Facebook Messenger 加入免费通话功能">新版Facebook Messenger 加入免费通话功能</a></h1>
+    <p>如果这两天更新过 Facebook Messenger 的话，你一定已经发现了新版本的聊天界面里出现了一个电话按钮。</p>
+  </div>
+
+</article>
+
+
+
+
+
+
+
+
+<article class="posts post-1 cf">
+
+    <div class="info cf">
+      <div class="topic left">
+        <span><a href="/category/breaking" class="breaking">国外资讯 </a> / breaking
+        </span>
+      </div>
+      <div class="postmeta right"><a href="/samchen" class="uname user_SamChen" data-name="Xingyu Chen" target="_blank">Xingyu Chen</a> • <abbr class="timeago" title="2014-04-04T07:07:35+08:00">3小时前</abbr> </div>
+    </div>
+  <div class="left left-col">
+    <div class="meta"><a title="回应人数" href="/p/210934.html"><i class="icon icon-share"></i> 29</a></div>
+    <div class="image feature-img thumb-180"><a href="/p/210934.html"><img alt="Blank" class="image lazyload" data-src="http://a.36krcnd.com/photo/2014/c9bfcb7d22c83fd013387abc1afb2cd1.png!slider" src="http://d.36kr.com/assets/images/blank.gif"></a></div>
+  </div>
+  <div class="right-col">
+    <h1><a href="/p/210934.html" data-no-turbolink="true" onclick="javascript:_gaq.push(['_trackPageview', '/click/index_newtab/']);" target="_blank" title="传Google欲成为虚拟运营商，先从Google Fiber现有市场入手">传Google欲成为虚拟运营商，先从Google Fiber现有市场入手</a></h1>
+    <p>据称，自2013年初，Google已和Sprint及Verizon接触，表达过此意向并探讨了可能性。</p>
+  </div>
+
+</article>
+
+
+
+
+
+
+
+
+<article class="posts post-1 cf">
+
+    <div class="info cf">
+      <div class="topic left">
+        <span><a href="/category/breaking" class="breaking">国外资讯 </a> / breaking
+        </span>
+      </div>
+      <div class="postmeta right"><a href="/kimi447123410" class="uname user_kimi447123410" data-name="丁伟峰" target="_blank">丁伟峰</a> • 06:18 / 04 </div>
+    </div>
+  <div class="left left-col">
+    <div class="meta"><a title="回应人数" href="/p/210933.html"><i class="icon icon-share"></i> 12</a></div>
+    <div class="image feature-img thumb-180"><a href="/p/210933.html"><img alt="Blank" class="image lazyload" data-src="http://a.36krcnd.com/photo/2014/533e2f9fef600b1784b986dff4b18f4d.png!slider" src="http://d.36kr.com/assets/images/blank.gif"></a></div>
+  </div>
+  <div class="right-col">
+    <h1><a href="/p/210933.html" data-no-turbolink="true" onclick="javascript:_gaq.push(['_trackPageview', '/click/index_newtab/']);" target="_blank" title="微软宣布iPad版Office上线一周，下载量突破1200万">微软宣布iPad版Office上线一周，下载量突破1200万</a></h1>
+    <p>微软今日宣布，上线仅一周时间的iPad版Office应用（包括Word、Excel、PowerPoint三个独立应用）下载量已经突破1200万。</p>
+  </div>
+
+</article>
+
+
+
+
+
+
+
+
+<article class="posts post-1 cf">
+
+    <div class="info cf">
+      <div class="topic left">
+        <span><a href="/category/cn-startups" class="us-startups">创业公司</a> / startups
+        </span>
+      </div>
+      <div class="postmeta right"><a href="/kimi447123410" class="uname user_kimi447123410" data-name="丁伟峰" target="_blank">丁伟峰</a> • 06:01 / 04 </div>
+    </div>
+  <div class="left left-col">
+    <div class="meta"><a title="回应人数" href="/p/210931.html"><i class="icon icon-share"></i> 26</a></div>
+    <div class="image feature-img thumb-180"><a href="/p/210931.html"><img alt="Blank" class="image lazyload" data-src="http://a.36krcnd.com/photo/2014/07c0280edcc89e5b064a08aad36f0bf6.png!slider" src="http://d.36kr.com/assets/images/blank.gif"></a></div>
+  </div>
+  <div class="right-col">
+    <h1><a href="/p/210931.html" data-no-turbolink="true" onclick="javascript:_gaq.push(['_trackPageview', '/click/index_newtab/']);" target="_blank" title="优惠券想象力不再，创新工场首个O2O孵化项目“布丁优惠券”转战水更深的汽车市场O2O，以违章工具类产品“微车”切入">优惠券想象力不再，创新工场首个O2O孵化项目“布丁优惠券”转战水更深的汽车市场O2O，以违章工具类产品“微车”切入</a></h1>
+    <p>徐磊的布丁移动是创新工场的首个O2O孵化项目。</p>
+  </div>
+
+</article>
+
+
+
+
+
+
+
+
+<article class="posts post-1 cf">
+
+    <div class="info cf">
+      <div class="topic left">
+        <span><a href="/category/us-startups" class="us-startups">创业公司</a> / startups
+        </span>
+      </div>
+      <div class="postmeta right"><a href="/kimi447123410" class="uname user_kimi447123410" data-name="丁伟峰" target="_blank">丁伟峰</a> • 23:36 / 03 </div>
+    </div>
+  <div class="left left-col">
+    <div class="meta"><a title="回应人数" href="/p/210929.html"><i class="icon icon-share"></i> 38</a></div>
+    <div class="image feature-img thumb-180"><a href="/p/210929.html"><img alt="Blank" class="image lazyload" data-src="http://a.36krcnd.com/photo/2014/74816c5fdba0c460f63c9cb9c8bddcc1.jpg!slider" src="http://d.36kr.com/assets/images/blank.gif"></a></div>
+  </div>
+  <div class="right-col">
+    <h1><a href="/p/210929.html" data-no-turbolink="true" onclick="javascript:_gaq.push(['_trackPageview', '/click/index_newtab/']);" target="_blank" title="搞笑图片分享网站Imgur获A16Z领投4000万美元A轮融资，13名员工，月独立访问量超过1.3亿，曾拒绝雅虎投资">搞笑图片分享网站Imgur获A16Z领投4000万美元A轮融资，13名员工，月独立访问量超过1.3亿，曾拒绝雅虎投资</a></h1>
+    <p>搞笑图片分享网站Imgur近日宣布完成A轮4000万美元融资，知名风投Andreessen Horowitz（A16Z）领投，作为Imgur流量主要推动力的社交新闻网站Reddit（看来Reddit也不想白干活啊。</p>
+  </div>
+
+</article>
+
+
+
+
+
+
+
+
+<article class="posts post-1 cf">
+
+    <div class="info cf">
+      <div class="topic left">
+        <span><a href="/category/column" class="column">专栏</a> / column
+        </span>
+      </div>
+      <div class="postmeta right"><a href="/guest" class="uname user_guest" data-name="guest" target="_blank">guest</a> • 22:19 / 03 </div>
+    </div>
+  <div class="left left-col">
+    <div class="meta"><a title="回应人数" href="/p/210928.html"><i class="icon icon-share"></i> 16</a></div>
+    <div class="image feature-img thumb-180"><a href="/p/210928.html"><img alt="Blank" class="image lazyload" data-src="http://a.36krcnd.com/photo/2014/f43d9a3636e9a0da3f541c30f2b9204f.jpg!slider" src="http://d.36kr.com/assets/images/blank.gif"></a></div>
+  </div>
+  <div class="right-col">
+    <h1><a href="/p/210928.html" data-no-turbolink="true" onclick="javascript:_gaq.push(['_trackPageview', '/click/index_newtab/']);" target="_blank" title="解读马云控股恒生：为阿里小微金融造护城河，金融软件公司或成巨头垂涎对象">解读马云控股恒生：为阿里小微金融造护城河，金融软件公司或成巨头垂涎对象</a></h1>
+    <p>今天，马云绝对控股的“浙江融信”全盘收购“恒生集团”，并因此持有金融领域软件服务商“恒生电子” 20.62% 的股份，成为其第一大股东。</p>
+  </div>
+
+</article>
+
+
+
+
+
+
+
+
+<article class="posts post-1 cf">
+
+    <div class="info cf">
+      <div class="topic left">
+        <span><a href="/category/breaking" class="breaking">国外资讯 </a> / breaking
+        </span>
+      </div>
+      <div class="postmeta right"><a href="/leon" class="uname user_leon" data-name="Leon" target="_blank">Leon</a> • 21:20 / 03 </div>
+    </div>
+  <div class="left left-col">
+    <div class="meta"><a title="回应人数" href="/p/210927.html"><i class="icon icon-share"></i> 40</a></div>
+    <div class="image feature-img thumb-180"><a href="/p/210927.html"><img alt="Blank" class="image lazyload" data-src="http://a.36krcnd.com/photo/2014/62e18a63e71dad18db31a080eb5e89d9.png!slider" src="http://d.36kr.com/assets/images/blank.gif"></a></div>
+  </div>
+  <div class="right-col">
+    <h1><a href="/p/210927.html" data-no-turbolink="true" onclick="javascript:_gaq.push(['_trackPageview', '/click/index_newtab/']);" target="_blank" title="2014年WWDC将于六月二号开幕，抢票改抽签，开发者想买票要看运气了">2014年WWDC将于六月二号开幕，抢票改抽签，开发者想买票要看运气了</a></h1>
+    <p>苹果刚刚宣布，今年的WWDC将于六月二号在旧金山的莫斯考尼西中心开幕，为期五天。</p>
+  </div>
+
+</article>
+
+
+
+
+
+
+
+
+<article class="posts post-1 cf">
+
+    <div class="info cf">
+      <div class="topic left">
+        <span><a href="/category/breaking" class="breaking">国外资讯 </a> / breaking
+        </span>
+      </div>
+      <div class="postmeta right"><a href="/kryptoners" class="uname user_Kryptoners" data-name="Kryptoners" target="_blank">Kryptoners</a> • 21:12 / 03 </div>
+    </div>
+  <div class="left left-col">
+    <div class="meta"><a title="回应人数" href="/p/210924.html"><i class="icon icon-share"></i> 14</a></div>
+    <div class="image feature-img thumb-180"><a href="/p/210924.html"><img alt="Blank" class="image lazyload" data-src="http://a.36krcnd.com/photo/2014/6b0db02dce9183f5899c9250eaaaf9da.png!slider" src="http://d.36kr.com/assets/images/blank.gif"></a></div>
+  </div>
+  <div class="right-col">
+    <h1><a href="/p/210924.html" data-no-turbolink="true" onclick="javascript:_gaq.push(['_trackPageview', '/click/index_newtab/']);" target="_blank" title="Gmail可能正在测试新的收件箱标签以及稍后提醒功能">Gmail可能正在测试新的收件箱标签以及稍后提醒功能</a></h1>
+    <p>从泄露出来的截图看，新版本除了收件箱增加一些新标签外，还会将重要的信息“钉”在收件箱顶部，而不再使用原有的加星标的方式。</p>
+  </div>
+
+</article>
+
+
+
+
+
+
+
+
+<article class="posts post-1 cf">
+      <div class="image feature-img">
+        <a href="/p/210925.html" class="center-post"><img src="http://a.36krcnd.com/photo/2014/84bcf89aad8e3d56078d777b4b48e78b.jpg!feedimg" alt="">
+        <div class="image-overlay small"></div>
+        <h1>8点1氪晚间版：写完今晚的815，我已结了工资走人了，知道的太多了...</h1>
+        </a>
+      </div>
+
+</article>
+
+
+
+
+
+
+
+
+<article class="posts post-1 cf">
+
+    <div class="info cf">
+      <div class="topic left">
+        <span><a href="/category/column" class="column">专栏</a> / column
+        </span>
+      </div>
+      <div class="postmeta right"><a href="/jasonzheng" class="uname user_JasonZheng" data-name="JasonZheng" target="_blank">JasonZheng</a> • 19:48 / 03 </div>
+    </div>
+  <div class="left left-col">
+    <div class="meta"><a title="回应人数" href="/p/210922.html"><i class="icon icon-share"></i> 5</a></div>
+    <div class="image feature-img thumb-180"><a href="/p/210922.html"><img alt="Blank" class="image lazyload" data-src="http://a.36krcnd.com/photo/2014/1e00fd78500b2ce2185864b3feb12fdc.png!slider" src="http://d.36kr.com/assets/images/blank.gif"></a></div>
+  </div>
+  <div class="right-col">
+    <h1><a href="/p/210922.html" data-no-turbolink="true" onclick="javascript:_gaq.push(['_trackPageview', '/click/index_newtab/']);" target="_blank" title="传统社区如何减弱在移动端上的水土不服？做“结构化博客社区”可能是一个办法">传统社区如何减弱在移动端上的水土不服？做“结构化博客社区”可能是一个办法</a></h1>
+    <p>移动端的BBS模式对于一个刚起步的创业团队来说，非常好，用户之间是“平”的，没有梯度，让彼此之间的沟通“无排它性”，活跃度也很不错。</p>
+  </div>
+
+</article>
+
+
+
+
+
+
+
+
+<article class="posts post-1 cf">
+
+    <div class="info cf">
+      <div class="topic left">
+        <span><a href="/category/cn-startups" class="us-startups">创业公司</a> / startups
+        </span>
+      </div>
+      <div class="postmeta right"><a href="/chloe1988" class="uname user_Chloe1988" data-name="Chloe" target="_blank">Chloe</a> • 16:31 / 03 </div>
+    </div>
+  <div class="left left-col">
+    <div class="meta"><a title="回应人数" href="/p/210887.html"><i class="icon icon-share"></i> 5</a></div>
+    <div class="image feature-img thumb-180"><a href="/p/210887.html"><img alt="Blank" class="image lazyload" data-src="http://a.36krcnd.com/photo/2014/1695d13bf089493805c175aecc07d241.png!slider" src="http://d.36kr.com/assets/images/blank.gif"></a></div>
+  </div>
+  <div class="right-col">
+    <h1><a href="/p/210887.html" data-no-turbolink="true" onclick="javascript:_gaq.push(['_trackPageview', '/click/index_newtab/']);" target="_blank" title="聚喜猫婚庆O2O服务通过婚礼场景的结构化让用户自行设计婚礼，以招标方式找到合适的婚庆公司">聚喜猫婚庆O2O服务通过婚礼场景的结构化让用户自行设计婚礼，以招标方式找到合适的婚庆公司</a></h1>
+    <p>婚庆产品是个绝对低频次消费的类别，因此服务双方之间的信息不对称很严重，新人面对这个大项目有无从下手的感觉，不过正在“崛起”的新一代待婚群体85、90后们也不太愿意对婚庆公司的方案照单全收，看过《失恋33天》的童鞋应该可以理解沟通起来有多么困难（虽然这是个极端）。</p>
+  </div>
+
+</article>
+
+
+
+
+
+
+
+
+<article class="posts post-1 cf">
+
+    <div class="info cf">
+      <div class="topic left">
+        <span><a href="/category/breaking" class="breaking">国外资讯 </a> / breaking
+        </span>
+      </div>
+      <div class="postmeta right"><a href="/u1393903874" class="uname user_u1393903874" data-name="牛寺Tara" target="_blank">牛寺Tara</a> • 15:57 / 03 </div>
+    </div>
+  <div class="left left-col">
+    <div class="meta"><a title="回应人数" href="/p/210921.html"><i class="icon icon-share"></i> 5</a></div>
+    <div class="image feature-img thumb-180"><a href="/p/210921.html"><img alt="Blank" class="image lazyload" data-src="http://a.36krcnd.com/photo/2014/38b29f48566ca07dd84005cc2679e907.png!slider" src="http://d.36kr.com/assets/images/blank.gif"></a></div>
+  </div>
+  <div class="right-col">
+    <h1><a href="/p/210921.html" data-no-turbolink="true" onclick="javascript:_gaq.push(['_trackPageview', '/click/index_newtab/']);" target="_blank" title="Google街景走进柬埔寨吴哥窟，360度全景拍摄，带你欣赏世界最大的宗教建筑群">Google街景走进柬埔寨吴哥窟，360度全景拍摄，带你欣赏世界最大的宗教建筑群</a></h1>
+    <p>你都用Google街景，“去过”哪些地方。</p>
+  </div>
+
+</article>
+
+
+
+
+
+
+
+
+<article class="posts post-1 cf">
+
+    <div class="info cf">
+      <div class="topic left">
+        <span><a href="/category/cn-startups" class="us-startups">创业公司</a> / startups
+        </span>
+      </div>
+      <div class="postmeta right"><a href="/kimi447123410" class="uname user_kimi447123410" data-name="丁伟峰" target="_blank">丁伟峰</a> • 15:37 / 03 </div>
+    </div>
+  <div class="left left-col">
+    <div class="meta"><a title="回应人数" href="/p/210880.html"><i class="icon icon-share"></i> 15</a></div>
+    <div class="image feature-img thumb-180"><a href="/p/210880.html"><img alt="Blank" class="image lazyload" data-src="http://a.36krcnd.com/photo/2014/b4a4cdaf94fc1a2c688b14b8670edd7b.png!slider" src="http://d.36kr.com/assets/images/blank.gif"></a></div>
+  </div>
+  <div class="right-col">
+    <h1><a href="/p/210880.html" data-no-turbolink="true" onclick="javascript:_gaq.push(['_trackPageview', '/click/index_newtab/']);" target="_blank" title="24年老牌干洗连锁“荣昌”进军干洗O2O，用99元按袋计费模式首先颠覆自己">24年老牌干洗连锁“荣昌”进军干洗O2O，用99元按袋计费模式首先颠覆自己</a></h1>
+    <p>荣昌洗染1990年成立于北京，初期主要做自营干洗店。</p>
+  </div>
+
+</article>
+
+
+
+
+
+
+
+
+<article class="posts post-1 cf">
+
+    <div class="info cf">
+      <div class="topic left">
+        <span><a href="/category/cn-news" class="cn-news">国内资讯</a> / cn-news
+        </span>
+      </div>
+      <div class="postmeta right"><a href="/u1394858830" class="uname user_u1394858830" data-name="Leah" target="_blank">Leah</a> • 14:44 / 03 </div>
+    </div>
+  <div class="left left-col">
+    <div class="meta"><a title="回应人数" href="/p/210917.html"><i class="icon icon-share"></i> 42</a></div>
+    <div class="image feature-img thumb-180"><a href="/p/210917.html"><img alt="Blank" class="image lazyload" data-src="http://a.36krcnd.com/photo/2014/be4cd83fdbb48bb9b5b1271f22503fe4.png!slider" src="http://d.36kr.com/assets/images/blank.gif"></a></div>
+  </div>
+  <div class="right-col">
+    <h1><a href="/p/210917.html" data-no-turbolink="true" onclick="javascript:_gaq.push(['_trackPageview', '/click/index_newtab/']);" target="_blank" title="金山软件9千万美元投资迅雷，将占其9.98%股份">金山软件9千万美元投资迅雷，将占其9.98%股份</a></h1>
+    <p>金山软件今天通过港交所递交的文件宣布，金山软件将用9千万美元投资迅雷，认购 31,939,676 股迅雷E轮优先股。</p>
+  </div>
+
+</article>
+
+
+
+
+
+
+
+
+<article class="posts post-1 cf">
+
+    <div class="info cf">
+      <div class="topic left">
+        <span><a href="/category/cn-startups" class="us-startups">创业公司</a> / startups
+        </span>
+      </div>
+      <div class="postmeta right"><a href="/leon" class="uname user_leon" data-name="Leon" target="_blank">Leon</a> • 13:55 / 03 </div>
+    </div>
+  <div class="left left-col">
+    <div class="meta"><a title="回应人数" href="/p/210920.html"><i class="icon icon-share"></i> 27</a></div>
+    <div class="image feature-img thumb-180"><a href="/p/210920.html"><img alt="Blank" class="image lazyload" data-src="http://a.36krcnd.com/photo/2014/592b22e7b297b5722e9c92e2f24bf4bd.jpg!slider" src="http://d.36kr.com/assets/images/blank.gif"></a></div>
+  </div>
+  <div class="right-col">
+    <h1><a href="/p/210920.html" data-no-turbolink="true" onclick="javascript:_gaq.push(['_trackPageview', '/click/index_newtab/']);" target="_blank" title="比Misfit Shine更惊艳：运动追踪器Goccia采用可见光信道来同步数据，将能耗和体积降到极低">比Misfit Shine更惊艳：运动追踪器Goccia采用可见光信道来同步数据，将能耗和体积降到极低</a></h1>
+    <p>可穿戴可穿戴，对大众来说，你要是长得丑肯定没人愿意戴自己身上。</p>
+  </div>
+
+</article>
+
+
+
+
+
+
+
+
+<article class="posts post-1 cf">
+
+    <div class="info cf">
+      <div class="topic left">
+        <span><a href="/category/column" class="column">专栏</a> / column
+        </span>
+      </div>
+      <div class="postmeta right"><a href="/dingyi" class="uname user_dingyi" data-name="dingyi" target="_blank">dingyi</a> • 13:27 / 03 </div>
+    </div>
+  <div class="left left-col">
+    <div class="meta"><a title="回应人数" href="/p/210912.html"><i class="icon icon-share"></i> 6</a></div>
+    <div class="image feature-img thumb-180"><a href="/p/210912.html"><img alt="Blank" class="image lazyload" data-src="http://a.36krcnd.com/photo/2014/c41ffd42730823c572c3712a988d1022.png!slider" src="http://d.36kr.com/assets/images/blank.gif"></a></div>
+  </div>
+  <div class="right-col">
+    <h1><a href="/p/210912.html" data-no-turbolink="true" onclick="javascript:_gaq.push(['_trackPageview', '/click/index_newtab/']);" target="_blank" title="Benjamin De Cock：在 Stripe 做设计的感觉是怎样的？">Benjamin De Cock：在 Stripe 做设计的感觉是怎样的？</a></h1>
+    <p>一年前我加入了 Stripe，可以说到目前为止，体验非常棒。</p>
+  </div>
+
+</article>
+
+
+
+
+
+
+
+
+<article class="posts post-1 cf">
+
+    <div class="info cf">
+      <div class="topic left">
+        <span><a href="/category/breaking" class="breaking">国外资讯 </a> / breaking
+        </span>
+      </div>
+      <div class="postmeta right"><a href="/u1393903874" class="uname user_u1393903874" data-name="牛寺Tara" target="_blank">牛寺Tara</a> • 12:40 / 03 </div>
+    </div>
+  <div class="left left-col">
+    <div class="meta"><a title="回应人数" href="/p/210915.html"><i class="icon icon-share"></i> 13</a></div>
+    <div class="image feature-img thumb-180"><a href="/p/210915.html"><img alt="Blank" class="image lazyload" data-src="http://a.36krcnd.com/photo/2014/39ac59b6bdcbab608d6a6faeb5943d74.jpg!slider" src="http://d.36kr.com/assets/images/blank.gif"></a></div>
+  </div>
+  <div class="right-col">
+    <h1><a href="/p/210915.html" data-no-turbolink="true" onclick="javascript:_gaq.push(['_trackPageview', '/click/index_newtab/']);" target="_blank" title="粉胡子私家车共享乘租服务Lyft完成2.5亿美元D轮融资，阿里巴巴参投">粉胡子私家车共享乘租服务Lyft完成2.5亿美元D轮融资，阿里巴巴参投</a></h1>
+    <p>今日，提供私家车共享乘租服务的Lyft完成了2.5亿美元D轮融资。</p>
+  </div>
+
+</article>
+
+
+
+
+
+
+
+
+<article class="posts post-1 cf">
+
+    <div class="info cf">
+      <div class="topic left">
+        <span><a href="/category/cn-news" class="cn-news">国内资讯</a> / cn-news
+        </span>
+      </div>
+      <div class="postmeta right"><a href="/coldsummer17" class="uname user_coldsummer17" data-name="coldsummer17" target="_blank">coldsummer17</a> • 12:39 / 03 </div>
+    </div>
+  <div class="left left-col">
+    <div class="meta"><a title="回应人数" href="/p/210916.html"><i class="icon icon-share"></i> 39</a></div>
+    <div class="image feature-img thumb-180"><a href="/p/210916.html"><img alt="Blank" class="image lazyload" data-src="http://a.36krcnd.com/photo/2014/161e7df56c8fd707aac9ecab0f2e105f.jpg!slider" src="http://d.36kr.com/assets/images/blank.gif"></a></div>
+  </div>
+  <div class="right-col">
+    <h1><a href="/p/210916.html" data-no-turbolink="true" onclick="javascript:_gaq.push(['_trackPageview', '/click/index_newtab/']);" target="_blank" title="京东确认集团架构一分为四：与腾讯电商业务的整合正在进行时，金融和海外拓展受重视">京东确认集团架构一分为四：与腾讯电商业务的整合正在进行时，金融和海外拓展受重视</a></h1>
+    <p>京东昨日对外宣布，集团将下设两个子集团公司、一个子公司和一个事业部：京东商城集团、金融集团、拍拍网（子公司）和海外事业部。</p>
+  </div>
+
+</article>
+
+
+
+
+
+
+
+
+<article class="posts post-1 cf">
+
+    <div class="info cf">
+      <div class="topic left">
+        <span><a href="/category/breaking" class="breaking">国外资讯 </a> / breaking
+        </span>
+      </div>
+      <div class="postmeta right"><a href="/kryptoners" class="uname user_Kryptoners" data-name="Kryptoners" target="_blank">Kryptoners</a> • 10:36 / 03 </div>
+    </div>
+  <div class="left left-col">
+    <div class="meta"><a title="回应人数" href="/p/210911.html"><i class="icon icon-share"></i> 29</a></div>
+    <div class="image feature-img thumb-180"><a href="/p/210911.html"><img alt="Blank" class="image lazyload" data-src="http://a.36krcnd.com/photo/2014/986ce0d0a25669784ce8a36ac6e146c7.jpg!slider" src="http://d.36kr.com/assets/images/blank.gif"></a></div>
+  </div>
+  <div class="right-col">
+    <h1><a href="/p/210911.html" data-no-turbolink="true" onclick="javascript:_gaq.push(['_trackPageview', '/click/index_newtab/']);" target="_blank" title="细数微软Build 2014年开发者大会首日的亮点">细数微软Build 2014年开发者大会首日的亮点</a></h1>
+    <p>微软在持续3个小时的主题演讲中，发布了一系列重要更新，涵盖微软各个平台。</p>
+  </div>
+
+</article>
+
+
+
+
+
+
+
+
+
+				</div>
+				<div class="pagination cf"><ul><li class="prev previous_page disabled"><a href="#"><i class="icon-chevron-left"></i>上一页</a></li> <li class="next next_page "><a rel="next" href="/?page=2#lastest">下一页<i class="icon-chevron-right"></i></a></li></ul></div>
+			</div>
+		</div>
+
+
+              <div class="aside">
+          			<section class="aside-tags">
+				<h2>Feature Tags</h2>
+				<ul class="aside-tags__list cf">
+					<li><a href="/tag/wise-talk">WISE Talk</a><i class="promoted">Promoted</i></li>
+<li><a href="/topic/oday">36氪开放日</a></li>
+<li><a href="/tag/漫谈企业估值">漫谈企业估值<i class="new"></i></a></li>
+<li><a href="/tag/oculus/">FB收购Oculus</a></li>
+<li><a href="/tag/智能汽车">智能汽车</a></li>
+<li><a href="/tag/startup-x">Startup X</a></li>
+<li><a href="/tag/互联网金融">互联网金融</a></li>
+<li><a href="/topic/alibaba-vs-tencent">阿里 V.S. 腾讯</a></li>
+<li><a href="/topic/smart-hardware">智能硬件</a></li>
+<li><a href="/tag/每周一氪(视频)">每周一氪(视频)</a></li>
+
+				</ul>
+			</section>
+          			<section class="aside-social aside-fixed" style="z-index: 1000;">
+				<p>微信公众平台：搜索“36氪”或扫描下面的二维码：</p>
+				<div class="image aside-social__qrcode"><img alt="Qrcode" src="http://d.36kr.com/assets/images/qrcode.jpg"></div>
+				<div class="aside-social__social">
+					<ul>
+						<li class="aside-social__items">
+							<a href="http://weibo.com/wow36kr" class="icons-weibo external" target="_blank">Weibo</a>
+							<span class="aside-social__count">56K</span>
+						</li>
+						<li class="aside-social__items">
+							<a href="https://twitter.com/36kr" class="icons-twitter external" target="_blank">Twitter</a>
+							<span class="aside-social__count">14K</span>
+						</li>
+						<li class="aside-social__items">
+							<a href="http://www.facebook.com/X36Kr" class="icons-facebook external" target="_blank">Facebook</a>
+							<span class="aside-social__count">10K</span>
+						</li>
+						<li class="aside-social__items">
+							<a target="_blank" href="http://www.36kr.com/feed/" class="icons-rss">RSS</a>
+							<span class="aside-social__count">100K</span>
+						</li>
+					</ul>
+				</div>
+			</section><div></div>
+        </div>
+    </div>
+          <div class="sidebar">
+      <section class="sidebar-ad">
+			  <a href="http://cnrdn.com/58kD" target="_blank" title="广州开放日" class="external"><img alt="广州开放日" height="250" src="http://a.36krcnd.com/poster/4c7f76fa84d7cbbc64ae35b774b60851.png" width="280"></a>
+
+      </section>
+        			<section class="sidebar-tab">
+				<ul class="sidebar-tab__tabs cf tabs">
+					<li class="tab-forum active"><a data-target="#tab-forum" title="" class="active">社区新帖</a></li>
+					<li class="tab-36krplus"><a data-target="#tab-36krplus" title="">Startup-X</a></li>
+					<li class="tab-815"><a class="" data-target="#tab-815" title="">8点1氪</a></li>
+				</ul>
+				<div id="tabs-content" class="sidebar-tab__wrapper">
+					<div id="tab-forum" class="sidebar-tab__forum tabs-pane active">
+												<ul>
+							<li><h2><a href="/topics/5888" target="_blank">[大汇总]让一切都2048去吧……</a></h2></li>
+							<li><h2><a href="/topics/5887" target="_blank">如何将创意结合营销——就谈游戏产品</a></h2></li>
+							<li><h2><a href="/topics/5848" target="_blank">一枚移动电商的自问自答</a></h2></li>
+							<li><h2><a href="/topics/5886" target="_blank">未来谁的WIFI覆盖率越高，谁就越可以占据终端用户的心</a></h2></li>
+							<li><h2><a href="/topics/5695" target="_blank">智能硬件 越小越好？</a></h2></li>
+							<li><h2><a href="/topics/5885" target="_blank">官方产品设计详解：手机QQ“附近的公开群”</a></h2></li>
+							<li><h2><a href="/topics/5869" target="_blank">我只是一个互联网产品人</a></h2></li>
+							<li><h2><a href="/topics/5884" target="_blank">在线教育平台10大盈利模式</a></h2></li>
+							<li><h2><a href="/topics/5883" target="_blank">北京】产品经理体系-2014年4月分享会</a></h2></li>
+							<span class="tabulousclear"></span>
+						</ul>
+ 					</div>
+					<div id="tab-36krplus" class="sidebar-tab__36krplus tabs-pane">
+												<ul>
+							<li><h2><a href="/p/210826.html" title="让音乐人可以用一首半成品预售，Spawnsong想用单曲“众筹”改变音乐的制作和消费">让音乐人可以用一首半成品预售，Spawnsong想用单曲“众筹”改变音乐的制作和消费</a></h2></li>
+							<li><h2><a href="/p/210778.html" title="华人创业团队Orbeus将推出iPhone版图片自动识别及整理应用ReKoMe">华人创业团队Orbeus将推出iPhone版图片自动识别及整理应用ReKoMe</a></h2></li>
+							<li><h2><a href="/p/210749.html" title="外卖送餐服务Sprig获A轮融资1000万美金，现做热乎饭菜20分钟内送上门">外卖送餐服务Sprig获A轮融资1000万美金，现做热乎饭菜20分钟内送上门</a></h2></li>
+							<li><h2><a href="/p/210647.html" title="扫一扫地产广告便可直接从平板上看到可交互的房屋3D模型，地产AR模型提供商Virtual View获50万美元天使投资">扫一扫地产广告便可直接从平板上看到可交互的房屋3D模型，地产AR模型提供商Virtual View获50万美元天使投资</a></h2></li>
+							<li><h2><a href="/p/210459.html" title="语音控制解决方案服务商Wit：几行代码为第三方App搞定语音交互界面">语音控制解决方案服务商Wit：几行代码为第三方App搞定语音交互界面</a></h2></li>
+							<li><h2><a href="/p/210432.html" title="实时了解孩子的位置之余也统一管理家人的位置，初创公司hereO推出儿童智能手表">实时了解孩子的位置之余也统一管理家人的位置，初创公司hereO推出儿童智能手表</a></h2></li>
+							<li><h2><a href="/p/210290.html" title="谁也看不出我穿了传感器：Nex Band模块化定制时尚腕带">谁也看不出我穿了传感器：Nex Band模块化定制时尚腕带</a></h2></li>
+							<li><h2><a href="/p/210200.html" title="Wello：不能检测心率、血压的手机壳不是好手机壳">Wello：不能检测心率、血压的手机壳不是好手机壳</a></h2></li>
+							<li><h2><a href="/p/210070.html" title="下一代可穿戴健身设备：Moov是个会说话的贴身私家教练">下一代可穿戴健身设备：Moov是个会说话的贴身私家教练</a></h2></li>
+						</ul>
+					</div>
+					<div id="tab-815" class="sidebar-tab__815 tabs-pane">
+												<ul>
+							<li><h2><a href="/clipped/8267" target="_blank">传Facebook或与Secret合作</a></h2></li>
+							<li><h2><a href="/clipped/8266" target="_blank">开源笔记本电脑进行公共集资，开发者可自由进行硬件测试</a></h2></li>
+							<li><h2><a href="/clipped/8265" target="_blank">反同惹麻烦，Mozilla新CEO上任十天被迫辞职</a></h2></li>
+							<li><h2><a href="/clipped/8264" target="_blank">传Google将建无线移动网络 挑战传统运营商</a></h2></li>
+							<li><h2><a href="/clipped/8263" target="_blank">主流社交平台网络流量基本来自移动设备</a></h2></li>
+							<li><h2><a href="/clipped/8262" target="_blank">新Kinect for Windows将于今夏上市</a></h2></li>
+							<li><h2><a href="/clipped/8261" target="_blank">苹果去年已收购语音识别技术公司Novauris</a></h2></li>
+							<li><h2><a href="/clipped/8260" target="_blank">微软宣布其iPad版Office一周下载量超过1200万</a></h2></li>
+							<li><h2><a href="/clipped/8259" target="_blank">谷歌申请“Glass”注册商标遇阻</a></h2></li>
+							<span class="tabulousclear"></span>
+						</ul>
+
+ 					</div>
+				</div>
+			</section>
+
+
+       <section class="sidebar-ad">
+			
+       </section>
+
+          <section class="sidebar-popular cf">
+<h3>赞助商链接</h3>
+<div class="sidebar-sponsored__list">
+  <article class="sidebar-sponsored__posts cf">
+    <div class="meta"></div>
+    <div class="image thumb-60 right"><img src="http://a.36krcnd.com/photo/2014/da34e408017d8cf465b476addc99bac0.png"></div>
+    <a href="http://cnrdn.com/6kUD" class="external" target="_blank">创业者见投资人之前应该准备些什么？</a>
+  </article>
+  <article class="sidebar-sponsored__posts cf">
+    <div class="meta"></div>
+    <div class="image thumb-60 right"><img src="http://a.36krcnd.com/photo/2014/75e37b3ea7ec6b93c893510194793b6f.jpg"></div>
+    <a href="http://cnrdn.com/ZEd6" title="中小型创业公司有必要上企业社会化协作软件吗？" class="external" target="_blank">中小型创业公司有必要上企业社会化协作软件吗？</a>
+  </article>
+  <article class="sidebar-sponsored__posts cf">
+    <div class="meta"></div>
+    <div class="image thumb-60 right"><img src="http://a.36krcnd.com/photo/2014/556331c9f12b38d11ea91637989ce494.png"></div>
+    <a href="http://cnrdn.com/BslD" title="TalkingData CEO 崔晓波访谈实录：真正懂大数据的公司不说大数据" class="external" target="_blank">TalkingData CEO 崔晓波访谈实录：真正懂大数据的公司不说大数据</a>
+  </article>
+</div>
+</section>
+
+        					
+
+        			<section id="sidebar-comments">
+				<h3>优质评论</h3>
+				<div class="sidebar-comments__list">
+					    <div class="comment-1">
+      <div class="postmeta"><a href="/xuhaorss" class="uname user_xuhaorss" data-name="xuhaorss" target="_blank">xuhaorss</a> • 1小时前</div>
+      <div class="sidebar-comments__comment">
+        个人认为家政服务公司，尤其是月嫂服务这样的公司，最大的难度方面更类似的是唱片公司，O2O神马的是可以利用的方式，核心是管理好人这一资源，人员管理有一套制度，同时还人性化的吸引歌手或者月嫂加盟，才会不断壮大，商业模式可以融资拿钱砸，人心拿钱砸未必砸的成样子
+      </div>
+      <div class="sidebar-comments__title">
+        <p>评论于<a href="/p/210923.html">诺西高管潜入家政门店半年</a></p>
+      </div>
+    </div>
+    <div class="comment-1">
+      <div class="postmeta"><a href="http://weibo.com/u/3249017694" class="uname user_3249017694 external" data-name="你猜我是谁--VOS" target="_blank">你猜我是谁--VOS</a> • 1小时前</div>
+      <div class="sidebar-comments__comment">
+        但有些人总会在这样的取舍面前豫决，而失去了本可以将事情做得更好的机会。其实明知道这样会更好，但总会由于不自信或换言之的不决绝，幻想可以向他人取经，但取经的人最好只会成为唐僧，而你本可以是如来
+      </div>
+      <div class="sidebar-comments__title">
+        <p>评论于<a href="/p/210923.html">诺西高管潜入家政门店半年</a></p>
+      </div>
+    </div>
+    <div class="comment-1">
+      <div class="postmeta"><a href="http://weibo.com/u/3739051201" class="uname user_3739051201 external" data-name="捷普中国" target="_blank">捷普中国</a> • 1小时前</div>
+      <div class="sidebar-comments__comment">
+        #社会责任#久经考验的商业模式如同陈酒，愈久愈弥香， 越能体现出它们的卓越效果。成瘾、预售以及集市就是三种经典的商业模式。随着时代变迁，这三种模式加入了新颖技术及新奇手段，实现了与产品和技术的完美结合，从而焕发神奇。一起来看这样的结合是如何做到的吧！[呵呵]
+      </div>
+      <div class="sidebar-comments__title">
+        <p>评论于<a href="/p/210848.html">三个优美的商业模式</a></p>
+      </div>
+    </div>
+    <div class="comment-1">
+      <div class="postmeta"><a href="http://weibo.com/u/3324800000" class="uname user_3324800000 external" data-name="TEDxCEIBS" target="_blank">TEDxCEIBS</a> • 1小时前</div>
+      <div class="sidebar-comments__comment">
+        说颠覆是太乐观了，但是互联网金融的崛起确实在倒逼传统金融改革方面起到了非常重要的作用。
+      </div>
+      <div class="sidebar-comments__title">
+        <p>评论于<a href="/p/210900.html">马云以32.99亿收购恒生集团</a></p>
+      </div>
+    </div>
+    <div class="comment-1">
+      <div class="postmeta"><a href="http://weibo.com/u/2058133114" class="uname user_2058133114 external" data-name="飞翔永久" target="_blank">飞翔永久</a> • 1小时前</div>
+      <div class="sidebar-comments__comment">
+        #支付宝#支付宝，如果手机支付遭遇风险，《刑法》、《民法通则》、《消费者权益保护法》、《侵权责任法》、《合同法》等多项法律法规都可予以保障。资金受到侵害的普通用户，可以通过法律手段，起诉第三方交易平台、银行、移动通讯运营商、电商，依法维护自己的合法权益！
+      </div>
+      <div class="sidebar-comments__title">
+        <p>评论于<a href="/p/210900.html">马云以32.99亿收购恒生集团</a></p>
+      </div>
+    </div>
+    <div class="comment-1">
+      <div class="postmeta"><a href="http://weibo.com/u/1715971331" class="uname user_1715971331 external" data-name="严小玥" target="_blank">严小玥</a> • 1小时前</div>
+      <div class="sidebar-comments__comment">
+        今天的邀请码已经发放完毕，大家的热情让我们很感动。接下来我们会继续优化产品，争取在下次以更好的姿态来迎接大家。下次的邀请码发放会在清明节后，同时也会让大家把邀请码发给自己的朋友们。 泡面吧团队正在加班加点，你们的认可是我们最大的动力！
+      </div>
+      <div class="sidebar-comments__title">
+        <p>评论于<a href="/p/210877.html">未来是孩子都会编程的时代？</a></p>
+      </div>
+    </div>
+
+				</div>
+			</section>
+       <section class="sidebar-ad">
+			
+       </section>
+    </div> 
+  </div>

@@ -1,0 +1,668 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<!-- BEGIN HEAD -->
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+        <!-- <meta content="width=device-width, initial-scale=1.0" name="viewport" /> -->
+        <meta content="金瑞亿, 金瑞亿, 金瑞亿投资发展有限公司, 投融资" name="description" />
+        <meta content="jia58960" name="author" />
+        <title>
+           深圳市金瑞亿投资发展有限公司
+        </title>
+        <link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/default/plugins/font-awesome/css/font-awesome.min.css" />
+        <link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/default/plugins/bootstrap/css/bootstrap.min.css" />
+
+        <link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/default/plugins/fancybox/source/jquery.fancybox.css" />
+        <link rel="stylesheet" href="__PUBLIC__/Home/default/plugins/parallax/css/style.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/default/plugins/revolution_slider/css/rs-style.css" />
+        <link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/default/plugins/revolution_slider/rs-plugin/css/settings.css" />
+        <link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/default/plugins/bxslider/jquery.bxslider.css" />
+
+        <link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/default/Css/style-metronic.css" />
+        <link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/default/Css/style.css" />
+        <link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/default/Css/themes/blue.css" />
+        <link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/default/Css/style-non-responsive.css" />
+        <link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/default/Css/custom.css" />
+        
+        <script type="text/javascript" src="__PUBLIC__/Home/default/plugins/jquery-1.10.2.min.js"></script>       
+        <script type="text/javascript" src="__PUBLIC__/Home/default/plugins/jquery-migrate-1.2.1.min.js"></script>
+        
+        <link rel="shortcut icon" href="favicon.ico" />
+
+    </head>
+    <body class="page-header-fixed">
+   		<!-- BEGIN STYLE CUSTOMIZER -->
+    <!-- <div class="color-panel hidden-sm">
+        <div class="color-mode-icons icon-color"></div>
+        <div class="color-mode-icons icon-color-close"></div>
+        <div class="color-mode">
+            <p>选择主题</p>
+            <ul class="inline">
+                <li class="color-blue current color-default" data-style="blue"></li>
+                <li class="color-red" data-style="red"></li>
+                <li class="color-green" data-style="green"></li>
+                <li class="color-orange" data-style="orange"></li>
+            </ul>
+            <label>
+                <span>头部</span>
+                <select class="header-option form-control input-small">
+                    <option value="default" selected>Default</option>
+                    <option value="fixed">Fixed</option>
+                </select>
+            </label>
+        </div>
+    </div> -->
+    <!-- END BEGIN STYLE CUSTOMIZER -->     
+
+    <!-- BEGIN HEADER -->
+    <div class="header navbar navbar-default no-scrolling-fixed navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <!-- BEGIN RESPONSIVE MENU TOGGLER -->
+                <button class="navbar-toggle btn navbar-btn" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- END RESPONSIVE MENU TOGGLER -->
+                <!-- BEGIN LOGO (you can use logo image instead of text)-->
+                <a class="navbar-brand logo-v1" href="__URL__/index">
+                    <img src="__PUBLIC__/Home/default/Images/nav_logo_red.png" id="logoimg" alt="">
+                </a>
+                <!-- END LOGO -->
+            </div>
+        
+            <!-- BEGIN TOP NAVIGATION MENU -->
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                            <a href="<?php echo ($menu["homeurl"]); ?>">
+                            首页
+                        </a>
+                        
+                    </li>
+                    
+                    <?php if(is_array($menu["nav"])): $i = 0; $__LIST__ = $menu["nav"];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$navr): $mod = ($i % 2 );++$i;?><li class="dropdown">
+                        <a class="dropdown-toggle" data-hover="dropdown"  href="<?php echo ($navr["url"]); ?>">
+                            <?php echo ($navr["nav_name"]); ?>
+
+                            <i class="fa fa-angle-down"></i>                            
+                        </a>
+                        <ul class="dropdown-menu">
+                            <?php if(is_array($navr["sub"])): $i = 0; $__LIST__ = $navr["sub"];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li>
+                                <a href="<?php echo ($vo["url"]); ?>" title="">
+                                    <?php echo ($vo["nav_name"]); ?>
+                                   </a>
+                                  </li><?php endforeach; endif; else: echo "" ;endif; ?>
+                        </ul>
+                    </li><?php endforeach; endif; else: echo "" ;endif; ?>
+                </ul>                         
+            </div>
+            <!-- BEGIN TOP NAVIGATION MENU -->
+        </div>
+
+    </div>
+
+
+		<?php if((BROWSER) == "true"): ?><div id="browser">
+				<p style="font-size:16px">我们的站点使用了最新HTML5的相关技术，但您的浏览器不支持这些技术，我们推荐您使用<a href="http://www.google.cn/intl/zh-CN/chrome/browser/"> Google Chrome </a>浏览器来访问。</p>
+			</div><?php endif; ?>
+		<script>
+			if(<?php echo (BROWSER); ?>==true){
+				window.onload=function(){
+					$('#browser').delay(7000).fadeOut("slow");
+				};
+			}
+		</script>
+
+        <div class="page-container">
+
+            <!-- BEGIN REVOLUTION SLIDER -->    
+            <div class="fullwidthbanner-container slider-main">
+                <div class="fullwidthabnner">
+                    <ul id="revolutionul" style="display:none;">
+                    		<!-- THE NEW SLIDE -->
+                            <li data-transition="fade" data-slotamount="8" data-masterspeed="700" data-delay="9400" data-thumb="__PUBLIC__/Home/default/Images/sliders/revolution/thumbs/thumb2.jpg">
+                                <!-- THE MAIN IMAGE IN THE FIRST SLIDE -->
+                                <img src="__PUBLIC__/Home/default/Images/sliders/revolution/bg1.jpg" alt="">
+                                
+                                <div class="caption lft slide_title slide_item_left"
+                                     data-x="0"
+                                     data-y="150"
+                                     data-speed="400"
+                                     data-start="1500"
+                                     data-easing="easeOutExpo">
+                                     祝大家马年大吉，马到成功！
+                                </div>
+                                <div class="caption lft slide_subtitle slide_item_left"
+                                     data-x="87"
+                                     data-y="245"
+                                     data-speed="400"
+                                     data-start="2000"
+                                     data-easing="easeOutExpo">
+                                    HAPPY NEW YEAR!
+                                </div>
+                                
+                                <div class="caption lfb"
+                                     data-x="540" 
+                                     data-y="55" 
+                                     data-speed="700" 
+                                     data-start="1000" 
+                                     data-easing="easeOutExpo"  >
+                                     <img src="__PUBLIC__/Home/default/Images/sliders/revolution/horse.png" alt="Image 1">
+                                </div>
+                            </li> 
+                            <!-- THE NEW SLIDE -->
+                            <li data-transition="fade" data-slotamount="8" data-masterspeed="700" data-delay="9400" data-thumb="__PUBLIC__/Home/default/Images/sliders/revolution/thumbs/thumb2.jpg">
+                                <!-- THE MAIN IMAGE IN THE FIRST SLIDE -->
+                                <img src="__PUBLIC__/Home/default/Images/sliders/revolution/bg4.jpg" alt="">
+                                
+                                <div class="caption lft slide_title slide_item_left"
+                                     data-x="0"
+                                     data-y="150"
+                                     data-speed="400"
+                                     data-start="1500"
+                                     data-easing="easeOutExpo">
+                                     整合，共享，创新
+                                </div>
+                                <div class="caption lft slide_subtitle slide_item_left"
+                                     data-x="87"
+                                     data-y="245"
+                                     data-speed="400"
+                                     data-start="2000"
+                                     data-easing="easeOutExpo">
+                                    金瑞亿-中国专业供应链服务提供商
+                                </div>
+                                
+                                <div class="caption lfb"
+                                     data-x="540" 
+                                     data-y="65" 
+                                     data-speed="700" 
+                                     data-start="1000" 
+                                     data-easing="easeOutExpo"  >
+                                     <img src="__PUBLIC__/Home/default/Images/sliders/revolution/lady.png" alt="Image 1">
+                                </div>
+                            </li>            
+                            <!-- THE FIRST SLIDE -->
+                            <li data-transition="fade" data-slotamount="8" data-masterspeed="700" data-delay="9400" data-thumb="__PUBLIC__/Home/default/Images/sliders/revolution/thumbs/thumb2.jpg">
+                                <!-- THE MAIN IMAGE IN THE FIRST SLIDE -->
+                                <img src="__PUBLIC__/Home/default/Images/sliders/revolution/bg1.jpg" alt="">
+                                
+                                <div class="caption lft slide_title slide_item_left"
+                                     data-x="0"
+                                     data-y="105"
+                                     data-speed="400"
+                                     data-start="1500"
+                                     data-easing="easeOutExpo">
+                                     优秀的资源整合
+                                </div>
+                                <div class="caption lft slide_subtitle slide_item_left"
+                                     data-x="0"
+                                     data-y="180"
+                                     data-speed="400"
+                                     data-start="2000"
+                                     data-easing="easeOutExpo">
+                                     EXCELLENT RESOURCES INTEGRATION
+                                </div>
+                                <div class="caption lft slide_desc slide_item_left"
+                                     data-x="0"
+                                     data-y="230"
+                                     data-speed="400"
+                                     data-start="2500"
+                                     data-easing="easeOutExpo">
+                                     金瑞亿供应链经过多年的规范经营和创新发展，已经<br>
+                                     形成了强大的资源整合能力和竞争优势，帮助合作伙<br>
+                                     伴提高企业供应链效益，打造核心竞争力！
+                                </div>
+                                <a class="caption lft btn green slide_btn slide_item_left" href="__URL__/content/detail/50"
+                                     data-x="0"
+                                     data-y="320"
+                                     data-speed="400"
+                                     data-start="3000"
+                                     data-easing="easeOutExpo">
+                                     READ MORE
+                                </a>                        
+                                <div class="caption lfb"
+                                     data-x="640" 
+                                     data-y="35" 
+                                     data-speed="700" 
+                                     data-start="1000" 
+                                     data-easing="easeOutExpo"  >
+                                     <img src="__PUBLIC__/Home/default/Images/sliders/revolution/man-winner.png" alt="优秀资源整合">
+                                </div>
+                            </li>
+
+                            <!-- THE SECOND SLIDE -->
+                            <li data-transition="fade" data-slotamount="7" data-masterspeed="300" data-delay="9400" data-thumb="__PUBLIC__/Home/default/Images/sliders/revolution/thumbs/thumb2.jpg">                        
+                                <img src="__PUBLIC__/Home/default/Images/sliders/revolution/bg4.jpg" alt="">
+                                <div class="caption lfl slide_title slide_item_left"
+                                     data-x="0"
+                                     data-y="125"
+                                     data-speed="400"
+                                     data-start="3500"
+                                     data-easing="easeOutExpo">
+                                     专业的服务团队
+                                </div>
+                                <div class="caption lfl slide_subtitle slide_item_left"
+                                     data-x="0"
+                                     data-y="200"
+                                     data-speed="400"
+                                     data-start="4000"
+                                     data-easing="easeOutExpo">
+                                     PROFESSIONAL SERVICE TEAM
+                                </div>
+                                <div class="caption lfl slide_desc slide_item_left"
+                                     data-x="0"
+                                     data-y="245"
+                                     data-speed="400"
+                                     data-start="4500"
+                                     data-easing="easeOutExpo">
+                                     7 x 24的商务运作机制，具备快速订单处理能<br>
+                                     力、高效的商务运作速度，以及对异常情况的紧急处理能力。
+                                </div>                        
+                                <div class="caption lfr slide_item_right" 
+                                     data-x="560" 
+                                     data-y="65" 
+                                     data-speed="1200" 
+                                     data-start="1500" 
+                                     data-easing="easeOutBack">
+                                     <img src="__PUBLIC__/Home/default/Images/sliders/revolution/pro_head.png" alt="Image 1">
+                                </div>
+                                <div class="caption lfr slide_item_right" 
+                                     data-x="540" 
+                                     data-y="25" 
+                                     data-speed="1200" 
+                                     data-start="2000" 
+                                     data-easing="easeOutBack">
+                                     <img src="__PUBLIC__/Home/default/Images/sliders/revolution/pro_left.png" alt="Image 1">
+                                </div>
+                                <div class="caption lfr slide_item_right" 
+                                     data-x="600" 
+                                     data-y="125" 
+                                     data-speed="1200" 
+                                     data-start="2500" 
+                                     data-easing="easeOutBack">
+                                     <img src="__PUBLIC__/Home/default/Images/sliders/revolution/pro_main.png" alt="Image 1">
+                                </div>
+                            </li>
+                            
+                            <!-- THE THIRD SLIDE -->
+                            <li data-transition="fade" data-slotamount="8" data-masterspeed="700" data-delay="9400" data-thumb="__PUBLIC__/Home/default/Images/sliders/revolution/thumbs/thumb2.jpg">
+                                <img src="__PUBLIC__/Home/default/Images/sliders/revolution/bg3.jpg" alt="">
+                                <div class="caption lfl slide_item_left" 
+                                     data-x="20" 
+                                     data-y="95" 
+                                     data-speed="400" 
+                                     data-start="1500" 
+                                     data-easing="easeOutBack">
+                                </div>
+                                <div class="caption lfr slide_title"
+                                     data-x="470"
+                                     data-y="100"
+                                     data-speed="400"
+                                     data-start="2000"
+                                     data-easing="easeOutExpo">
+                                     完善的资金配套
+                                </div>
+                                <div class="caption lfr slide_subtitle"
+                                     data-x="470"
+                                     data-y="170"
+                                     data-speed="400"
+                                     data-start="2500"
+                                     data-easing="easeOutExpo">
+                                     PERFECT MATCHING FUNDS
+                                </div>
+                                <div class="caption lfr slide_desc"
+                                     data-x="470"
+                                     data-y="220"
+                                     data-speed="400"
+                                     data-start="3000"
+                                     data-easing="easeOutExpo">
+                                     凭着良好的商业信誉和经营业绩，金瑞亿与众银行<br>
+                                     结成了战略合作伙伴关系，在严格、规范的风控管<br>
+                                     理原则下，为客户提供完善的资金配套服务。
+                                </div>
+                                <a class="caption lfr btn yellow slide_btn" href="__URL__/content/detail/50"
+                                     data-x="470"
+                                     data-y="310"
+                                     data-speed="400"
+                                     data-start="3500"
+                                     data-easing="easeOutExpo">
+                                     READ MORE
+                                </a>
+                            </li>               
+                            
+                            <!-- THE FORTH SLIDE -->
+                            <li data-transition="fade" data-slotamount="8" data-masterspeed="700" data-delay="9400" data-thumb="__PUBLIC__/Home/default/Images/sliders/revolution/thumbs/thumb2.jpg">
+                                <!-- THE MAIN IMAGE IN THE FIRST SLIDE -->
+                                <img src="__PUBLIC__/Home/default/Images/sliders/revolution/bg2.jpg" alt="">                        
+                                 <div class="caption lft slide_title"
+                                     data-x="0"
+                                     data-y="105"
+                                     data-speed="400"
+                                     data-start="1500"
+                                     data-easing="easeOutExpo">
+                                     领先的信息系统
+                                </div>
+                                <div class="caption lft slide_subtitle"
+                                     data-x="0"
+                                     data-y="180"
+                                     data-speed="400"
+                                     data-start="2000"
+                                     data-easing="easeOutExpo">
+                                     ADVANCED INFORMATION SYSTEM
+                                </div>
+                                <div class="caption lft slide_desc"
+                                     data-x="0"
+                                     data-y="225"
+                                     data-speed="400"
+                                     data-start="2500"
+                                     data-easing="easeOutExpo">
+                                     金瑞亿开发了具有供应链行业领先水平的信息系统，<br>
+                                     契合供应链行业特点，满足多种业务模式的多样化需<br>
+                                     求，可提供便捷、安全的数据信息处理服务。
+                                </div>
+                                <a class="caption lft slide_btn btn red slide_item_left" href="__URL__/content/detail/50" target="_blank" 
+                                     data-x="0"
+                                     data-y="320"
+                                     data-speed="400"
+                                     data-start="3000"
+                                     data-easing="easeOutExpo">
+                                     READ MORE
+                                </a>                        
+                                <div class="caption lft start"  
+                                     data-x="640" 
+                                     data-y="55" 
+                                     data-speed="400" 
+                                     data-start="2000" 
+                                     data-easing="easeOutBack"  >
+                                     <img src="__PUBLIC__/Home/default/Images/sliders/revolution/info.png" alt="Image 2">
+                                </div>
+                                
+                            </li>
+
+                            <li data-transition="fade" data-slotamount="8" data-masterspeed="700" data-delay="9400" data-thumb="__PUBLIC__/Home/default/Images/sliders/revolution/thumbs/thumb2.jpg">
+                                <!-- THE MAIN IMAGE IN THE FIRST SLIDE -->
+                                <img src="__PUBLIC__/Home/default/Images/sliders/revolution/bg2.jpg" alt="">                        
+                                 <div class="caption lft slide_title"
+                                     data-x="50"
+                                     data-y="105"
+                                     data-speed="400"
+                                     data-start="1500"
+                                     data-easing="easeOutExpo">
+                                     进取的金瑞亿人
+                                </div>
+                                <div class="caption lft slide_subtitle"
+                                     data-x="50"
+                                     data-y="180"
+                                     data-speed="400"
+                                     data-start="2000"
+                                     data-easing="easeOutExpo">
+                                     ENTERPRISING KINGRAYER
+                                </div>
+                                <div class="caption lft slide_desc"
+                                     data-x="50"
+                                     data-y="225"
+                                     data-speed="400"
+                                     data-start="2500"
+                                     data-easing="easeOutExpo">
+                                     公司创造人性化的管理氛围，希望员工进取工作，快<br>
+                                     乐生活。公司用海纳百川的人才观凝聚人才、培养人<br>
+                                     才，给所有员工提供一个高效的成长平台。
+                                </div>
+                                <div class="caption lfb"
+                                     data-x="320" 
+                                     data-y="85" 
+                                     data-speed="700" 
+                                     data-start="3000" 
+                                     data-easing="easeOutExpo"  >
+                                     <img src="__PUBLIC__/Home/default/Images/sliders/revolution/kr1.png" alt="Image 1">
+                                </div>
+								<div class="caption lfr"
+                                     data-x="680" 
+                                     data-y="105" 
+                                     data-speed="700" 
+                                     data-start="3500" 
+                                     data-easing="easeOutBack"  >
+                                     <img src="__PUBLIC__/Home/default/Images/sliders/revolution/kr3.png" alt="Image 1">
+                                </div>
+
+                                <div class="caption lft start"  
+                                     data-x="950" 
+                                     data-y="105" 
+                                     data-speed="400" 
+                                     data-start="4000" 
+                                     data-easing="easeOutBack"  >
+                                     <img src="__PUBLIC__/Home/default/Images/sliders/revolution/kr2.png" alt="Image 2">
+                                </div>
+                                
+                            </li>
+                    </ul>
+                    <div class="tp-bannertimer tp-bottom"></div>
+                </div>
+            </div>
+            <!-- END REVOLUTION SLIDER -->
+
+            <!--BEGIN Body content-->
+            <div class="container">
+                
+                <!-- BEGIN SERVICE BOX -->   
+                <div class="row service-box">
+                    <div class="col-md-4 col-sm-4 col-xs-4">
+                        <div class="service-box-heading">
+                            <em><i class="fa fa-user blue"></i></em>
+                            <span>关于我们</span>
+                        </div>
+                        <p><?php echo (msubstr(strip_tags($about["content"]),0,120)); ?><a href="__URL__/article/detail/<?php echo ($about["id"]); ?>">阅读更多</a></p>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-4">
+                        <div class="service-box-heading">
+                            <em><i class="fa fa-globe blue"></i></em>
+                            <span>为您服务</span>
+                        </div>
+                        <p><?php echo (msubstr(nl2br($service1["content"]),0,120)); ?><a href="__URL__/article/detail/<?php echo ($service1["id"]); ?>">阅读更多</a></p>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-4">
+                        <div class="service-box-heading">
+                            <em><i class="fa fa-group blue"></i></em>
+                            <span>合作伙伴</span>
+                        </div>
+                        <p><?php echo (msubstr(strip_tags($choose["content"]),0,120)); ?><a href="__URL__/article/detail/<?php echo ($choose["id"]); ?>">阅读更多</a></p>
+                    </div>
+                </div>
+                <!-- END SERVICE BOX -->  
+                <div class="clearfix"></div>
+
+                <!-- BEGIN RECENT WORKS -->
+                <div class="row recent-work margin-bottom-40">
+                    <div class="col-md-3 col-xs-3">
+                        <h2><a href="portfolio.html">服务模式</a></h2>
+                        <p>供应链服务模式</p>
+                    </div>
+                    <div class="col-md-9 col-xs-9">
+                        <ul class="bxslider">
+                        <?php if(is_array($serviceModal)): $i = 0; $__LIST__ = $serviceModal;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$voModal): $mod = ($i % 2 );++$i;?><li>
+                                <em>
+                                    <img src="__PUBLIC__/Uploads/img/<?php echo ($voModal["img"]); ?>" alt="" />
+                                    <a href="__URL__/article/detail/<?php echo ($voModal["id"]); ?>"><i class="fa fa-link icon-hover icon-hover-1"></i></a>
+                                    <a href="__PUBLIC__/Uploads/img/<?php echo ($voModal["img"]); ?>" class="fancybox-button" title="<?php echo ($voModal["title"]); ?>" data-rel="fancybox-button"><i class="fa fa-search icon-hover icon-hover-2"></i></a>
+                                </em>
+                                <a class="bxslider-block" href="#">
+                                    <strong><?php echo ($voModal["title"]); ?></strong>
+                                    <b><?php echo (msubstr(strip_tags($voModal["content"]),0,10)); ?></b>
+                                </a>
+                            </li><?php endforeach; endif; else: echo "" ;endif; ?>
+                        </ul>        
+                    </div>
+                </div>   
+                <!-- END RECENT WORKS -->
+
+                <div class="clearfix"></div>
+
+                <!-- BEGIN CLIENTS -->
+                <div class="row margin-bottom-40">
+                    <div class="col-md-3 col-xs-3">
+                        <h2><a href="#">贸易伙伴</a></h2>
+                        <p>部分贸易合作伙伴（排名不分先后）</p>
+                    </div>
+                    <div class="col-md-9 col-xs-9">
+                        <ul class="bxslider1 clients-list">
+                            <li>
+                                <a href="#">
+                                    <img src="__PUBLIC__/Home/default/Images/clients/client_1_gray.png" alt="" /> 
+                                    <img src="__PUBLIC__/Home/default/Images/clients/client_1.png" class="color-img" alt="" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="__PUBLIC__/Home/default/Images/clients/client_2_gray.png" alt="" /> 
+                                    <img src="__PUBLIC__/Home/default/Images/clients/client_2.png" class="color-img" alt="" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="__PUBLIC__/Home/default/Images/clients/client_3_gray.png" alt="" /> 
+                                    <img src="__PUBLIC__/Home/default/Images/clients/client_3.png" class="color-img" alt="" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="__PUBLIC__/Home/default/Images/clients/client_4_gray.png" alt="" /> 
+                                    <img src="__PUBLIC__/Home/default/Images/clients/client_4.png" class="color-img" alt="" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="__PUBLIC__/Home/default/Images/clients/client_5_gray.png" alt="" /> 
+                                    <img src="__PUBLIC__/Home/default/Images/clients/client_5.png" class="color-img" alt="" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">                        
+                                    <img src="__PUBLIC__/Home/default/Images/clients/client_6_gray.png" alt="" /> 
+                                    <img src="__PUBLIC__/Home/default/Images/clients/client_6.png" class="color-img" alt="" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="__PUBLIC__/Home/default/Images/clients/client_7_gray.png" alt="" /> 
+                                    <img src="__PUBLIC__/Home/default/Images/clients/client_7.png" class="color-img" alt="" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">                        
+                                    <img src="__PUBLIC__/Home/default/Images/clients/client_8_gray.png" alt="" /> 
+                                    <img src="__PUBLIC__/Home/default/Images/clients/client_8.png" class="color-img" alt="" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">                        
+                                    <img src="__PUBLIC__/Home/default/Images/clients/client_9_gray.png" alt="" /> 
+                                    <img src="__PUBLIC__/Home/default/Images/clients/client_9.png" class="color-img" alt="" />
+                                </a>
+                            </li>                           
+                        </ul>                        
+                    </div>
+                </div>
+                <!-- END CLIENTS -->
+            
+
+
+            </div>
+            <!--END Body content-->
+
+        </div>
+        
+<div class="footer">
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-md-2 col-sm-2 col-xs-2 space-mobile">
+                    <!-- BEGIN CONTACTS -->                                    
+                    <a class="footer-logo" href="__URL__/index">
+                        <img src="__PUBLIC__/Home/default/Images/nav_logo_red.png" id="logoimg" alt="">
+                    </a>
+                    <h2 style="padding-left:16px;color:#DB3A1B">KINGRAY</h2>
+                    
+                    <!-- END CONTACTS -->                                    
+                                  
+                </div>
+
+                <?php if(is_array($menu["nav"])): $i = 0; $__LIST__ = $menu["nav"];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$navr): $mod = ($i % 2 );++$i;?><div class="col-md-2 col-sm-2 col-xs-2">
+                        <!-- BEGIN TWITTER BLOCK -->
+                        <h2><?php echo ($navr["nav_name"]); ?></h2>
+                            <?php if(!empty($navr["sub"])): if(is_array($navr["sub"])): $i = 0; $__LIST__ = $navr["sub"];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><dl class="dl-horizontal f-twitter">
+                                        <dt><i class="fa fa-link"></i></dt>
+                                        <dd>
+                                            <a class="footer-link" href="<?php echo ($vo["url"]); ?>"> <?php echo ($vo["nav_name"]); ?></a>
+                                        </dd>
+                                    </dl><?php endforeach; endif; else: echo "" ;endif; ?>
+                                <?php else: ?>
+                                <address class="margin-bottom-40">
+                                    中国, 广东省, 深圳市<br>
+                                    福田区, 车公庙, 天安数码城, 创新科技广场Ⅱ期, 西座1603. <br>
+                                    0755-66659000 <br>
+                                    <i class="fa fa-link"></i> <a href="mailto:kingray@sz-kingray.com">kingray@sz-kingray.com</a>                        
+                                </address><?php endif; ?>
+                    </div><?php endforeach; endif; else: echo "" ;endif; ?>                 
+                                                        
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="copyright">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-sm-8 col-xs-8">
+                <p>
+                    <span class="margin-right-10">2013 &copy; KingRay. ALL Rights Reserved.</span> 
+                    <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+                </p>
+            </div>
+            <!-- <div class="col-md-4 col-sm-4 col-xs-4">
+                <ul class="social-footer">
+                    <li><a href="http://weibo.com/u/1884353652"><i class="fa fa-weibo"></i></a></li>
+                    <li><a href="http://github.com/jia58960"><i class="fa fa-github"></i></a></li>
+                    <li><a href="http://google.com.hk"><i class="fa fa-google-plus"></i></a></li>
+                    
+                </ul>                
+            </div> -->
+        </div>
+    </div>
+</div>
+        <!--/Footer Extra-->
+    <script>
+        var __Pub__ = '__PUBLIC__';
+    </script>
+         <!--load js-->
+        <!--[if lt IE 9]>
+            <script src="__PUBLIC__/Home/default/plugins/respond.min.js"></script>  
+        <![endif]--> 
+        
+        <script type="text/javascript" src="__PUBLIC__/Home/default/plugins/bootstrap/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="__PUBLIC__/Home/default/plugins/hover-dropdown.js"></script>
+        <script type="text/javascript" src="__PUBLIC__/Home/default/plugins/back-to-top.js"></script>
+
+        <!-- BEGIN PAGE LEVEL JAVASCRIPTS(REQUIRED ONLY FOR CURRENT PAGE) -->
+        <script type="text/javascript" src="__PUBLIC__/Home/default/plugins/fancybox/source/jquery.fancybox.pack.js"></script>
+        <script type="text/javascript" src="__PUBLIC__/Home/default/plugins/revolution_slider/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+        <script type="text/javascript" src="__PUBLIC__/Home/default/plugins/revolution_slider/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+        
+        <script type="text/javascript" src="__PUBLIC__/Home/default/plugins/bxslider/jquery.bxslider.min.js"></script>
+        <script type="text/javascript" src="__PUBLIC__/Home/default/plugins/parallax/js/script.js"></script>
+        <script type="text/javascript" src="__PUBLIC__/Home/default/Scripts/app.js"></script>
+        <script type="text/javascript" src="__PUBLIC__/Home/default/Scripts/index.js"></script>
+
+        <script type="text/javascript">
+            jQuery(document).ready(function() {
+                App.init();    
+                App.initBxSlider();
+                Index.initRevolutionSlider();                    
+            });
+        </script>
+
+    </body>
+
+</html>

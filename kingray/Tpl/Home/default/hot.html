@@ -1,0 +1,16 @@
+<section class="sidebar-popular cf">
+        <h3>热门文章</h3>
+        <div class="sidebar-popular__list">
+            <volist name="hot" id="hotList">
+                <article class="sidebar-popular__posts cf">
+                    <div class="meta"></div>
+                    <div class="image thumb-60 left">
+                        <img src="__PUBLIC__/Uploads/img/{$hotList.img}" alt="" width="60px" height="60px">
+                    </div>
+                    <h1>
+                        <a href="__URL__/article/detail/{$hotList.id}" title="{$hotList.title}">{$hotList.title|strip_tags|msubstr=0,28}</a>
+                    </h1>
+                </article>
+            </volist>
+        </div>
+    </section>

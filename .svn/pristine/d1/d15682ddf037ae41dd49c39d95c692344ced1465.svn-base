@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<!-- BEGIN HEAD -->
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <!-- <meta content="width=device-width, initial-scale=1.0" name="viewport" /> -->
+        <meta name="keywords" content="创业, 想创业, 投资, 融资, 创投媒体, 创业公司, 金融新闻, 创业互联网, 资讯平台,互联网创业">
+        <meta content="jia58960" name="author" />
+
+        <title>
+           56KR资讯平台
+        </title>
+        <load href="__PUBLIC__/Home/default/Js/font-awesome/css/font-awesome.min.css" />
+        <load href="__PUBLIC__/Home/default/Css/kry.css" />
+
+        <load href="__PUBLIC__/Home/default/Js/timeago.js" />
+        <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+        <![endif]-->
+
+        <link rel="shortcut icon" href="favicon.ico" />
+
+        <style type="text/css">
+            @-moz-keyframes nodeInserted{from{opacity:0.99;}to{opacity:1;}}
+            @-webkit-keyframes nodeInserted{from{opacity:0.99;}to{opacity:1;}}
+            @-o-keyframes nodeInserted{from{opacity:0.99;}to{opacity:1;}}
+            @keyframes nodeInserted{from{opacity:0.99;}to{opacity:1;}}
+            embed,object{
+                animation-duration:.001s;
+                -ms-animation-duration:.001s;
+                -moz-animation-duration:.001s;
+                -webkit-animation-duration:.001s;
+                -o-animation-duration:.001s;
+                animation-name:nodeInserted;
+                -ms-animation-name:nodeInserted;
+                -moz-animation-name:nodeInserted;
+                -webkit-animation-name:nodeInserted;
+                -o-animation-name:nodeInserted;}
+        </style>
+    </head>
+<body id="home" class="js">
+    <!--BEGIN HEADER-->
+    <header class="header header-normal">
+        <div class="inner row">
+
+            <h1 class="logo">
+                <a href="/"><span>36Kr</span></a>
+            </h1>
+
+            <nav class="toggle-nav cf">
+                <ul class="left">
+                    <li><a href="javascript:void(0)" class="toggle__main icon-menu"><span>导航</span></a></li>
+                    <li><a href="javascript:void(0)" class="toggle__search icon-search"><span>搜索</span></a></li>
+                </ul>
+                <a href="http://www.36kr.net/report" class="toggle__submit right external" target="_blank">寻求报道</a>
+            </nav>
+
+            <nav class="main-nav left">
+            <ul>
+                <volist name="menu.nav" id="navr">
+
+                   <li class="drop-1 drop">
+                        <a href="/explore" class="hasdropdown main-nav__item">{$navr.nav_name}</a>
+                            <div class="dropdown">
+                                <div class="dropdown-list dropdown__list">
+                                    <section>
+                                        <h2>CATEGORY</h2>
+                                        <ul class="dropdown__topic cf">
+                                            <volist name="navr.sub" id="vo">
+                                                <li>
+                                                    <span><a href="{$vo.url}" class="{$vo.nav_color}">
+                                                        {$vo.nav_name}
+                                                    </a>
+                                                     / {$vo.english}
+                                                    </span>
+                                                </li>
+                                            </volist>
+                                        </ul>
+                                    </section>
+                                </div>
+                            </div>
+                    </li>
+
+                </volist>
+            </ul>
+        </nav>
+
+            <div class="search">
+                <form action="/search"><input name="q" type="search" placeholder="搜索"></form>
+            </div>
+            <!--<nav class="second-nav">
+                <ul>
+                    <li><a href="###" class="second-nav__submit">申请投稿</a></li>
+                    <li><a href="#panel-login" class="second-nav__login overlay">登录</a></li>
+                </ul>
+                <a href="/account/sign_out" data-method="delete" rel="nofollow" id="login_out_link"></a>
+            </nav>-->
+        </div>
+    </header>
+    <!--END HEADER-->
+
+

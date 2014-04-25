@@ -1,0 +1,222 @@
+[ 2014-02-17T15:13:29+08:00 ] 10.188.192.200 /kry_second/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001679s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001767s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001408s ]
+SQL: SHOW COLUMNS FROM `kr_navigation` [ RunTime:0.040479s ]
+SQL: SHOW COLUMNS FROM `kr_article` [ RunTime:0.023303s ]
+NOTIC: [2] Missing argument 1 for Menu::getNav(), called in F:\AppServ\www\kry_second\kingray\Lib\Common\Menu.class.php on line 14 and defined F:\AppServ\www\kry_second\kingray\Lib\Common\Menu.class.php 第 20 行.
+SQL: SELECT `id`,`nav_name` FROM `kr_navigation` WHERE ( `fid` = 0 ) ORDER BY sort  [ RunTime:0.012796s ]
+SQL: SELECT `id`,`nav_name` FROM `kr_navigation` WHERE ( `fid` = 1 ) ORDER BY sort  [ RunTime:0.000278s ]
+SQL: SELECT `id`,`nav_name` FROM `kr_navigation` WHERE ( `fid` = 52 ) ORDER BY sort  [ RunTime:0.000277s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\AppServ\www\kry_second\kingray\Lib\Common\Menu.class.php 第 31 行.
+SQL: SELECT `id`,`nav_name` FROM `kr_navigation` WHERE ( `fid` = 50 ) ORDER BY sort  [ RunTime:0.000257s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\AppServ\www\kry_second\kingray\Lib\Common\Menu.class.php 第 31 行.
+SQL: SELECT `id`,`nav_name` FROM `kr_navigation` WHERE ( `fid` = 11 ) ORDER BY sort  [ RunTime:0.000238s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\AppServ\www\kry_second\kingray\Lib\Common\Menu.class.php 第 31 行.
+SQL: SELECT `id`,`nav_name` FROM `kr_navigation` WHERE ( `fid` = 34 ) ORDER BY sort  [ RunTime:0.000353s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\AppServ\www\kry_second\kingray\Lib\Common\Menu.class.php 第 31 行.
+SQL: SELECT `id`,`nav_name` FROM `kr_navigation` WHERE ( `fid` = 8 ) ORDER BY sort  [ RunTime:0.000233s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\AppServ\www\kry_second\kingray\Lib\Common\Menu.class.php 第 31 行.
+SQL: SELECT `id`,`nav_name` FROM `kr_navigation` WHERE ( `fid` = 2 ) ORDER BY sort  [ RunTime:0.000306s ]
+SQL: SELECT `id`,`nav_name` FROM `kr_navigation` WHERE ( `fid` = 49 ) ORDER BY sort  [ RunTime:0.000250s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\AppServ\www\kry_second\kingray\Lib\Common\Menu.class.php 第 31 行.
+SQL: SELECT `id`,`nav_name` FROM `kr_navigation` WHERE ( `fid` = 51 ) ORDER BY sort  [ RunTime:0.000236s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\AppServ\www\kry_second\kingray\Lib\Common\Menu.class.php 第 31 行.
+SQL: SELECT `id`,`nav_name` FROM `kr_navigation` WHERE ( `fid` = 10 ) ORDER BY sort  [ RunTime:0.000235s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\AppServ\www\kry_second\kingray\Lib\Common\Menu.class.php 第 31 行.
+SQL: SELECT `id`,`nav_name` FROM `kr_navigation` WHERE ( `fid` = 9 ) ORDER BY sort  [ RunTime:0.000224s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\AppServ\www\kry_second\kingray\Lib\Common\Menu.class.php 第 31 行.
+SQL: SELECT `id`,`nav_name` FROM `kr_navigation` WHERE ( `fid` = 16 ) ORDER BY sort  [ RunTime:0.000232s ]
+SQL: SELECT `id`,`nav_name` FROM `kr_navigation` WHERE ( `fid` = 27 ) ORDER BY sort  [ RunTime:0.000224s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\AppServ\www\kry_second\kingray\Lib\Common\Menu.class.php 第 31 行.
+SQL: SELECT `id`,`nav_name` FROM `kr_navigation` WHERE ( `fid` = 39 ) ORDER BY sort  [ RunTime:0.000230s ]
+SQL: SELECT `id`,`nav_name` FROM `kr_navigation` WHERE ( `fid` = 45 ) ORDER BY sort  [ RunTime:0.000221s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\AppServ\www\kry_second\kingray\Lib\Common\Menu.class.php 第 31 行.
+SQL: SELECT `id`,`nav_name` FROM `kr_navigation` WHERE ( `fid` = 40 ) ORDER BY sort  [ RunTime:0.000221s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\AppServ\www\kry_second\kingray\Lib\Common\Menu.class.php 第 31 行.
+SQL: SELECT `id`,`nav_name` FROM `kr_navigation` WHERE ( `fid` = 41 ) ORDER BY sort  [ RunTime:0.000223s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\AppServ\www\kry_second\kingray\Lib\Common\Menu.class.php 第 31 行.
+SQL: SELECT `id`,`nav_name` FROM `kr_navigation` WHERE ( `fid` = 42 ) ORDER BY sort  [ RunTime:0.000291s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\AppServ\www\kry_second\kingray\Lib\Common\Menu.class.php 第 31 行.
+SQL: SELECT `id`,`nav_name` FROM `kr_navigation` WHERE ( `fid` = 43 ) ORDER BY sort  [ RunTime:0.000261s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\AppServ\www\kry_second\kingray\Lib\Common\Menu.class.php 第 31 行.
+SQL: SELECT `id`,`nav_name` FROM `kr_navigation` WHERE ( `fid` = 26 ) ORDER BY sort  [ RunTime:0.000229s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\AppServ\www\kry_second\kingray\Lib\Common\Menu.class.php 第 31 行.
+NOTIC: [2] Missing argument 1 for Content::__construct(), called in F:\AppServ\www\kry_second\kingray\Lib\Action\Home\IndexAction.class.php on line 15 and defined F:\AppServ\www\kry_second\kingray\Lib\Common\Content.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM kr_article a [ RunTime:0.000290s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'a' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM kr_article a
+SQL: SHOW COLUMNS FROM `kr_paragraph` [ RunTime:0.017719s ]
+NOTIC: [8] Undefined variable: id F:\AppServ\www\kry_second\kingray\Lib\Common\Content.class.php 第 16 行.
+SQL: SELECT a.id,p.content,p.img FROM kr_article a LEFT JOIN kr_paragraph p on a.id =p.aid  WHERE ( `home_page` = 1 ) ORDER BY time desc LIMIT 1   [ RunTime:0.039558s ]
+SQL: SELECT a.id,a.title,p.content,p.img FROM kr_article a LEFT JOIN kr_paragraph p on a.id =p.aid  WHERE ( `home_page` = 2 ) ORDER BY time desc LIMIT 1   [ RunTime:0.001903s ]
+SQL: SELECT a.id,a.title,p.content,p.img FROM kr_article a LEFT JOIN kr_paragraph p on a.id =p.aid  WHERE ( `home_page` = 4 ) ORDER BY time desc LIMIT 1   [ RunTime:0.001625s ]
+SQL: SELECT a.id,p.content,p.img FROM kr_article a LEFT JOIN kr_paragraph p on a.id =p.aid  WHERE ( `home_page` = 3 ) ORDER BY time desc LIMIT 1   [ RunTime:0.001571s ]
+SQL: SELECT a.id,a.title,p.content,p.img FROM kr_article a LEFT JOIN kr_paragraph p on a.id =p.aid  WHERE ( `home_page` = 2 ) ORDER BY time desc  [ RunTime:0.001859s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.040074s ]
+INFO: [ view_template ] --END-- [ RunTime:0.040218s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.133697s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.133853s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003105s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001746s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001665s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001623s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008514s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001948s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002075s ]
+
+[ 2014-02-17T15:13:29+08:00 ] 10.188.192.200 /kry_second/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001242s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001372s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000898s ]
+SQL: SHOW COLUMNS FROM `kr_navigation` [ RunTime:0.002026s ]
+SQL: SHOW COLUMNS FROM `kr_article` [ RunTime:0.001147s ]
+NOTIC: [2] Missing argument 1 for Menu::getNav(), called in F:\AppServ\www\kry_second\kingray\Lib\Common\Menu.class.php on line 14 and defined F:\AppServ\www\kry_second\kingray\Lib\Common\Menu.class.php 第 20 行.
+SQL: SELECT `id`,`nav_name` FROM `kr_navigation` WHERE ( `fid` = 0 ) ORDER BY sort  [ RunTime:0.000190s ]
+SQL: SELECT `id`,`nav_name` FROM `kr_navigation` WHERE ( `fid` = 1 ) ORDER BY sort  [ RunTime:0.000160s ]
+SQL: SELECT `id`,`nav_name` FROM `kr_navigation` WHERE ( `fid` = 52 ) ORDER BY sort  [ RunTime:0.000143s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\AppServ\www\kry_second\kingray\Lib\Common\Menu.class.php 第 31 行.
+SQL: SELECT `id`,`nav_name` FROM `kr_navigation` WHERE ( `fid` = 50 ) ORDER BY sort  [ RunTime:0.000146s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\AppServ\www\kry_second\kingray\Lib\Common\Menu.class.php 第 31 行.
+SQL: SELECT `id`,`nav_name` FROM `kr_navigation` WHERE ( `fid` = 11 ) ORDER BY sort  [ RunTime:0.000141s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\AppServ\www\kry_second\kingray\Lib\Common\Menu.class.php 第 31 行.
+SQL: SELECT `id`,`nav_name` FROM `kr_navigation` WHERE ( `fid` = 34 ) ORDER BY sort  [ RunTime:0.000135s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\AppServ\www\kry_second\kingray\Lib\Common\Menu.class.php 第 31 行.
+SQL: SELECT `id`,`nav_name` FROM `kr_navigation` WHERE ( `fid` = 8 ) ORDER BY sort  [ RunTime:0.000155s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\AppServ\www\kry_second\kingray\Lib\Common\Menu.class.php 第 31 行.
+SQL: SELECT `id`,`nav_name` FROM `kr_navigation` WHERE ( `fid` = 2 ) ORDER BY sort  [ RunTime:0.000130s ]
+SQL: SELECT `id`,`nav_name` FROM `kr_navigation` WHERE ( `fid` = 49 ) ORDER BY sort  [ RunTime:0.000119s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\AppServ\www\kry_second\kingray\Lib\Common\Menu.class.php 第 31 行.
+SQL: SELECT `id`,`nav_name` FROM `kr_navigation` WHERE ( `fid` = 51 ) ORDER BY sort  [ RunTime:0.000115s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\AppServ\www\kry_second\kingray\Lib\Common\Menu.class.php 第 31 行.
+SQL: SELECT `id`,`nav_name` FROM `kr_navigation` WHERE ( `fid` = 10 ) ORDER BY sort  [ RunTime:0.000114s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\AppServ\www\kry_second\kingray\Lib\Common\Menu.class.php 第 31 行.
+SQL: SELECT `id`,`nav_name` FROM `kr_navigation` WHERE ( `fid` = 9 ) ORDER BY sort  [ RunTime:0.000114s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\AppServ\www\kry_second\kingray\Lib\Common\Menu.class.php 第 31 行.
+SQL: SELECT `id`,`nav_name` FROM `kr_navigation` WHERE ( `fid` = 16 ) ORDER BY sort  [ RunTime:0.000116s ]
+SQL: SELECT `id`,`nav_name` FROM `kr_navigation` WHERE ( `fid` = 27 ) ORDER BY sort  [ RunTime:0.000111s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\AppServ\www\kry_second\kingray\Lib\Common\Menu.class.php 第 31 行.
+SQL: SELECT `id`,`nav_name` FROM `kr_navigation` WHERE ( `fid` = 39 ) ORDER BY sort  [ RunTime:0.000117s ]
+SQL: SELECT `id`,`nav_name` FROM `kr_navigation` WHERE ( `fid` = 45 ) ORDER BY sort  [ RunTime:0.000137s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\AppServ\www\kry_second\kingray\Lib\Common\Menu.class.php 第 31 行.
+SQL: SELECT `id`,`nav_name` FROM `kr_navigation` WHERE ( `fid` = 40 ) ORDER BY sort  [ RunTime:0.000115s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\AppServ\www\kry_second\kingray\Lib\Common\Menu.class.php 第 31 行.
+SQL: SELECT `id`,`nav_name` FROM `kr_navigation` WHERE ( `fid` = 41 ) ORDER BY sort  [ RunTime:0.000123s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\AppServ\www\kry_second\kingray\Lib\Common\Menu.class.php 第 31 行.
+SQL: SELECT `id`,`nav_name` FROM `kr_navigation` WHERE ( `fid` = 42 ) ORDER BY sort  [ RunTime:0.000120s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\AppServ\www\kry_second\kingray\Lib\Common\Menu.class.php 第 31 行.
+SQL: SELECT `id`,`nav_name` FROM `kr_navigation` WHERE ( `fid` = 43 ) ORDER BY sort  [ RunTime:0.000112s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\AppServ\www\kry_second\kingray\Lib\Common\Menu.class.php 第 31 行.
+SQL: SELECT `id`,`nav_name` FROM `kr_navigation` WHERE ( `fid` = 26 ) ORDER BY sort  [ RunTime:0.000114s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\AppServ\www\kry_second\kingray\Lib\Common\Menu.class.php 第 31 行.
+NOTIC: [2] Missing argument 1 for Content::__construct(), called in F:\AppServ\www\kry_second\kingray\Lib\Action\Home\IndexAction.class.php on line 15 and defined F:\AppServ\www\kry_second\kingray\Lib\Common\Content.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM kr_article a [ RunTime:0.000079s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'a' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM kr_article a
+SQL: SHOW COLUMNS FROM `kr_paragraph` [ RunTime:0.000958s ]
+NOTIC: [8] Undefined variable: id F:\AppServ\www\kry_second\kingray\Lib\Common\Content.class.php 第 16 行.
+SQL: SELECT a.id,p.content,p.img FROM kr_article a LEFT JOIN kr_paragraph p on a.id =p.aid  WHERE ( `home_page` = 1 ) ORDER BY time desc LIMIT 1   [ RunTime:0.000808s ]
+SQL: SELECT a.id,a.title,p.content,p.img FROM kr_article a LEFT JOIN kr_paragraph p on a.id =p.aid  WHERE ( `home_page` = 2 ) ORDER BY time desc LIMIT 1   [ RunTime:0.000964s ]
+SQL: SELECT a.id,a.title,p.content,p.img FROM kr_article a LEFT JOIN kr_paragraph p on a.id =p.aid  WHERE ( `home_page` = 4 ) ORDER BY time desc LIMIT 1   [ RunTime:0.000744s ]
+SQL: SELECT a.id,p.content,p.img FROM kr_article a LEFT JOIN kr_paragraph p on a.id =p.aid  WHERE ( `home_page` = 3 ) ORDER BY time desc LIMIT 1   [ RunTime:0.000749s ]
+SQL: SELECT a.id,a.title,p.content,p.img FROM kr_article a LEFT JOIN kr_paragraph p on a.id =p.aid  WHERE ( `home_page` = 2 ) ORDER BY time desc  [ RunTime:0.000980s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000322s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000381s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.025201s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025269s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000589s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000313s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000195s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000388s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001641s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000457s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000512s ]
+
+[ 2014-02-17T15:13:29+08:00 ] 10.188.192.200 /kry_second/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000665s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+SQL: SHOW COLUMNS FROM `kr_navigation` [ RunTime:0.001097s ]
+SQL: SHOW COLUMNS FROM `kr_article` [ RunTime:0.001088s ]
+NOTIC: [2] Missing argument 1 for Menu::getNav(), called in F:\AppServ\www\kry_second\kingray\Lib\Common\Menu.class.php on line 14 and defined F:\AppServ\www\kry_second\kingray\Lib\Common\Menu.class.php 第 20 行.
+SQL: SELECT `id`,`nav_name` FROM `kr_navigation` WHERE ( `fid` = 0 ) ORDER BY sort  [ RunTime:0.000164s ]
+SQL: SELECT `id`,`nav_name` FROM `kr_navigation` WHERE ( `fid` = 1 ) ORDER BY sort  [ RunTime:0.000150s ]
+SQL: SELECT `id`,`nav_name` FROM `kr_navigation` WHERE ( `fid` = 52 ) ORDER BY sort  [ RunTime:0.000141s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\AppServ\www\kry_second\kingray\Lib\Common\Menu.class.php 第 31 行.
+SQL: SELECT `id`,`nav_name` FROM `kr_navigation` WHERE ( `fid` = 50 ) ORDER BY sort  [ RunTime:0.000137s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\AppServ\www\kry_second\kingray\Lib\Common\Menu.class.php 第 31 行.
+SQL: SELECT `id`,`nav_name` FROM `kr_navigation` WHERE ( `fid` = 11 ) ORDER BY sort  [ RunTime:0.000166s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\AppServ\www\kry_second\kingray\Lib\Common\Menu.class.php 第 31 行.
+SQL: SELECT `id`,`nav_name` FROM `kr_navigation` WHERE ( `fid` = 34 ) ORDER BY sort  [ RunTime:0.000139s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\AppServ\www\kry_second\kingray\Lib\Common\Menu.class.php 第 31 行.
+SQL: SELECT `id`,`nav_name` FROM `kr_navigation` WHERE ( `fid` = 8 ) ORDER BY sort  [ RunTime:0.000136s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\AppServ\www\kry_second\kingray\Lib\Common\Menu.class.php 第 31 行.
+SQL: SELECT `id`,`nav_name` FROM `kr_navigation` WHERE ( `fid` = 2 ) ORDER BY sort  [ RunTime:0.000139s ]
+SQL: SELECT `id`,`nav_name` FROM `kr_navigation` WHERE ( `fid` = 49 ) ORDER BY sort  [ RunTime:0.000134s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\AppServ\www\kry_second\kingray\Lib\Common\Menu.class.php 第 31 行.
+SQL: SELECT `id`,`nav_name` FROM `kr_navigation` WHERE ( `fid` = 51 ) ORDER BY sort  [ RunTime:0.000135s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\AppServ\www\kry_second\kingray\Lib\Common\Menu.class.php 第 31 行.
+SQL: SELECT `id`,`nav_name` FROM `kr_navigation` WHERE ( `fid` = 10 ) ORDER BY sort  [ RunTime:0.000133s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\AppServ\www\kry_second\kingray\Lib\Common\Menu.class.php 第 31 行.
+SQL: SELECT `id`,`nav_name` FROM `kr_navigation` WHERE ( `fid` = 9 ) ORDER BY sort  [ RunTime:0.000133s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\AppServ\www\kry_second\kingray\Lib\Common\Menu.class.php 第 31 行.
+SQL: SELECT `id`,`nav_name` FROM `kr_navigation` WHERE ( `fid` = 16 ) ORDER BY sort  [ RunTime:0.000135s ]
+SQL: SELECT `id`,`nav_name` FROM `kr_navigation` WHERE ( `fid` = 27 ) ORDER BY sort  [ RunTime:0.000132s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\AppServ\www\kry_second\kingray\Lib\Common\Menu.class.php 第 31 行.
+SQL: SELECT `id`,`nav_name` FROM `kr_navigation` WHERE ( `fid` = 39 ) ORDER BY sort  [ RunTime:0.000138s ]
+SQL: SELECT `id`,`nav_name` FROM `kr_navigation` WHERE ( `fid` = 45 ) ORDER BY sort  [ RunTime:0.000133s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\AppServ\www\kry_second\kingray\Lib\Common\Menu.class.php 第 31 行.
+SQL: SELECT `id`,`nav_name` FROM `kr_navigation` WHERE ( `fid` = 40 ) ORDER BY sort  [ RunTime:0.000134s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\AppServ\www\kry_second\kingray\Lib\Common\Menu.class.php 第 31 行.
+SQL: SELECT `id`,`nav_name` FROM `kr_navigation` WHERE ( `fid` = 41 ) ORDER BY sort  [ RunTime:0.000134s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\AppServ\www\kry_second\kingray\Lib\Common\Menu.class.php 第 31 行.
+SQL: SELECT `id`,`nav_name` FROM `kr_navigation` WHERE ( `fid` = 42 ) ORDER BY sort  [ RunTime:0.000133s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\AppServ\www\kry_second\kingray\Lib\Common\Menu.class.php 第 31 行.
+SQL: SELECT `id`,`nav_name` FROM `kr_navigation` WHERE ( `fid` = 43 ) ORDER BY sort  [ RunTime:0.000132s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\AppServ\www\kry_second\kingray\Lib\Common\Menu.class.php 第 31 行.
+SQL: SELECT `id`,`nav_name` FROM `kr_navigation` WHERE ( `fid` = 26 ) ORDER BY sort  [ RunTime:0.000133s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\AppServ\www\kry_second\kingray\Lib\Common\Menu.class.php 第 31 行.
+NOTIC: [2] Missing argument 1 for Content::__construct(), called in F:\AppServ\www\kry_second\kingray\Lib\Action\Home\IndexAction.class.php on line 15 and defined F:\AppServ\www\kry_second\kingray\Lib\Common\Content.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM kr_article a [ RunTime:0.000095s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'a' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM kr_article a
+SQL: SHOW COLUMNS FROM `kr_paragraph` [ RunTime:0.000988s ]
+NOTIC: [8] Undefined variable: id F:\AppServ\www\kry_second\kingray\Lib\Common\Content.class.php 第 16 行.
+SQL: SELECT a.id,p.content,p.img FROM kr_article a LEFT JOIN kr_paragraph p on a.id =p.aid  WHERE ( `home_page` = 1 ) ORDER BY time desc LIMIT 1   [ RunTime:0.000785s ]
+SQL: SELECT a.id,a.title,p.content,p.img FROM kr_article a LEFT JOIN kr_paragraph p on a.id =p.aid  WHERE ( `home_page` = 2 ) ORDER BY time desc LIMIT 1   [ RunTime:0.001017s ]
+SQL: SELECT a.id,a.title,p.content,p.img FROM kr_article a LEFT JOIN kr_paragraph p on a.id =p.aid  WHERE ( `home_page` = 4 ) ORDER BY time desc LIMIT 1   [ RunTime:0.000786s ]
+SQL: SELECT a.id,p.content,p.img FROM kr_article a LEFT JOIN kr_paragraph p on a.id =p.aid  WHERE ( `home_page` = 3 ) ORDER BY time desc LIMIT 1   [ RunTime:0.000738s ]
+SQL: SELECT a.id,a.title,p.content,p.img FROM kr_article a LEFT JOIN kr_paragraph p on a.id =p.aid  WHERE ( `home_page` = 2 ) ORDER BY time desc  [ RunTime:0.000975s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000315s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000373s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.023587s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023671s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000533s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000276s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000170s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000357s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001475s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000397s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000443s ]
+

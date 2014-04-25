@@ -1,0 +1,342 @@
+<include file="./kingray/Tpl/Home/default/header.html" />
+		<eq name="Think.BROWSER" value="true">
+			<div id="browser">
+				<p style="font-size:16px">我们的站点使用了最新HTML5的相关技术，但您的浏览器不支持这些技术，我们推荐您使用<a href="http://www.google.cn/intl/zh-CN/chrome/browser/"> Google Chrome </a>浏览器来访问。</p>
+			</div>
+		</eq>
+		<script>
+			if({$Think.BROWSER}==true){
+				window.onload=function(){
+					$('#browser').delay(7000).fadeOut("slow");
+				};
+			}
+		</script>
+
+        <div class="container row">
+
+            <!-- BEGIN MAIN  -->
+            <div class="main">
+
+            <div class="headline cf">
+                <article class="headline__news">
+                    <a href="__URL__/article/detail/{$about.id}" class="topic-post-big">
+                        <img class="image lazyload loaded" src="http://a.36krcnd.com/photo/2014/82d18db2d165ab51031a13bd9ddaeb9c.jpg!slider" data-src="http://a.36krcnd.com/photo/2014/82d18db2d165ab51031a13bd9ddaeb9c.jpg!slider" alt="">
+                        <span class="spinner"></span>
+                        <div class="image-overlay big"></div>
+                        <h1>{$about.content|strip_tags|msubstr=0,14}</h1>
+                    </a>
+                </article>
+                <volist name="serviceModal" id="voModal">
+
+                    <article class="headline__news">
+                        <a href="__URL__/article/detail/{$voModal.id}" class="topic-post-small">
+                            <img class="image lazyload loaded" src="__PUBLIC__/Uploads/img/{$voModal.img}" data-src="http://a.36krcnd.com/photo/2014/6bfbeb001fe91e75c4db6a2fed73f4e1.jpg!headline?v1" alt="">
+                            <span class="spinner"></span>
+                            <div class="image-overlay small"></div>
+                            <h1>{$voModal.title}</h1>
+                        </a>
+                    </article>
+                </volist>
+            </div>
+
+            <div class="content" id="lastest">
+
+                <div class="content-wrapper">
+
+                    <h2 class="lastest">latest news</h2>
+                    <div class="articles">
+                <article class="posts post-1 cf">
+
+                    <div class="info cf">
+                        <div class="topic left">
+                        <span><a href="/category/us-startups" class="us-startups">创业公司</a> / startups
+                        </span>
+                        </div>
+                        <div class="postmeta right">
+                            <a href="/dionysusg" class="uname user_DionysusG" data-name="暮山" target="_blank">佳佳</a> • <abbr class="timeago" title="2014-04-04T16:01:20+08:00">32分钟前</abbr>
+                        </div>
+                    </div>
+                    <div class="left left-col">
+                        <div class="meta"><a title="回应人数" href="/p/210947.html"><i class="icon icon-share"></i> 9</a></div>
+                        <div class="image feature-img thumb-180">
+                            <a href="__URL__/article/detail/{service1.id}">
+                                <img alt="Blank" class="image lazyload" data-src="http://a.36krcnd.com/photo/2014/7608b7345c2bd975379e7b8199d4ae4a.png!slider" src="http://d.36kr.com/assets/images/blank.gif">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="right-col">
+                        <h1><a href="__URL__/article/detail/{service1.id}" data-no-turbolink="true" target="_blank" title="为您服务">为您服务主标题</a></h1>
+                        <p>{$service1.content|nl2br|msubstr=0,30}</p>
+                    </div>
+
+                </article>
+
+                <article class="posts post-1 cf">
+
+                    <div class="info cf">
+                        <div class="topic left">
+                            <span><a href="/category/breaking" class="breaking">国外资讯 </a> / breaking </span>
+                        </div>
+                        <div class="postmeta right">
+                            <a href="/kryptoners" class="uname user_Kryptoners" data-name="Kryptoners" target="_blank">佳佳</a> •
+                            <abbr class="timeago" title="2014-04-04T14:24:06+08:00">2小时前</abbr>
+                        </div>
+                    </div>
+                    <div class="left left-col">
+                        <div class="meta"><a title="回应人数" href="/p/210949.html"><i class="icon icon-share"></i> 45</a></div>
+                        <div class="image feature-img thumb-180"><a href="/p/210949.html"><img alt="Blank" class="image lazyload" data-src="http://a.36krcnd.com/photo/2014/4e16b7f1d4d3187d9d5f8b9390467b22.jpg!slider" src="http://d.36kr.com/assets/images/blank.gif"></a></div>
+                    </div>
+                    <div class="right-col">
+                        <h1><a href="__URL__/article/detail/{$choose.id}" data-no-turbolink="true" target="_blank" title="合作伙伴">合作伙伴</a></h1>
+                        <p>{$choose.content|strip_tags|msubstr=0,30}</p>
+                    </div>
+
+                </article>
+
+                <article class="posts post-ad cf">
+                    <div class="info cf">
+                        <div class="topic left"><span><p><a href="http://cnrdn.com/7JgD" class="external" target="_blank">广告滚粗！ </a> /mikecrm.com</p></span></div>
+                        <div class="postmeta right"><a href="http://www.36kr.com/contact-us/ad-krcom?view=1#details" target="_blank">投放你妹？</a></div>
+                    </div>
+                    <div class="right">
+                        <div class="image feature-img thumb-100"><a href="http://cnrdn.com/7JgD" target="_blank" title="广告滚粗！" class="external"><img alt="广告滚粗！" height="100" src="http://a.36krcnd.com/poster/fd4bfd6a04c3bb306801649d1034af4f.png" width="100"></a>
+                        </div>
+                    </div>
+                    <div class="left-col cf">
+                        <h1><a href="http://cnrdn.com/7JgD" target="_blank" title="广告滚粗！" class="external">广告滚粗！</a></h1>
+                        <p><a href="http://cnrdn.com/7JgD" class="external" target="_blank">信息收集新花样：广告滚粗！推动表单工具成为创业公司标配。</a></p>
+                    </div>
+                </article>
+
+                <article class="posts post-1 cf">
+
+                    <div class="info cf">
+                        <div class="topic left">
+                    <span><a href="/category/cn-startups" class="us-startups">创业公司</a> / startups  </span>
+                        </div>
+                        <div class="postmeta right"><a href="/s_chaos" class="uname user_S_Chaos" data-name="沈超" target="_blank">沈超</a> • <abbr class="timeago" title="2014-04-04T14:13:52+08:00">2小时前</abbr> </div>
+                    </div>
+                    <div class="left left-col">
+                        <div class="meta"><a title="回应人数" href="/p/210953.html"><i class="icon icon-share"></i> 3</a></div>
+                        <div class="image feature-img thumb-180"><a href="/p/210953.html"><img alt="Blank" class="image lazyload" data-src="http://a.36krcnd.com/photo/2014/1542736c4c761854784bc7779e0a66d0.jpg!slider" src="http://d.36kr.com/assets/images/blank.gif"></a></div>
+                    </div>
+                    <div class="right-col">
+                        <h1><a href="/p/210953.html" data-no-turbolink="true" onclick="javascript:_gaq.push(['_trackPageview', '/click/index_newtab/']);" target="_blank" title="非流行音乐服务商“库客音乐”确认融资，已于2013年完成麦顿投资千万人民币级A轮">非流行音乐服务商“库客音乐”确认融资，已于2013年完成麦顿投资千万人民币级A轮</a></h1>
+                        <p>{$choose.content|strip_tags|msubstr=0,30}</p>
+                    </div>
+
+                </article>
+
+             </div>
+                    <div class="pagination cf">
+                        <ul>
+                            <li class="prev previous_page disabled"><a href="#"><i class="icon-prev"></i>上一页</a></li>
+                            <li class="next next_page "><a rel="next" href="/?page=2#lastest">下一页<i class="icon-next"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="aside">
+                <section class="aside-tags">
+                    <h2>Feature Tags</h2>
+                    <ul class="aside-tags__list cf">
+                        <li><a href="/tag/wise-talk">WISE Talk</a><i class="promoted">Promoted</i></li>
+                        <li><a href="/topic/oday">56氪开放日</a></li>
+                        <li><a href="/tag/漫谈企业估值">漫谈企业估值<i class="new"></i></a></li>
+                        <li><a href="/tag/oculus/">FB收购Oculus</a></li>
+                        <li><a href="/tag/智能汽车">智能汽车</a></li>
+                        <li><a href="/tag/startup-x">Startup X</a></li>
+                        <li><a href="/tag/互联网金融">互联网金融</a></li>
+                        <li><a href="/topic/alibaba-vs-tencent">阿里 V.S. 腾讯</a></li>
+                        <li><a href="/topic/smart-hardware">智能硬件</a></li>
+                        <li><a href="/tag/每周一氪(视频)">每周一氪(视频)</a></li>
+
+                    </ul>
+                </section>
+                <section class="aside-social aside-fixed" style="z-index: 1000;">
+                    <p>微信公众平台：搜索“56氪”或扫描下面的二维码：</p>
+                    <div class="image aside-social__qrcode"><img alt="Qrcode" src="http://d.36kr.com/assets/images/qrcode.jpg"></div>
+                    <div class="aside-social__social">
+                        <ul>
+                            <li class="aside-social__items">
+                                <a href="http://weibo.com/wow36kr" class="icons-weibo external" target="_blank">Weibo</a>
+                                <span class="aside-social__count">56K</span>
+                            </li>
+                            <li class="aside-social__items">
+                                <a href="https://twitter.com/36kr" class="icons-twitter external" target="_blank">Twitter</a>
+                                <span class="aside-social__count">14K</span>
+                            </li>
+                            <li class="aside-social__items">
+                                <a href="http://www.facebook.com/X36Kr" class="icons-facebook external" target="_blank">Facebook</a>
+                                <span class="aside-social__count">10K</span>
+                            </li>
+                            <li class="aside-social__items">
+                                <a target="_blank" href="http://www.36kr.com/feed/" class="icons-rss">RSS</a>
+                                <span class="aside-social__count">100K</span>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <div></div>
+            </div>
+            </div>
+            <!-- END MAIN -->
+
+            <!--BEGIN SIDEBAR-->
+            <div class="sidebar">
+                <section class="sidebar-ad">
+                    <a href="http://cnrdn.com/58kD" target="_blank" title="广州开放日" class="external"><img alt="广州开放日" height="250" src="http://a.36krcnd.com/poster/4c7f76fa84d7cbbc64ae35b774b60851.png" width="280"></a>
+
+                </section>
+                <section class="sidebar-tab">
+                    <ul class="sidebar-tab__tabs cf tabs">
+                        <li class="tab-forum"><a data-target="#tab-forum" title="">社区新帖</a></li>
+                        <li class="tab-36krplus"><a data-target="#tab-36krplus" title="">Startup-X</a></li>
+                        <li class="tab-815"><a class="active" data-target="#tab-815" title="">8点1氪</a></li>
+                    </ul>
+                    <div id="tabs-content" class="sidebar-tab__wrapper">
+                        <div id="tab-forum" class="sidebar-tab__forum tabs-pane">
+                            <ul>
+                                <li><h2><a href="/topics/5899" target="_blank">互联网2.0公司必须具备的四大特征</a></h2></li>
+                                <li><h2><a href="/topics/5898" target="_blank">白鸦：实物电商在微信上的一些玩法</a></h2></li>
+                                <li><h2><a href="/topics/5897" target="_blank">三六氪栈（第十四回）：月嫂O2O和汽车O2O，哪个是优美的商业模式？</a></h2></li>
+                                <li><h2><a href="/topics/5896" target="_blank">轻言细语话秘密</a></h2></li>
+                                <li><h2><a href="/topics/5404" target="_blank">IT人如何判断自己是否适合跳槽？ </a></h2></li>
+                                <li><h2><a href="/topics/5895" target="_blank">如何创建一个一售而光的活动网站</a></h2></li>
+                                <li><h2><a href="/topics/5845" target="_blank">虚拟景区的另类旅游体验方式</a></h2></li>
+                                <li><h2><a href="/topics/5691" target="_blank">好童话虚拟旅游网开启智慧旅游新模式</a></h2></li>
+                                <li><h2><a href="/topics/5884" target="_blank">在线教育平台10大盈利模式</a></h2></li>
+                                <span class="tabulousclear"></span>
+                            </ul>
+                        </div>
+                        <div id="tab-36krplus" class="sidebar-tab__36krplus tabs-pane">
+                            <ul>
+                                <li><h2><a href="/p/210826.html" title="让音乐人可以用一首半成品预售，Spawnsong想用单曲“众筹”改变音乐的制作和消费">让音乐人可以用一首半成品预售，Spawnsong想用单曲“众筹”改变音乐的制作和消费</a></h2></li>
+                                <li><h2><a href="/p/210778.html" title="华人创业团队Orbeus将推出iPhone版图片自动识别及整理应用ReKoMe">华人创业团队Orbeus将推出iPhone版图片自动识别及整理应用ReKoMe</a></h2></li>
+                                <li><h2><a href="/p/210749.html" title="外卖送餐服务Sprig获A轮融资1000万美金，现做热乎饭菜20分钟内送上门">外卖送餐服务Sprig获A轮融资1000万美金，现做热乎饭菜20分钟内送上门</a></h2></li>
+                                <li><h2><a href="/p/210647.html" title="扫一扫地产广告便可直接从平板上看到可交互的房屋3D模型，地产AR模型提供商Virtual View获50万美元天使投资">扫一扫地产广告便可直接从平板上看到可交互的房屋3D模型，地产AR模型提供商Virtual View获50万美元天使投资</a></h2></li>
+                                <li><h2><a href="/p/210459.html" title="语音控制解决方案服务商Wit：几行代码为第三方App搞定语音交互界面">语音控制解决方案服务商Wit：几行代码为第三方App搞定语音交互界面</a></h2></li>
+                                <li><h2><a href="/p/210432.html" title="实时了解孩子的位置之余也统一管理家人的位置，初创公司hereO推出儿童智能手表">实时了解孩子的位置之余也统一管理家人的位置，初创公司hereO推出儿童智能手表</a></h2></li>
+                                <li><h2><a href="/p/210290.html" title="谁也看不出我穿了传感器：Nex Band模块化定制时尚腕带">谁也看不出我穿了传感器：Nex Band模块化定制时尚腕带</a></h2></li>
+                                <li><h2><a href="/p/210200.html" title="Wello：不能检测心率、血压的手机壳不是好手机壳">Wello：不能检测心率、血压的手机壳不是好手机壳</a></h2></li>
+                                <li><h2><a href="/p/210070.html" title="下一代可穿戴健身设备：Moov是个会说话的贴身私家教练">下一代可穿戴健身设备：Moov是个会说话的贴身私家教练</a></h2></li>
+                            </ul>
+                        </div>
+                        <div id="tab-815" class="sidebar-tab__815 tabs-pane active">
+                            <ul>
+                                <li><h2><a href="/clipped/8271" target="_blank">京东通信获140万个号码 优先与JDPhone合作</a></h2></li>
+                                <li><h2><a href="/clipped/8270" target="_blank">Nest智能烟雾报警器因功能缺陷暂停销售</a></h2></li>
+                                <li><h2><a href="/clipped/8269" target="_blank">欧盟通过提案 将于2015年底停收28个国家间漫游费</a></h2></li>
+                                <li><h2><a href="/clipped/8268" target="_blank">乐蜂网前任CEO王立成加盟天猫</a></h2></li>
+                                <li><h2><a href="/clipped/8267" target="_blank">传Facebook或与Secret合作</a></h2></li>
+                                <li><h2><a href="/clipped/8266" target="_blank">开源笔记本电脑进行公共集资，开发者可自由进行硬件测试</a></h2></li>
+                                <li><h2><a href="/clipped/8265" target="_blank">反同惹麻烦，Mozilla新CEO上任十天被迫辞职</a></h2></li>
+                                <li><h2><a href="/clipped/8264" target="_blank">传Google将建无线移动网络 挑战传统运营商</a></h2></li>
+                                <li><h2><a href="/clipped/8263" target="_blank">主流社交平台网络流量基本来自移动设备</a></h2></li>
+                                <span class="tabulousclear"></span>
+                            </ul>
+
+                        </div>
+                    </div>
+                </section>
+
+
+                <section class="sidebar-ad">
+
+                </section>
+
+                <section class="sidebar-popular cf">
+                    <h3>赞助商链接</h3>
+                    <div class="sidebar-sponsored__list">
+                        <article class="sidebar-sponsored__posts cf">
+                            <div class="meta"></div>
+                            <div class="image thumb-60 right"><img src="http://a.36krcnd.com/photo/2014/da34e408017d8cf465b476addc99bac0.png"></div>
+                            <a href="http://cnrdn.com/6kUD" class="external" target="_blank">创业者见投资人之前应该准备些什么？</a>
+                        </article>
+                        <article class="sidebar-sponsored__posts cf">
+                            <div class="meta"></div>
+                            <div class="image thumb-60 right"><img src="http://a.36krcnd.com/photo/2014/75e37b3ea7ec6b93c893510194793b6f.jpg"></div>
+                            <a href="http://cnrdn.com/ZEd6" title="中小型创业公司有必要上企业社会化协作软件吗？" class="external" target="_blank">中小型创业公司有必要上企业社会化协作软件吗？</a>
+                        </article>
+                        <article class="sidebar-sponsored__posts cf">
+                            <div class="meta"></div>
+                            <div class="image thumb-60 right"><img src="http://a.36krcnd.com/photo/2014/556331c9f12b38d11ea91637989ce494.png"></div>
+                            <a href="http://cnrdn.com/BslD" title="TalkingData CEO 崔晓波访谈实录：真正懂大数据的公司不说大数据" class="external" target="_blank">TalkingData CEO 崔晓波访谈实录：真正懂大数据的公司不说大数据</a>
+                        </article>
+                    </div>
+                </section>
+
+
+
+                <section id="sidebar-comments">
+                    <h3>优质评论</h3>
+                    <div class="sidebar-comments__list">
+                        <div class="comment-1">
+                            <div class="postmeta"><a href="/u1372654047" class="uname user_u1372654047" data-name="史俊" target="_blank">史俊</a> • 1小时前</div>
+                            <div class="sidebar-comments__comment">
+                                做了太重了，好比一家互联网化的家政公司，在信息对称上做得远远不够，盘不活庞大的家政市场资源。
+                            </div>
+                            <div class="sidebar-comments__title">
+                                <p>评论于<a href="/p/210923.html">诺西高管潜入家政门店半年</a></p>
+                            </div>
+                        </div>
+                        <div class="comment-1">
+                            <div class="postmeta"><a href="/wxjoy0423" class="uname user_wxjoy0423" data-name="黑衣李白" target="_blank">黑衣李白</a> • 1小时前</div>
+                            <div class="sidebar-comments__comment">
+                                #22楼 @一直二着的蛐蛐儿 X小姐要说的就是“没重点”！女人...
+                            </div>
+                            <div class="sidebar-comments__title">
+                                <p>评论于<a href="/p/210943.html">男性思维开发的女性产品争议</a></p>
+                            </div>
+                        </div>
+                        <div class="comment-1">
+                            <div class="postmeta"><a href="/u1375405073" class="uname user_u1375405073" data-name="爲什麽不能叫木頭人" target="_blank">爲什麽不能叫木頭人</a> • 1小时前</div>
+                            <div class="sidebar-comments__comment">
+                                提供免费的WIFI接入，那就顺理的提供了广告的推送加上场内APP，消费者可以直接在室内进行Online to Offline活动，各地方的人流可以一目了然，商销活动的创新看点也一定会更精彩（未来的特价活动的策划一定会随着科技改变而改变）。至于使用室内定位功能的行为习惯养成是一个需要养成过程，最终用户喜欢不喜欢还是依赖于运营团队策划。
+                            </div>
+                            <div class="sidebar-comments__title">
+                                <p>评论于<a href="/p/210951.html">高德地图开放室内地图</a></p>
+                            </div>
+                        </div>
+                        <div class="comment-1">
+                            <div class="postmeta"><a href="http://weibo.com/u/1710984712" class="uname user_1710984712 external" data-name="坤儿汀" target="_blank">坤儿汀</a> • 1小时前</div>
+                            <div class="sidebar-comments__comment">
+                                抓住女性心理需求对做互联网产品是件重要的事情
+                            </div>
+                            <div class="sidebar-comments__title">
+                                <p>评论于<a href="/p/210943.html">男性思维开发的女性产品争议</a></p>
+                            </div>
+                        </div>
+                        <div class="comment-1">
+                            <div class="postmeta"><a href="http://weibo.com/u/2112713367" class="uname user_2112713367 external" data-name="billy元" target="_blank">billy元</a> • 1小时前</div>
+                            <div class="sidebar-comments__comment">
+                                看来智能家居不能为智能而智能，而是真的给客户带来实惠。
+                            </div>
+                            <div class="sidebar-comments__title">
+                                <p>评论于<a href="/p/210873.html">Nest智能恒温器英国开卖</a></p>
+                            </div>
+                        </div>
+                        <div class="comment-1">
+                            <div class="postmeta"><a href="/alex_0415" class="uname user_alex_0415" data-name="我shi關宇" target="_blank">我shi關宇</a> • 1小时前</div>
+                            <div class="sidebar-comments__comment">
+                                我持着忧心、担心的态度。他的增长速度实在是太快了！
+                            </div>
+                            <div class="sidebar-comments__title">
+                                <p>评论于<a href="/p/210889.html">36公开氪第一期</a></p>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+                <section class="sidebar-ad">
+
+                </section>
+            </div>
+            <!--END SIDEBAR-->
+
+        </div>
+        
+<include file="./kingray/Tpl/Home/default/footer.html" />
+       

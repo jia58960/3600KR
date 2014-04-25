@@ -1,0 +1,868 @@
+<html class="no-js"><!--<![endif]--><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="renderer" content="webkit">
+  <link href="css/kry.css" media="screen" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="js/font-awesome/css/font-awesome.min.css" media="screen" rel="stylesheet" type="text/css">
+  
+  <link rel="shortcut icon" href="/favicon.ico">
+  <title>漫谈企业估值 | 36氪 </title>
+  <meta name="keywords" content="漫谈企业估值">
+  <meta name="description" content="在36氪上查看标签: 漫谈企业估值 的全部文章漫谈企业估值 | 36氪 ">
+  <link rel="author" href="/humans.txt">
+   <!-- Prefetch -->
+  <link rel="dns-prefetch" href="//fonts.googleapis.com">
+<!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+<![endif]-->
+<style>@-moz-keyframes nodeInserted{from{opacity:0.99;}to{opacity:1;}}@-webkit-keyframes nodeInserted{from{opacity:0.99;}to{opacity:1;}}@-o-keyframes nodeInserted{from{opacity:0.99;}to{opacity:1;}}@keyframes nodeInserted{from{opacity:0.99;}to{opacity:1;}}embed,object{animation-duration:.001s;-ms-animation-duration:.001s;-moz-animation-duration:.001s;-webkit-animation-duration:.001s;-o-animation-duration:.001s;animation-name:nodeInserted;-ms-animation-name:nodeInserted;-moz-animation-name:nodeInserted;-webkit-animation-name:nodeInserted;-o-animation-name:nodeInserted;}</style></head>
+<body id="topics_tag" class="js">
+    <header class="header header-normal">
+    <div class="inner row">
+      <h1 class="logo"><a href="/"><span>36Kr</span></a></h1>
+      <nav class="toggle-nav cf">
+        <ul class="left">
+          <li><a href="javascript:void(0)" class="toggle__main icon-menu"><span>导航</span></a></li>
+          <li><a href="javascript:void(0)" class="toggle__search icon-search"><span>搜索</span></a></li>
+        </ul>
+        <a href="http://www.36kr.net/report" class="toggle__submit right external" target="_blank">寻求报道</a>
+      </nav>
+      <nav class="main-nav left">
+        <ul>
+          <li class="drop-1 drop">
+            <a href="/explore" class="hasdropdown main-nav__item current">分类浏览</a>
+            <div class="dropdown">
+              <div class="dropdown-list dropdown__list">
+                <section>
+                  <h2>Category</h2>
+                  <ul class="dropdown__category cf">
+                    <li><a href="/category/cn-startups">国内公司</a></li>
+                    <li><a href="/category/us-startups">国外公司</a></li>
+                    <li><a href="/category/cn-news">国内资讯</a></li>
+                    <li><a href="/category/breaking">国外资讯</a></li>
+                    <li><a href="/tag/氪周刊">氪周刊</a></li>
+                    <li><a href="/pages/krmonthly">氪月报</a></li>
+                    <li><a href="/category/column">专栏</a></li>
+                    <li><a href="/category/archives">存档</a></li>
+                  </ul>
+                </section>
+                <section>
+                  <h2>Topic</h2>
+                  <ul class="dropdown__topic cf">
+                    <li><span><a href="/topic/startups" class="startups">创业公司</a> / Startups</span></li>
+                    <li><span><a href="/topic/products" class="products">产品</a> / Products</span></li>
+                    <li><span><a href="/topic/apps" class="apps">应用软体</a> / Apps</span></li>
+                    <li><span><a href="/topic/technology" class="technology">科技</a> / Technology</span></li>
+                    <li><span><a href="/topic/websites" class="websites">网站</a> / Websites</span></li>
+                    <li><span><a href="/topic/people" class="people">人物</a> / People</span></li>
+                    <li><span><a href="/topic/brands" class="brands">品牌</a> / Brands</span></li>
+                    <li><span><a href="/topic/devices" class="devices">硬件</a> / Devices</span></li>
+                  </ul>
+                </section>
+                <section class="more">
+                  <a href="/explore">查看更多精彩文章</a>
+                </section>
+              </div>
+            </div>
+          </li>
+          <li class="drop-2 drop">
+            <a href="/events" class="hasdropdown main-nav__item">线下活动</a>
+              <div class="dropdown dropdown-normal">
+                <div class="dropdown-list dropdown__list">
+                                      <section class="dropdown__events cf">
+                    <div class="date upcoming left">
+                      <span class="month">apr</span>
+                      <span class="day">3</span>
+                    </div>
+                    <div class="intro">
+                      <h3><a href="http://www.36kr.com/p/210441.html?ref=top_nav">WISE Talk•发现不一样</a></h3>
+                      <span class="address">北京，中国</span>
+                    </div>
+                  </section>
+                  <section class="dropdown__events cf">
+                    <div class="date upcoming left">
+                      <span class="month"> apr </span>
+                      <span class="day">13</span>
+                    </div>
+                    <div class="intro">
+                      <h3><a href="http://events.36kr.com/oday-201404-gz/" class="external" target="_blank">创知汇·开放日</a></h3>
+                      <span class="address">广州，中国</span>
+                    </div>
+                  </section>
+                  <section class="dropdown__events cf">
+                    <div class="date left">
+                      <span class="month">mar</span>
+                      <span class="day">2</span>
+                    </div>
+                    <div class="intro">
+                      <h3><a href="http://www.36kr.com/events/oday-201403-sh">上海开放日</a></h3>
+                      <span class="address">上海，中国</span>
+                      <span class="status">已结束</span>
+                    </div>
+                  </section>
+                  <section class="more">
+                    <a href="/events">查看所有活动</a>
+                  </section>
+                </div>
+
+              </div>
+          </li>
+          <li><a href="http://www.36kr.net/" class="main-nav__item external" target="_blank">36氪Plus</a></li>
+          <li><a href="/topics" class="main-nav__item">北极社区</a></li>
+        </ul>
+      </nav>
+      <div class="search">
+        <form action="/search"><input name="q" type="search" placeholder="搜索"></form>
+      </div>
+      <nav class="second-nav">
+        <ul>
+          <li><a href="/pages/contribute" class="second-nav__submit">投稿</a></li>
+          <li><a href="http://www.36kr.net/report" class="second-nav__request external" target="_blank">寻求报道</a></li>
+
+
+<li class="avatar drop">
+            <a href="javascript:void(0)" class="second-nav__account cf">
+              <img alt="Target" class="avatar-small left" height="24" src="http://a.36krcnd.com/user/default_avatars/Target.png!avatar" width="24">
+              <span class="right">jia58960 </span>
+              
+            </a>
+            <div class="dropdown dropdown-account">
+                  <div class="dropdown-list account__list dropdown__list">
+                    <section>
+    <ul class="dropdown-menu"><li class="first"><a href="/jia58960">我的主页</a></li><li><a href="/notifications">通知中心 +0</a></li><li><a href="/account/edit">个人设置</a></li><li><a href="/jia58960/favorites" data-no-turbolink="true">我的收藏</a></li><li class="last"><a href="javascript:void(0)" class="dropdown_login_out_link" data-method="delete" rel="nofollow">注销登录</a></li></ul>
+
+                    </section>
+                  </div>
+                </div>
+          </li>
+
+        </ul>
+        <a href="/account/sign_out" data-method="delete" rel="nofollow" id="login_out_link"></a>
+      </nav>
+    </div>
+  </header>
+
+	
+  <div class="container row">
+    <div class="main">
+      		<div class="content">
+			<div class="content-wrapper">
+				<div class="content-wrapper-border">
+ 		      						<div class="category">
+					<div class="category-header cf">
+						<div class="category-header__info cf">
+							<h2 class="category-header__title left"><span class="translation_missing" title="translation missing: zh-CN.topics.漫谈企业估值">漫谈企业估值</span></h2>
+							<div class="category-header__status right cf">
+								<span class="week">3<i>Weekly</i></span>
+								<span class="total">13<i>Total</i></span>
+							</div>
+						</div>
+						<p class="category-header__bio">
+							</p><p>...</p>
+						<p></p>
+					</div>
+					<div class="category-popular">
+						<h3><i class="icon-hot"></i>一周热点</h3>
+						<ul class="category-popular__list">
+						</ul>
+					</div>
+				</div>
+
+					<div class="articles">
+						<article class="posts post-1 cf">
+
+    <div class="info cf">
+      <div class="topic left">
+        <span><a href="/category/column" class="column">专栏</a> / column
+        </span>
+      </div>
+      <div class="postmeta right"><a href="/medicoolthg" class="uname user_medicoolthg" data-name="Dr 2" target="_blank">Dr 2</a> • 07:27 / 04 </div>
+    </div>
+  <div class="left left-col">
+    <div class="meta"><a title="回应人数" href="/p/210930.html"><i class="icon icon-share"></i> 7</a></div>
+    <div class="image feature-img thumb-180"><a href="/p/210930.html"><img alt="Blank" class="image lazyload loaded" data-src="http://a.36krcnd.com/photo/2014/d271df94ee349a00b5b65c95854dfaf9.png!slider" src="http://a.36krcnd.com/photo/2014/d271df94ee349a00b5b65c95854dfaf9.png!slider"></a></div>
+  </div>
+  <div class="right-col">
+    <h1><a href="/p/210930.html" data-no-turbolink="true" onclick="javascript:_gaq.push(['_trackPageview', '/click/index_newtab/']);" target="_blank" title="漫谈投资机构对企业的估值（十三）：收购一定创造价值吗？">漫谈投资机构对企业的估值（十三）：收购一定创造价值吗？</a></h1>
+    <p>上两章我们讨论了产业资本和VC/PE的不同以及协同效应的巨大威力，但还是有一些事情没交代清楚。</p>
+  </div>
+
+</article>
+
+
+<article class="posts post-1 cf">
+
+    <div class="info cf">
+      <div class="topic left">
+        <span><a href="/category/column" class="column">专栏</a> / column
+        </span>
+      </div>
+      <div class="postmeta right"><a href="/medicoolthg" class="uname user_medicoolthg" data-name="Dr 2" target="_blank">Dr 2</a> • 04/03 07:06 </div>
+    </div>
+  <div class="left left-col">
+    <div class="meta"><a title="回应人数" href="/p/210891.html"><i class="icon icon-share"></i> 7</a></div>
+    <div class="image feature-img thumb-180"><a href="/p/210891.html"><img alt="Blank" class="image lazyload loaded" data-src="http://a.36krcnd.com/photo/2014/82fa49a75bed5123b71fa7d21c7fc247.png!slider" src="http://a.36krcnd.com/photo/2014/82fa49a75bed5123b71fa7d21c7fc247.png!slider"></a></div>
+  </div>
+  <div class="right-col">
+    <h1><a href="/p/210891.html" data-no-turbolink="true" onclick="javascript:_gaq.push(['_trackPageview', '/click/index_newtab/']);" target="_blank" title="漫谈投资机构对企业的估值（十二）：企业独立估值与企业的协同价值">漫谈投资机构对企业的估值（十二）：企业独立估值与企业的协同价值</a></h1>
+    <p>在上文中，我们主要论述了产业资本与VC/PE的不同，那产业资本在对企业进行并购的时候是如何考虑企业的估值的呢。</p>
+  </div>
+
+</article>
+
+
+
+
+
+      <article class="posts post-ad cf">
+    <div class="info cf">
+      <div class="topic left"><span><p><a href="http://cnrdn.com/7JgD" class="external" target="_blank">麦客CRM </a> /mikecrm.com</p></span></div>
+      <div class="postmeta right"><a href="http://www.36kr.com/contact-us/ad-krcom?view=1#details" target="_blank">投放广告？</a></div>
+    </div>
+  <div class="right">
+    <div class="image feature-img thumb-100"><a href="http://cnrdn.com/7JgD" target="_blank" title="麦客CRM" class="external"><img alt="麦客CRM" height="100" src="http://a.36krcnd.com/poster/fd4bfd6a04c3bb306801649d1034af4f.png" width="100"></a>
+</div>
+  </div>
+  <div class="left-col cf">
+    <h1><a href="http://cnrdn.com/7JgD" target="_blank" title="麦客CRM" class="external">麦客CRM</a></h1>
+    <p><a href="http://cnrdn.com/7JgD" class="external" target="_blank">信息收集新花样：麦客CRM推动表单工具成为创业公司标配。</a></p>
+  </div>
+</article>
+
+
+
+
+
+
+
+
+
+<article class="posts post-1 cf">
+
+    <div class="info cf">
+      <div class="topic left">
+        <span><a href="/category/column" class="column">专栏</a> / column
+        </span>
+      </div>
+      <div class="postmeta right"><a href="/medicoolthg" class="uname user_medicoolthg" data-name="Dr 2" target="_blank">Dr 2</a> • 04/02 16:32 </div>
+    </div>
+  <div class="left left-col">
+    <div class="meta"><a title="回应人数" href="/p/210872.html"><i class="icon icon-share"></i> 9</a></div>
+    <div class="image feature-img thumb-180"><a href="/p/210872.html"><img alt="Blank" class="image lazyload" data-src="http://a.36krcnd.com/photo/2014/70b6e172d6f3ff8c1efb92cd64e9ef34.jpg!slider" src="http://d.36kr.com/assets/images/blank.gif"></a></div>
+  </div>
+  <div class="right-col">
+    <h1><a href="/p/210872.html" data-no-turbolink="true" onclick="javascript:_gaq.push(['_trackPageview', '/click/index_newtab/']);" target="_blank" title="漫谈投资机构对企业的估值（十一）：产业资本与VC/PE不同的投资思维">漫谈投资机构对企业的估值（十一）：产业资本与VC/PE不同的投资思维</a></h1>
+    <p>“面朝大海、春暖花开”是每一个创业小伙伴心中对成功的渴望。</p>
+  </div>
+
+</article>
+
+
+
+
+
+
+
+
+<article class="posts post-1 cf">
+
+    <div class="info cf">
+      <div class="topic left">
+        <span><a href="/category/column" class="column">专栏</a> / column
+        </span>
+      </div>
+      <div class="postmeta right"><a href="/medicoolthg" class="uname user_medicoolthg" data-name="Dr 2" target="_blank">Dr 2</a> • 03/21 17:48 </div>
+    </div>
+  <div class="left left-col">
+    <div class="meta"><a title="回应人数" href="/p/210483.html"><i class="icon icon-share"></i> 34</a></div>
+    <div class="image feature-img thumb-180"><a href="/p/210483.html"><img alt="Blank" class="image lazyload" data-src="http://a.36krcnd.com/photo/2014/1dc493d7109a2c10e728bd1e73d1d680.jpg!slider" src="http://d.36kr.com/assets/images/blank.gif"></a></div>
+  </div>
+  <div class="right-col">
+    <h1><a href="/p/210483.html" data-no-turbolink="true" onclick="javascript:_gaq.push(['_trackPageview', '/click/index_newtab/']);" target="_blank" title="漫谈投资机构对企业的估值（十）：影响力估值法">漫谈投资机构对企业的估值（十）：影响力估值法</a></h1>
+    <p>在第二季中，作者引入博弈、竞争、逆向推演和宏观大格局的概念阐述了个人对估值的理解，将分期介绍5种反传统估值法：全或无，行业估值法，博弈估值法，重置法，影响力估值法。</p>
+  </div>
+
+</article>
+
+
+
+
+
+
+
+
+<article class="posts post-1 cf">
+
+    <div class="info cf">
+      <div class="topic left">
+        <span><a href="/category/column" class="column">专栏</a> / column
+        </span>
+      </div>
+      <div class="postmeta right"><a href="/medicoolthg" class="uname user_medicoolthg" data-name="Dr 2" target="_blank">Dr 2</a> • 03/20 14:51 </div>
+    </div>
+  <div class="left left-col">
+    <div class="meta"><a title="回应人数" href="/p/210478.html"><i class="icon icon-share"></i> 20</a></div>
+    <div class="image feature-img thumb-180"><a href="/p/210478.html"><img alt="Blank" class="image lazyload" data-src="http://a.36krcnd.com/photo/2014/9f03c231dde73292f359634e28f26cbf.jpg!slider" src="http://d.36kr.com/assets/images/blank.gif"></a></div>
+  </div>
+  <div class="right-col">
+    <h1><a href="/p/210478.html" data-no-turbolink="true" onclick="javascript:_gaq.push(['_trackPageview', '/click/index_newtab/']);" target="_blank" title="漫谈投资机构对企业的估值（九）：重置法">漫谈投资机构对企业的估值（九）：重置法</a></h1>
+    <p>在第二季中，作者引入博弈、竞争、逆向推演和宏观大格局的概念阐述了个人对估值的理解，将分期介绍5种反传统估值法：全或无，行业估值法，博弈估值法，重置法，影响力估值法。</p>
+  </div>
+
+</article>
+
+
+
+
+
+
+
+
+<article class="posts post-1 cf">
+
+    <div class="info cf">
+      <div class="topic left">
+        <span><a href="/category/column" class="column">专栏</a> / column
+        </span>
+      </div>
+      <div class="postmeta right"><a href="/medicoolthg" class="uname user_medicoolthg" data-name="Dr 2" target="_blank">Dr 2</a> • 03/19 07:27 </div>
+    </div>
+  <div class="left left-col">
+    <div class="meta"><a title="回应人数" href="/p/210472.html"><i class="icon icon-share"></i> 39</a></div>
+    <div class="image feature-img thumb-180"><a href="/p/210472.html"><img alt="Blank" class="image lazyload" data-src="http://a.36krcnd.com/photo/2014/3ecdf7c531695705a6510072790d40bb.jpg!slider" src="http://d.36kr.com/assets/images/blank.gif"></a></div>
+  </div>
+  <div class="right-col">
+    <h1><a href="/p/210472.html" data-no-turbolink="true" onclick="javascript:_gaq.push(['_trackPageview', '/click/index_newtab/']);" target="_blank" title="漫谈投资机构对企业的估值（八）：博弈估值法">漫谈投资机构对企业的估值（八）：博弈估值法</a></h1>
+    <p>在第二季中，作者引入博弈、竞争、逆向推演和宏观大格局的概念阐述了个人对估值的理解，将分期介绍5种反传统估值法：全或无，行业估值法，博弈估值法，重置法，影响力估值法。</p>
+  </div>
+
+</article>
+
+
+
+
+
+
+
+
+<article class="posts post-1 cf">
+
+    <div class="info cf">
+      <div class="topic left">
+        <span><a href="/category/column" class="column">专栏</a> / column
+        </span>
+      </div>
+      <div class="postmeta right"><a href="/medicoolthg" class="uname user_medicoolthg" data-name="Dr 2" target="_blank">Dr 2</a> • 03/18 16:26 </div>
+    </div>
+  <div class="left left-col">
+    <div class="meta"><a title="回应人数" href="/p/210451.html"><i class="icon icon-share"></i> 20</a></div>
+    <div class="image feature-img thumb-180"><a href="/p/210451.html"><img alt="Blank" class="image lazyload" data-src="http://a.36krcnd.com/photo/2014/57417df41e008ae2c9c3f7e19bd60f40.jpg!slider" src="http://d.36kr.com/assets/images/blank.gif"></a></div>
+  </div>
+  <div class="right-col">
+    <h1><a href="/p/210451.html" data-no-turbolink="true" onclick="javascript:_gaq.push(['_trackPageview', '/click/index_newtab/']);" target="_blank" title="漫谈投资机构对企业的估值（七）：行业估值法">漫谈投资机构对企业的估值（七）：行业估值法</a></h1>
+    <p>在第二季中，作者引入博弈、竞争、逆向推演和宏观大格局的概念阐述了个人对估值的理解，将分期介绍5种反传统估值法：全或无，行业估值法，博弈估值法，重置法，影响力估值法。</p>
+  </div>
+
+</article>
+
+
+
+
+
+
+
+
+<article class="posts post-1 cf">
+
+    <div class="info cf">
+      <div class="topic left">
+        <span><a href="/category/column" class="column">专栏</a> / column
+        </span>
+      </div>
+      <div class="postmeta right"><a href="/medicoolthg" class="uname user_medicoolthg" data-name="Dr 2" target="_blank">Dr 2</a> • 03/17 23:40 </div>
+    </div>
+  <div class="left left-col">
+    <div class="meta"><a title="回应人数" href="/p/210444.html"><i class="icon icon-share"></i> 38</a></div>
+    <div class="image feature-img thumb-180"><a href="/p/210444.html"><img alt="Blank" class="image lazyload" data-src="http://a.36krcnd.com/photo/2014/fa19c488c28524b72a38080af6d61f81.jpg!slider" src="http://d.36kr.com/assets/images/blank.gif"></a></div>
+  </div>
+  <div class="right-col">
+    <h1><a href="/p/210444.html" data-no-turbolink="true" onclick="javascript:_gaq.push(['_trackPageview', '/click/index_newtab/']);" target="_blank" title="漫谈投资机构对企业的估值（六）：全或无">漫谈投资机构对企业的估值（六）：全或无</a></h1>
+    <p>在第二季中，作者引入博弈、竞争、逆向推演和宏观大格局的概念阐述了个人对估值的理解，将分期介绍5种反传统估值法：全或无，行业估值法，博弈估值法，重置法，影响力估值法。</p>
+  </div>
+
+</article>
+
+
+
+
+
+
+
+
+<article class="posts post-1 cf">
+
+    <div class="info cf">
+      <div class="topic left">
+        <span><a href="/category/column" class="column">专栏</a> / column
+        </span>
+      </div>
+      <div class="postmeta right"><a href="/medicoolthg" class="uname user_medicoolthg" data-name="Dr 2" target="_blank">Dr 2</a> • 03/14 16:33 </div>
+    </div>
+  <div class="left left-col">
+    <div class="meta"><a title="回应人数" href="/p/210287.html"><i class="icon icon-share"></i> 7</a></div>
+    <div class="image feature-img thumb-180"><a href="/p/210287.html"><img alt="Blank" class="image lazyload" data-src="http://a.36krcnd.com/photo/2014/abc798bf46f6bbe49edbc1b1a75008d6.jpg!slider" src="http://d.36kr.com/assets/images/blank.gif"></a></div>
+  </div>
+  <div class="right-col">
+    <h1><a href="/p/210287.html" data-no-turbolink="true" onclick="javascript:_gaq.push(['_trackPageview', '/click/index_newtab/']);" target="_blank" title="漫谈投资机构对企业的估值（五）：期权估值法">漫谈投资机构对企业的估值（五）：期权估值法</a></h1>
+    <p>本系列文章共5篇，尝试探讨一个困难且主观的命题——“投资机构如何对企业进行估值”，分期讨论了私募股权投资中常使用的5种估值方法：风险收益法，比较法，净现值法，调整后现值法和期权估值法。</p>
+  </div>
+
+</article>
+
+
+
+
+
+
+
+
+<article class="posts post-1 cf">
+
+    <div class="info cf">
+      <div class="topic left">
+        <span><a href="/category/column" class="column">专栏</a> / column
+        </span>
+      </div>
+      <div class="postmeta right"><a href="/medicoolthg" class="uname user_medicoolthg" data-name="Dr 2" target="_blank">Dr 2</a> • 03/13 23:25 </div>
+    </div>
+  <div class="left left-col">
+    <div class="meta"><a title="回应人数" href="/p/210286.html"><i class="icon icon-share"></i> 28</a></div>
+    <div class="image feature-img thumb-180"><a href="/p/210286.html"><img alt="Blank" class="image lazyload" data-src="http://a.36krcnd.com/photo/2014/867dea2ca58212e23eb8f1df36f84776.jpg!slider" src="http://d.36kr.com/assets/images/blank.gif"></a></div>
+  </div>
+  <div class="right-col">
+    <h1><a href="/p/210286.html" data-no-turbolink="true" onclick="javascript:_gaq.push(['_trackPageview', '/click/index_newtab/']);" target="_blank" title="漫谈投资机构对企业的估值（四）：调整后现值法">漫谈投资机构对企业的估值（四）：调整后现值法</a></h1>
+    <p>本系列文章共5篇，尝试探讨一个困难且主观的命题——“投资机构如何对企业进行估值”，分期讨论了私募股权投资中常使用的5种估值方法：风险收益法，比较法，净现值法，调整后现值法和期权估值法。</p>
+  </div>
+
+</article>
+
+
+
+
+
+      
+
+
+
+<article class="posts post-1 cf">
+
+    <div class="info cf">
+      <div class="topic left">
+        <span><a href="/category/column" class="column">专栏</a> / column
+        </span>
+      </div>
+      <div class="postmeta right"><a href="/medicoolthg" class="uname user_medicoolthg" data-name="Dr 2" target="_blank">Dr 2</a> • 03/12 19:09 </div>
+    </div>
+  <div class="left left-col">
+    <div class="meta"><a title="回应人数" href="/p/210285.html"><i class="icon icon-share"></i> 32</a></div>
+    <div class="image feature-img thumb-180"><a href="/p/210285.html"><img alt="Blank" class="image lazyload" data-src="http://a.36krcnd.com/photo/2014/1be29849c01983f2f770e22860ffd7fa.jpg!slider" src="http://d.36kr.com/assets/images/blank.gif"></a></div>
+  </div>
+  <div class="right-col">
+    <h1><a href="/p/210285.html" data-no-turbolink="true" onclick="javascript:_gaq.push(['_trackPageview', '/click/index_newtab/']);" target="_blank" title="漫谈投资机构对企业的估值（三）：净现值法">漫谈投资机构对企业的估值（三）：净现值法</a></h1>
+    <p>本系列文章共5篇，尝试探讨一个困难且主观的命题——“投资机构如何对企业进行估值”，分期讨论了私募股权投资中常使用的5种估值方法：风险收益法，比较法，净现值法，调整后现值法和期权估值法。</p>
+  </div>
+
+</article>
+
+
+
+
+
+
+
+
+<article class="posts post-1 cf">
+
+    <div class="info cf">
+      <div class="topic left">
+        <span><a href="/category/column" class="column">专栏</a> / column
+        </span>
+      </div>
+      <div class="postmeta right"><a href="/medicoolthg" class="uname user_medicoolthg" data-name="Dr 2" target="_blank">Dr 2</a> • 03/11 16:10 </div>
+    </div>
+  <div class="left left-col">
+    <div class="meta"><a title="回应人数" href="/p/210276.html"><i class="icon icon-share"></i> 33</a></div>
+    <div class="image feature-img thumb-180"><a href="/p/210276.html"><img alt="Blank" class="image lazyload" data-src="http://a.36krcnd.com/photo/2014/ff3ae3951fe12f65e8102938ca421847.jpg!slider" src="http://d.36kr.com/assets/images/blank.gif"></a></div>
+  </div>
+  <div class="right-col">
+    <h1><a href="/p/210276.html" data-no-turbolink="true" onclick="javascript:_gaq.push(['_trackPageview', '/click/index_newtab/']);" target="_blank" title="漫谈投资机构对企业的估值（二）：比较法">漫谈投资机构对企业的估值（二）：比较法</a></h1>
+    <p>本系列文章共5篇，尝试探讨一个困难且主观的命题——“投资机构如何对企业进行估值”，分期讨论了私募股权投资中常使用的5种估值方法：风险收益法，比较法，净现值法，调整后现值法和期权估值法。</p>
+  </div>
+
+</article>
+
+
+
+
+
+
+
+
+<article class="posts post-1 cf">
+
+    <div class="info cf">
+      <div class="topic left">
+        <span><a href="/category/column" class="column">专栏</a> / column
+        </span>
+      </div>
+      <div class="postmeta right"><a href="/medicoolthg" class="uname user_medicoolthg" data-name="Dr 2" target="_blank">Dr 2</a> • 03/10 15:31 </div>
+    </div>
+  <div class="left left-col">
+    <div class="meta"><a title="回应人数" href="/p/210274.html"><i class="icon icon-share"></i> 46</a></div>
+    <div class="image feature-img thumb-180"><a href="/p/210274.html"><img alt="Blank" class="image lazyload" data-src="http://a.36krcnd.com/photo/2014/b3ea139bb0f5680ccd533c4b638696fb.jpg!slider" src="http://d.36kr.com/assets/images/blank.gif"></a></div>
+  </div>
+  <div class="right-col">
+    <h1><a href="/p/210274.html" data-no-turbolink="true" onclick="javascript:_gaq.push(['_trackPageview', '/click/index_newtab/']);" target="_blank" title="漫谈投资机构对企业的估值（一）：风险收益法">漫谈投资机构对企业的估值（一）：风险收益法</a></h1>
+    <p>本系列文章共5篇，尝试探讨一个困难且主观的命题——“投资机构如何对企业进行估值”，分期讨论了私募股权投资中常使用的5种估值方法：风险收益法，比较法，净现值法，调整后现值法和期权估值法。</p>
+  </div>
+
+</article>
+
+
+
+
+
+
+
+
+
+					
+
+					</div>
+				</div>
+			</div>
+		</div>
+      <div class="aside">
+          						<section class="aside-today">
+							<h2 class="aside-today__title">今日更新<span>+21</span></h2>
+							<ul class="aside-today__list">
+								<li>
+									<div class="topic"><span><a target="_blank" href="/category/breaking" class="breaking">国外资讯 </a> / breaking</span></div>
+									<h1><a href="/p/210949.html?ref=related" title="这是iOS 7一个不小的bug: “查找我的iPhone”可轻易被禁，激活亦无需密码">这是iOS 7一个不小的bug: “查找我的iPhone”可轻易被禁，激活亦无需密码</a></h1>
+								</li>
+								<li>
+									<div class="topic"><span><a target="_blank" href="/category/cn-startups" class="cn-startups">国内创业公司</a> / cn-startups</span></div>
+									<h1><a href="/p/210953.html?ref=related" title="非流行音乐服务商“麦库音乐”确认融资，已于2013年完成麦顿投资千万人民币级A轮">非流行音乐服务商“麦库音乐”确认融资，已于2013年完成麦顿投资千万人民币级A轮</a></h1>
+								</li>
+								<li>
+									<div class="topic"><span><a target="_blank" href="/category/cn-news" class="cn-news">国内资讯</a> / cn-news</span></div>
+									<h1><a href="/p/210951.html?ref=related" title="高德地图开放室内地图SDK和静态图API，提供室内场景浏览、楼层切换、室内外地图切换等功能">高德地图开放室内地图SDK和静态图API，提供室内场景浏览、楼层切换、室内外地图切换等功能</a></h1>
+								</li>
+								<li>
+									<div class="topic"><span><a target="_blank" href="/category/breaking" class="breaking">国外资讯 </a> / breaking</span></div>
+									<h1><a href="/p/210950.html?ref=related" title="Project Ara预热第一次开发者会议：开发Project Ara模块化手机的是怎样一群人？（附视频）">Project Ara预热第一次开发者会议：开发Project Ara模块化手机的是怎样一群人？（附视频）</a></h1>
+								</li>
+								<li>
+									<div class="topic"><span><a target="_blank" href="/category/breaking" class="breaking">国外资讯 </a> / breaking</span></div>
+									<h1><a href="/p/210948.html?ref=related" title="Google 应用内搜索在安卓端已支持所有英文内容，新增更多应用">Google 应用内搜索在安卓端已支持所有英文内容，新增更多应用</a></h1>
+								</li>
+								<li>
+									<div class="topic"><span><a target="_blank" href="/category/us-startups" class="us-startups">国外创业公司</a> / us-startups</span></div>
+									<h1><a href="/p/210945.html?ref=related" title="Siri背后的实验室SRI推出Ceres项目，拍张照告诉里食物里有多少热量">Siri背后的实验室SRI推出Ceres项目，拍张照告诉里食物里有多少热量</a></h1>
+								</li>
+							</ul>
+			</section>
+          				<section class="aside-social aside-fixed" style="z-index: 1000;">
+				<p>微信公众平台：搜索“36氪”或扫描下面的二维码：</p>
+				<div class="image aside-social__qrcode"><img alt="Qrcode" src="http://d.36kr.com/assets/images/qrcode.jpg"></div>
+				<div class="aside-social__social">
+					<ul>
+						<li class="aside-social__items">
+							<a href="http://weibo.com/wow36kr" class="icons-weibo external" target="_blank">Weibo</a>
+							<span class="aside-social__count">56K</span>
+						</li>
+						<li class="aside-social__items">
+							<a href="https://twitter.com/36kr" class="icons-twitter external" target="_blank">Twitter</a>
+							<span class="aside-social__count">14K</span>
+						</li>
+						<li class="aside-social__items">
+							<a href="http://www.facebook.com/X36Kr" class="icons-facebook external" target="_blank">Facebook</a>
+							<span class="aside-social__count">10K</span>
+						</li>
+						<li class="aside-social__items">
+							<a target="_blank" href="http://www.36kr.com/feed/" class="icons-rss">RSS</a>
+							<span class="aside-social__count">100K</span>
+						</li>
+					</ul>
+				</div>
+			</section><div></div>
+
+      </div>
+    </div>  
+    <div class="sidebar">
+      <section id="sidebar-ad"><img src="/assets/images/ad.jpg" alt=""></section>
+        			<section class="sidebar-popular cf">
+				<h3>热门文章</h3>
+				<div class="sidebar-popular__list">
+						<article class="sidebar-popular__posts cf">
+		<div class="meta"></div>
+		<div class="image thumb-60 left"><img src="http://a.36krcnd.com/photo/2014/4e16b7f1d4d3187d9d5f8b9390467b22.jpg!square" alt=""></div>
+		<h1><a href="/p/210949.html?ref=related" title="这是iOS 7一个不小的bug: “查找我的iPhone”可轻易被禁，激活亦无需密码">这是iOS 7一个不小的bug: “查找我的iPhone”可轻易被禁，激活亦无需密码</a></h1>
+	</article>
+	<article class="sidebar-popular__posts cf">
+		<div class="meta"></div>
+		<div class="image thumb-60 left"><img src="http://a.36krcnd.com/photo/2014/2feb21da4d933b7cc7c6fdf7004854eb.png!square" alt=""></div>
+		<h1><a href="/p/210951.html?ref=related" title="高德地图开放室内地图SDK和静态图API，提供室内场景浏览、楼层切换、室内外地图切换等功能">高德地图开放室内地图SDK和静态图API，提供室内场景浏览、楼层切换、室内外地图切换等功能</a></h1>
+	</article>
+	<article class="sidebar-popular__posts cf">
+		<div class="meta"></div>
+		<div class="image thumb-60 left"><img src="http://a.36krcnd.com/photo/2014/3b845deb26edcb17db94f3e852919c1f.png!square" alt=""></div>
+		<h1><a href="/p/210950.html?ref=related" title="Project Ara预热第一次开发者会议：开发Project Ara模块化手机的是怎样一群人？（附视频）">Project Ara预热第一次开发者会议：开发Project Ara模块化手机的是怎样一群人？（附视频）</a></h1>
+	</article>
+	<article class="sidebar-popular__posts cf">
+		<div class="meta"></div>
+		<div class="image thumb-60 left"><img src="http://a.36krcnd.com/photo/2014/1542736c4c761854784bc7779e0a66d0.jpg!square" alt=""></div>
+		<h1><a href="/p/210953.html?ref=related" title="非流行音乐服务商“麦库音乐”确认融资，已于2013年完成麦顿投资千万人民币级A轮">非流行音乐服务商“麦库音乐”确认融资，已于2013年完成麦顿投资千万人民币级A轮</a></h1>
+	</article>
+	<article class="sidebar-popular__posts cf">
+		<div class="meta"></div>
+		<div class="image thumb-60 left"><img src="http://a.36krcnd.com/photo/2014/d5ca4e02f04c1cf5002628e77c8c518b.jpg!square" alt=""></div>
+		<h1><a href="/p/210945.html?ref=related" title="Siri背后的实验室SRI推出Ceres项目，拍张照告诉里食物里有多少热量">Siri背后的实验室SRI推出Ceres项目，拍张照告诉里食物里有多少热量</a></h1>
+	</article>
+	<article class="sidebar-popular__posts cf">
+		<div class="meta"></div>
+		<div class="image thumb-60 left"><img src="http://a.36krcnd.com/photo/2014/812b5a7cc98efed64bb642360346f4cb.png!square" alt=""></div>
+		<h1><a href="/p/210948.html?ref=related" title="Google 应用内搜索在安卓端已支持所有英文内容，新增更多应用">Google 应用内搜索在安卓端已支持所有英文内容，新增更多应用</a></h1>
+	</article>
+
+				</div>
+			</section>
+        					
+
+        			<section id="sidebar-comments">
+				<h3>优质评论</h3>
+				<div class="sidebar-comments__list">
+					    <div class="comment-1">
+      <div class="postmeta"><a href="http://weibo.com/u/2112713367" class="uname user_2112713367 external" data-name="billy元" target="_blank">billy元</a> • 1小时前</div>
+      <div class="sidebar-comments__comment">
+        看来智能家居不能为智能而智能，而是真的给客户带来实惠。
+      </div>
+      <div class="sidebar-comments__title">
+        <p>评论于<a href="/p/210873.html">Nest智能恒温器英国开卖</a></p>
+      </div>
+    </div>
+    <div class="comment-1">
+      <div class="postmeta"><a href="/alex_0415" class="uname user_alex_0415" data-name="我shi關宇" target="_blank">我shi關宇</a> • 1小时前</div>
+      <div class="sidebar-comments__comment">
+        我持着忧心、担心的态度。他的增长速度实在是太快了！
+      </div>
+      <div class="sidebar-comments__title">
+        <p>评论于<a href="/p/210889.html">36公开氪第一期</a></p>
+      </div>
+    </div>
+    <div class="comment-1">
+      <div class="postmeta"><a href="/luweilin57" class="uname user_luweilin57" data-name="芦苇林" target="_blank">芦苇林</a> • 1小时前</div>
+      <div class="sidebar-comments__comment">
+        猎豹浏览器、猎豹清理专家、金山电池专家和手机毒霸都是很好用的，对于这些应用，我确实是铁杆儿粉丝，支持。
+放弃了包袱，才能走得更远
+      </div>
+      <div class="sidebar-comments__title">
+        <p>评论于<a href="/p/210938.html">猎豹移动招股书解读</a></p>
+      </div>
+    </div>
+    <div class="comment-1">
+      <div class="postmeta"><a href="/u1396576938" class="uname user_u1396576938" data-name="王筱_Alpha" target="_blank">王筱_Alpha</a> • 1小时前</div>
+      <div class="sidebar-comments__comment">
+        个人的浅见，一谈到创业第一件事就是融资的话，这本身就是一个问题。创业的第一期投资人就是创业者。除非是天使投资，否则一定是有产品（至少要原型）后才找机构投资人。如果你自己都没有信心投入时间或金钱来打造一个产品出来，投资人凭什么投你？
+      </div>
+      <div class="sidebar-comments__title">
+        <p>评论于<a href="/p/207772.html">投资人拒绝你的101个理由</a></p>
+      </div>
+    </div>
+    <div class="comment-1">
+      <div class="postmeta"><a href="/u1372025675" class="uname user_u1372025675" data-name="左左左右左" target="_blank">左左左右左</a> • 1小时前</div>
+      <div class="sidebar-comments__comment">
+        看了半天文中附的图，没看出区别。难道是指把楼主内容按叙述顺序置顶后再放别人的评论？
+个人拍脑袋觉得结构化的东西几乎只能做工具，深层互动率肯定是要下来的。工具和大堆文字就看怎么平衡了。目前看，还是重工具，轻文字互动。装不下是其一，其他重要方面就先不扯了。
+      </div>
+      <div class="sidebar-comments__title">
+        <p>评论于<a href="/p/210922.html">结构化博客社区</a></p>
+      </div>
+    </div>
+    <div class="comment-1">
+      <div class="postmeta"><a href="/u1365695215" class="uname user_u1365695215" data-name="迷糊超人" target="_blank">迷糊超人</a> • 1小时前</div>
+      <div class="sidebar-comments__comment">
+        很欣赏这种把产品与男人比较的思路，从女性客户的生理和心理需求出发，不过能不能更进一步思考一些具体的场景甚至是企业与女性顾客交互的流程设计，会很有意思。期待中。。。。
+      </div>
+      <div class="sidebar-comments__title">
+        <p>评论于<a href="/p/210943.html">男性思维开发的女性产品争议</a></p>
+      </div>
+    </div>
+
+				</div>
+			</section>
+        			<section class="sidebar-tab">
+				<ul class="sidebar-tab__tabs cf tabs">
+					<li class="tab-forum"><a data-target="#tab-forum" title="">社区新帖</a></li>
+					<li class="tab-36krplus"><a data-target="#tab-36krplus" title="">Startup-X</a></li>
+					<li class="tab-815"><a class="active" data-target="#tab-815" title="">8点1氪</a></li>
+				</ul>
+				<div id="tabs-content" class="sidebar-tab__wrapper">
+					<div id="tab-forum" class="sidebar-tab__forum tabs-pane">
+												<ul>
+							<li><h2><a href="/topics/5848" target="_blank">一枚移动电商的自问自答</a></h2></li>
+							<li><h2><a href="/topics/5869" target="_blank">我只是一个互联网产品人</a></h2></li>
+							<li><h2><a href="/topics/5890" target="_blank">致氪星人的小编们——最有趣的人</a></h2></li>
+							<li><h2><a href="/topics/5894" target="_blank">有微信公众账号的关注下 挺有用的一个东西</a></h2></li>
+							<li><h2><a href="/topics/5884" target="_blank">在线教育平台10大盈利模式</a></h2></li>
+							<li><h2><a href="/topics/5892" target="_blank">［早读］匿名社交引爆秘密：你敢爆料吗；乐蜂网前任CEO王立成加盟天猫；产品存故障 谷歌旗下Nest停售烟雾探测器...</a></h2></li>
+							<li><h2><a href="/topics/5891" target="_blank">房地产行业打造的“云服务”平台</a></h2></li>
+							<li><h2><a href="/topics/5888" target="_blank">[大汇总]让一切都2048去吧……</a></h2></li>
+							<li><h2><a href="/topics/5889" target="_blank">标准之惑——套用经验，还是创新？</a></h2></li>
+							<span class="tabulousclear"></span>
+						</ul>
+ 					</div>
+					<div id="tab-36krplus" class="sidebar-tab__36krplus tabs-pane">
+												<ul>
+							<li><h2><a href="/p/210826.html" title="让音乐人可以用一首半成品预售，Spawnsong想用单曲“众筹”改变音乐的制作和消费">让音乐人可以用一首半成品预售，Spawnsong想用单曲“众筹”改变音乐的制作和消费</a></h2></li>
+							<li><h2><a href="/p/210778.html" title="华人创业团队Orbeus将推出iPhone版图片自动识别及整理应用ReKoMe">华人创业团队Orbeus将推出iPhone版图片自动识别及整理应用ReKoMe</a></h2></li>
+							<li><h2><a href="/p/210749.html" title="外卖送餐服务Sprig获A轮融资1000万美金，现做热乎饭菜20分钟内送上门">外卖送餐服务Sprig获A轮融资1000万美金，现做热乎饭菜20分钟内送上门</a></h2></li>
+							<li><h2><a href="/p/210647.html" title="扫一扫地产广告便可直接从平板上看到可交互的房屋3D模型，地产AR模型提供商Virtual View获50万美元天使投资">扫一扫地产广告便可直接从平板上看到可交互的房屋3D模型，地产AR模型提供商Virtual View获50万美元天使投资</a></h2></li>
+							<li><h2><a href="/p/210459.html" title="语音控制解决方案服务商Wit：几行代码为第三方App搞定语音交互界面">语音控制解决方案服务商Wit：几行代码为第三方App搞定语音交互界面</a></h2></li>
+							<li><h2><a href="/p/210432.html" title="实时了解孩子的位置之余也统一管理家人的位置，初创公司hereO推出儿童智能手表">实时了解孩子的位置之余也统一管理家人的位置，初创公司hereO推出儿童智能手表</a></h2></li>
+							<li><h2><a href="/p/210290.html" title="谁也看不出我穿了传感器：Nex Band模块化定制时尚腕带">谁也看不出我穿了传感器：Nex Band模块化定制时尚腕带</a></h2></li>
+							<li><h2><a href="/p/210200.html" title="Wello：不能检测心率、血压的手机壳不是好手机壳">Wello：不能检测心率、血压的手机壳不是好手机壳</a></h2></li>
+							<li><h2><a href="/p/210070.html" title="下一代可穿戴健身设备：Moov是个会说话的贴身私家教练">下一代可穿戴健身设备：Moov是个会说话的贴身私家教练</a></h2></li>
+						</ul>
+					</div>
+					<div id="tab-815" class="sidebar-tab__815 tabs-pane active">
+												<ul>
+							<li><h2><a href="/clipped/8270" target="_blank">Nest智能烟雾报警器因功能缺陷暂停销售</a></h2></li>
+							<li><h2><a href="/clipped/8269" target="_blank">欧盟通过提案 将于2015年底停收28个国家间漫游费</a></h2></li>
+							<li><h2><a href="/clipped/8268" target="_blank">乐蜂网前任CEO王立成加盟天猫</a></h2></li>
+							<li><h2><a href="/clipped/8267" target="_blank">传Facebook或与Secret合作</a></h2></li>
+							<li><h2><a href="/clipped/8266" target="_blank">开源笔记本电脑进行公共集资，开发者可自由进行硬件测试</a></h2></li>
+							<li><h2><a href="/clipped/8265" target="_blank">反同惹麻烦，Mozilla新CEO上任十天被迫辞职</a></h2></li>
+							<li><h2><a href="/clipped/8264" target="_blank">传Google将建无线移动网络 挑战传统运营商</a></h2></li>
+							<li><h2><a href="/clipped/8263" target="_blank">主流社交平台网络流量基本来自移动设备</a></h2></li>
+							<li><h2><a href="/clipped/8262" target="_blank">新Kinect for Windows将于今夏上市</a></h2></li>
+							<span class="tabulousclear"></span>
+						</ul>
+
+ 					</div>
+				</div>
+			</section>
+
+
+
+    </div>  
+  </div>
+
+  	<footer class="footer">
+		<div class="row">
+						<div class="footer-36kr">
+				<h3>36氪</h3>
+				<ul>
+					<li><a href="/about">关于36氪</a></li>
+					<li><a href="/hire">加入我们</a></li>
+					<li><a href="http://www.36kr.net/report" class="external" target="_blank">寻求报道</a></li>
+					<li><a href="/contact-us/">联系我们</a></li>
+					<li><a href="/sub/">客户端下载</a></li>
+				</ul>
+			</div>
+			<div class="footer-subscribe">
+				<h3>订阅</h3>
+				<ul>
+					<li><a href="/sub/">RSS订阅</a></li>
+					<li><a href="/sub/">邮箱订阅</a></li>
+					<li><a href="/sub/">线下活动订阅</a></li> 
+				</ul>
+			</div>
+<div class="footer-partner">
+				<h3>合作伙伴</h3>
+				<ul class="cf">
+					<li><a href="http://dnspod.cn" class="external" target="_blank"><img src="http://a.36krcnd.com/photo/2014/0ae4f92e9796a8a8a8cfe97a2c29d1b2.png" alt=""></a></li>
+					<li><a href="http://qingcloud.com" class="external" target="_blank"><img src="http://a.36krcnd.com/photo/2014/250c3183595b9df6c3986b513319fb9f.png" alt=""></a></li>
+					<li><a href="http://qcloud.com" class="external" target="_blank"><img src="http://a.36krcnd.com/photo/2014/dd9cae66e3cc32be4ef4cf849c22d70b.png" alt=""></a></li>
+					<li><a href="http://upyun.com" class="external" target="_blank"><img src="http://a.36krcnd.com/photo/2014/ba639550940bf943fb0467c5ea14fbc6.png" alt=""></a></li>
+					<li><a href="http://qiniu.com" class="external" target="_blank"><img src="http://a.36krcnd.com/photo/2014/ce210c6ddb324544e23102af0539ec5c.png" alt=""></a></li>
+				</ul>
+			</div>
+			<div class="footer-copyright">
+				<p>本站由 <a href="http://webluker.com" class="external" target="_blank">WebLuker</a> 提供 CDN 加速服务，开发协作工具由 <a href="http://fengche.co" class="external" target="_blank">Fengche.co</a> 提供</p>
+				<p>Powered By <a title="36氪网站最初采用 Ruby China 开源代码构建" href="http://ruby-china.org/" class="external" target="_blank">Ruby China</a></p>
+				<p>©2011-2014 36氪</p>
+				<p>京ICP备11027501号</p>
+				<p>京公网安备11010802012285号</p>
+			</div>
+
+		</div>
+	</footer>
+  	<div id="panel-login" class="panel mfp-hide instapaper_ignore">
+			<h3>无需注册，直接使用社交账号登录</h3>
+			<section class="login-social cf">
+			  <a href="/account/auth/weibo" class="login-social__weibo"><i class="icon-social-weibo"></i>微博</a>
+			  <a href="/account/auth/qq" class="login-social__qq"><i class="icon-social-qq"></i>QQ</a>
+			  <a href="/account/auth/renren" class="login-social__renren"><i class="icon-social-renren"></i>人人</a>
+			  <a href="/account/auth/github" class="login-social__github"><i class="icon-social-github"></i>GitHub</a>
+			</section>
+			<hr>
+			<section class="login-section">
+				<form accept-charset="UTF-8" action="/account/sign_in" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="HzSqf3l3ZVuTJu5f1GUIu9vL9MMXP/07uC74WyxrQ4g="></div>
+				<div class="form login">
+					<div class="login__email">
+						<input id="user_login" name="user[login]" placeholder="用户名或邮箱" size="30" spellcheck="false" type="text">
+				    <i class="icon-login-mail"></i>
+				  </div>
+				  <div class="login__password">
+				  	<input focus-on="suggestion:accepted" id="user_password" name="user[password]" placeholder="密码" size="30" spellcheck="false" type="password">
+				    <i class="icon-lock"></i>
+				  </div>
+				  <div class="login__links cf">
+				    <p class="left"><a href="/account/password/new">忘记密码？</a></p>
+				    <button type="submit" class="submit right">登录</button>
+				  </div>					  
+				</div>
+				<hr>
+				<div class="register__links cf">
+				  <p class="left">没有帐号？ <a class="login__register-btn" href="javascript:void(0)">注册</a></p>
+				</div>
+</form>			</section>
+			<section class="register-section">
+				<form accept-charset="UTF-8" action="/account" id="register_form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="HzSqf3l3ZVuTJu5f1GUIu9vL9MMXP/07uC74WyxrQ4g="></div>
+					<input hidden="hidden" id="user_name" name="user[name]" placeholder="昵称" size="30" type="text">
+					<input hidden="hidden" id="user_pw_confirmation" name="user[pw_confirmation]" placeholder="" size="30" type="text">
+				<div class="form register">
+					<div class="register__username">
+					<input id="user_login" name="user[login]" placeholder="用户名 仅英文或数字" size="30" spellcheck="false" type="text">
+					  <i class="icon-user"></i>
+					</div>
+					<div class="register__email">
+					<input id="user_email" name="user[email]" placeholder="邮箱" size="30" spellcheck="false" type="email">
+				    <i class="icon-login-mail"></i>
+				  </div>
+				  <div class="register__password">
+					<input focus-on="suggestion:accepted" id="user_password" name="user[password]" placeholder="密码" size="30" spellcheck="false" type="password">
+				    <i class="icon-lock"></i>
+				  </div>
+				  <div class="login__links cf">
+				  	<p class="left">已有帐号？ <a class="register__login-btn" href="javascript:void(0)">登录</a></p>
+				  	<button type="submit" class="submit right">注册</button>
+				  </div>
+				</div>
+</form>			</section>
+	</div>
+
+    <!--[if lt IE 7]>
+    <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+  <![endif]-->
+  <script src="js/jquery/2.0.3/jquery.min.js"></script>
+  <script src="js/assets/main.js" type="text/javascript"></script>
+  <script src="js/assets/topics.js" type="text/javascript"></script> 
+
+  <script type="text/javascript">
+    $.extend($.lazyLoadXT, {
+      onload: { addClass: 'loaded' }
+    });
+  </script>
+</body></html>

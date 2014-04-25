@@ -1,0 +1,291 @@
+<include file="./kingray/Tpl/Home/default/header.html" />
+      
+<div class="page-container">
+
+    <!--BEGIN Body content-->
+    <section id="home" class="story" data-speed="6" data-type="background">
+        <include file="./kingray/Tpl/Home/default/footer.html" />
+        <div class="container">
+            
+            <!-- BEGIN SERVICE BOX -->   
+            <div class="row service-box">
+                <div class="col-md-4 col-sm-4 col-xs-4">
+                    <div class="service-box-heading">
+                        <em><i class="fa fa-location-arrow blue"></i></em>
+                        <span>关于我们</span>
+                    </div>
+                    <p>{$about.content|strip_tags|msubstr=0,120}</p>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-4">
+                    <div class="service-box-heading">
+                        <em><i class="fa fa-check red"></i></em>
+                        <span>为您服务</span>
+                    </div>
+                    <p>{$service1.content|nl2br|msubstr=0,120}</p>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-4">
+                    <div class="service-box-heading">
+                        <em><i class="fa fa-user green"></i></em>
+                        <span>合作伙伴</span>
+                    </div>
+                    <p>{$choose.content|strip_tags|msubstr=0,120}</p>
+                </div>
+            </div>
+            <!-- END SERVICE BOX -->  
+            <div class="clearfix"></div>
+
+        </div>
+    </section>
+    <!--END Body content-->
+    <!-- Section #3 / Photos -->
+    <section id="welcome" class="story" data-speed="6" data-type="background">     
+    <!-- BEGIN CONTAINER -->   
+    <div class="container min-hight">
+        <!-- BEGIN BLOG -->
+        <div class="row">
+            <!-- BEGIN RIGHT SIDEBAR -->            
+            <div class="col-md-3 col-xs-3 blog-sidebar">
+                <!-- CATEGORIES START -->
+                <h2 class="no-top-space">{$Lone.name}</h2>
+                <ul class="nav sidebar-categories margin-bottom-40">
+                    <volist id="vosub" name="subList">
+                        <li>
+                            <a href="{$vosub.url}" id="{$vosub.id}">
+                                {$vosub.nav_name}
+                            </a>
+                        </li>
+                    </volist>
+                </ul>
+
+                <input type="hidden" value="{$currentId}" id="CurrentId"/>
+                <script type="text/javascript">
+                    $(function (){
+                        var cureentID = $("#CurrentId").val();
+                            $(".sidebar-categories li a").each(function() {
+                                if($(this).attr('id')==cureentID){
+                                    $(this).parent().addClass('active');
+                                }
+                        });
+                    });
+                </script>
+                <!-- CATEGORIES END -->
+                
+                <!-- END BLOG TAGS -->
+            </div>
+            <!-- END RIGHT SIDEBAR -->     
+
+            <!-- BEGIN LEFT SIDEBAR -->            
+            <div class="col-md-9 col-xs-9 blog-item margin-bottom-40">
+                <div class="blog-item-img">
+                    <volist id="para" name="content.para">
+                                
+                                
+                    <!--段落图片-->
+                    <empty name="para.img">
+                    <else />
+                         <img src="__PUBLIC__/Uploads/img/{$para.img}" alt="">
+                    </empty>
+                   <!--/段落图片-->
+                   
+                    </volist>            
+                </div>
+               
+                <h2>{$content.title}</h2>
+                <volist id="para" name="content.para">
+                    <h5>{$para.title}</h5>
+                    <p>
+                        {$para.content}
+                    </p>
+                </volist>
+
+                <ul class="blog-info">
+                     <li><i class="fa fa-user"></i> By admin</li>
+                    <li><i class="fa fa-calendar"></i> {$content.time|date="Y-m-d",###}</li>
+                    <!-- <li><i class="fa fa-comments"></i> 17</li>
+                    <li><i class="fa fa-tags"></i> Metronic, Keenthemes, UI Design</li> -->
+                </ul>
+               
+            </div>
+            <!-- END LEFT SIDEBAR -->
+        </div>
+        <!-- END BEGIN BLOG -->
+    </div>
+    <!-- END CONTAINER -->
+    </section>  
+    
+
+    <!-- Section #4 / HTML5 Video -->
+    <section id="services" class="story" data-speed="8" data-type="background">
+        <!-- BEGIN CONTAINER -->   
+        <div class="container min-hight">
+            <!-- BEGIN BLOG -->
+            <div class="row">
+                <!-- BEGIN RIGHT SIDEBAR -->            
+                <div class="col-md-3 col-xs-3 blog-sidebar">
+                    <!-- CATEGORIES START -->
+                    <h2 class="no-top-space">{$Lone2.name}</h2>
+                    <ul class="nav sidebar-categories margin-bottom-40">
+                        <volist id="vosub" name="subList">
+                            <li>
+                                <a href="{$vosub.url}" id="{$vosub.id}">
+                                    {$vosub.nav_name}
+                                </a>
+                            </li>
+                        </volist>
+                    </ul>
+
+                    <input type="hidden" value="{$currentId2}" id="CurrentId"/>
+                    <script type="text/javascript">
+                        $(function (){
+                            var cureentID = $("#CurrentId2").val();
+                                $(".sidebar-categories li a").each(function() {
+                                    if($(this).attr('id')==cureentID){
+                                        $(this).parent().addClass('active');
+                                    }
+                            });
+                        });
+                    </script>
+                    <!-- CATEGORIES END -->
+                    
+                    <!-- END BLOG TAGS -->
+                </div>
+                <!-- END RIGHT SIDEBAR -->     
+
+                <!-- BEGIN LEFT SIDEBAR -->            
+                <div class="col-md-9 col-xs-9 blog-item margin-bottom-40">
+                    <div class="blog-item-img">
+                        <volist id="para" name="content.para">
+                                    
+                                    
+                        <!--段落图片-->
+                        <empty name="para.img">
+                        <else />
+                             <img src="__PUBLIC__/Uploads/img/{$para.img}" alt="">
+                        </empty>
+                       <!--/段落图片-->
+                       
+                        </volist>            
+                    </div>
+                   
+                    <h2>{$content2.title}</h2>
+
+                    <volist id="para" name="content2.para">
+                        <h5>{$para.title}</h5>
+                        <p>
+                            {$para.content}
+                        </p>
+                    </volist>
+
+                    <ul class="blog-info">
+                         <li><i class="fa fa-user"></i> By admin</li>
+                        <li><i class="fa fa-calendar"></i> {$content.time|date="Y-m-d",###}</li>
+                    </ul>
+                   
+                </div>
+                <!-- END LEFT SIDEBAR -->
+            </div>
+            <!-- END BEGIN BLOG -->
+        </div>
+        <!-- END CONTAINER -->
+    </section>  
+
+    <section id="news" class="story" data-speed="6" data-type="background">
+        
+            <div class="page-container">
+                <!-- BEGIN CONTAINER -->   
+                <div class="container min-hight">
+                    <!-- BEGIN BLOG -->
+                    <div class="row">
+                        <!-- BEGIN RIGHT SIDEBAR -->            
+                        <div class="col-md-3 col-sm-3 col-xs-3 blog-sidebar">
+                            <!-- CATEGORIES START -->
+                            <h2 class="no-top-space">{$Lone3.name}</h2>
+                            <ul class="nav sidebar-categories margin-bottom-40">
+                                <volist id="vosub" name="subList3">
+                                    <li>
+                                        <a href="{$vosub.url}" id="{$vosub.id}">
+                                            {$vosub.nav_name}
+                                        </a>
+                                    </li>
+                                </volist>
+                            </ul>
+
+                            <input type="hidden" value="{$currentId3}" id="CurrentId"/>
+                            <script type="text/javascript">
+                                $(function (){
+                                    var cureentID = $("#CurrentId3").val();
+                                        $(".sidebar-categories li a").each(function() {
+                                            if($(this).attr('id')==cureentID){
+                                                $(this).parent().addClass('active');
+                                            }
+                                    });
+                                });
+                            </script>
+                            <!-- CATEGORIES END -->
+
+                         
+
+                        </div>
+                        <!-- END RIGHT SIDEBAR -->   
+                        <!-- BEGIN LEFT SIDEBAR -->            
+                        <div class="col-md-9 col-sm-9 col-xs-9 blog-posts margin-bottom-40">
+                             <volist id="artList" name="list">
+                            
+                                <div class="row">
+                                <div class="col-md-4 col-xs-4 col-sm-4">
+                                    <!-- BEGIN CAROUSEL -->            
+                                    <div class="front-carousel">
+                                        <div id="myCarousel" class="carousel slide">
+                                            <!-- Carousel items -->
+                                            <div class="carousel-inner">
+                                                <div class="active item">
+                                                    <img src="__PUBLIC__/Home/default/Images/works/img1.jpg" alt="">
+                                                </div>
+                                                
+                                            </div>
+                                            <!-- Carousel nav 
+                                            <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+                                                <i class="fa fa-angle-left"></i>
+                                            </a>
+                                            <a class="carousel-control right" href="#myCarousel" data-slide="next">
+                                                <i class="fa fa-angle-right"></i>
+                                            </a>-->
+                                        </div>                
+                                    </div>
+                                    <!-- END CAROUSEL -->             
+                                </div>
+                                <div class="col-md-8 col-xs-8 col-sm-8">
+                                    <h  2><a href="__URL__/article/detail/{$artList.id}">{$artList.title}</a></h2>
+                                    <ul class="blog-info">
+                                        <li><i class="fa fa-user"></i> by admin</li>
+                                        <li><i class="fa fa-calendar"></i> {$artList.time|date='Y-m-d',###}</li>
+                                    </ul>
+                                    <p>{$artList.content|strip_tags|msubstr=0,95}</p>
+                                    <a class="more" href="__URL__/article/detail/{$artList.id}">Read more <i class="icon-angle-right"></i></a>
+                                </div>
+                            </div>
+                            <hr class="blog-post-sep">
+                            
+                            </volist>
+
+                            <div class="page-pagination clear">
+                               {$page}
+                            </div>               
+                        </div>
+                        <!-- END LEFT SIDEBAR -->
+                                                         
+                    </div>
+                    <!-- END BEGIN BLOG -->
+                </div>
+                <!-- END CONTAINER -->
+    
+            </div> 
+        
+    </section>
+
+</div>
+<include file="./kingray/Tpl/Home/default/footer2.html" />
+
+        
+
+       

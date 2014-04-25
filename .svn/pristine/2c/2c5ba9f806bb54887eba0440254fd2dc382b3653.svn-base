@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+ <head>
+		
+		<meta charset="utf-8" />
+		
+		<title>欢迎页头部</title>
+        
+		<!-- Reset Stylesheet -->
+		<load href="__PUBLIC__/Admin/Css/reset.css" />
+	  
+		<!-- Main Stylesheet -->
+		<load href="__PUBLIC__/Admin/Css/style.css" />
+	</head>
+    <body style="background:none;margin:10px;min-width:900px;">
+    	<h2>管理员：{$uname} 欢迎您！</h2>
+			<p id="page-intro">What would you like to do?</p>
+			
+			<ul class="shortcut-buttons-set">
+				
+				<li><a class="shortcut-button" href="#"><span>
+					<img src="__PUBLIC__/Admin/Images/icons/pencil_48.png" /><br />
+					快捷通道1
+				</span></a></li>
+				
+				<li><a class="shortcut-button" href="#"><span>
+					<img src="__PUBLIC__/Admin/Images/icons/paper_content_pencil_48.png" alt="icon" /><br />
+					快捷通道2
+				</span></a></li>
+				
+				<li><a class="shortcut-button" href="#"><span>
+					<img src="__PUBLIC__/Admin/Images/icons/image_add_48.png" alt="icon" /><br />
+					快捷通道3
+				</span></a></li>
+				
+				<li><a class="shortcut-button" href="#"><span>
+					<img src="__PUBLIC__/Admin/Images/icons/clock_48.png" alt="icon" /><br />
+					快捷通道4
+				</span></a></li>
+				
+				<li><a class="shortcut-button" href="#messages" rel="modal"><span>
+					<img src="__PUBLIC__/Admin/Images/icons/comment_48.png" alt="icon" /><br />
+					快捷通道5
+				</span></a></li>
+				
+			</ul><!-- End .shortcut-buttons-set -->
+    
+    </body>
+    </html>

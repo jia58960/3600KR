@@ -1,0 +1,1 @@
+Cufon.replace ('.first-word', {fontFamily: 'Microsoft YaHei'});

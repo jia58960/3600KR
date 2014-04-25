@@ -1,0 +1,17 @@
+<section class="sidebar-popular cf">
+        <h3>最新资讯</h3>
+
+        <div class="sidebar-popular__list sidebar-tab__wrapper">
+            <div id="tab-forum" class="sidebar-tab__forum tabs-pane active">
+                <ul>
+                    <volist name="newly" id="newlyList">
+                        <li>
+                            <h2>
+                                <a href="__URL__/article/detail/{$newlyList.id}" target="_blank">{$newlyList.title|strip_tags|msubstr=0,50}</a>
+                            </h2>
+                        </li>
+                    </volist>
+                </ul>
+            </div>
+        </div>
+    </section>

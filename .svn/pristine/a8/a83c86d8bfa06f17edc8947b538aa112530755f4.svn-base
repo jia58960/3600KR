@@ -1,0 +1,100 @@
+<footer class="footer">
+    <div class="row">
+        <div class="footer-36kr">
+            <h3>56氪</h3>
+            <ul>
+                <li><a href="/about">关于56氪</a></li>
+                <li><a href="/hire">加入我们</a></li>
+                <li><a href="/contact-us/">联系我们</a></li>
+                <li><a href="/sub/">客户端下载</a></li>
+            </ul>
+        </div>
+        <div class="footer-subscribe">
+            <h3>订阅</h3>
+            <ul>
+                <li><a href="/sub/">RSS订阅</a></li>
+                <li><a href="/sub/">邮箱订阅</a></li>
+                <li><a href="/sub/">线下活动订阅</a></li>
+            </ul>
+        </div>
+        <div class="footer-partner">
+            <h3>合作伙伴</h3>
+            <ul class="cf">
+                <li><a href="http://www.sz-kingray.cn" class="external" target="_blank"><img src="http://a.36krcnd.com/photo/2014/0ae4f92e9796a8a8a8cfe97a2c29d1b2.png" alt=""></a></li>
+                <li><a href="http://www.google.com" class="external" target="_blank"><img src="http://a.36krcnd.com/photo/2014/250c3183595b9df6c3986b513319fb9f.png" alt=""></a></li>
+                <li><a href="http://www.baidu.com" class="external" target="_blank"><img src="http://a.36krcnd.com/photo/2014/dd9cae66e3cc32be4ef4cf849c22d70b.png" alt=""></a></li>
+            </ul>
+        </div>
+        <div class="footer-copyright">
+            <p>©2011-2014 56氪</p>
+            <p>京ICP备11027501号</p>
+            <p>京公网安备11010802012285号</p>
+        </div>
+
+    </div>
+</footer>
+<div id="panel-login" class="panel mfp-hide instapaper_ignore">
+        <section class="login-section">
+            <form accept-charset="UTF-8" action="/account/sign_in" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="HzSqf3l3ZVuTJu5f1GUIu9vL9MMXP/07uC74WyxrQ4g="></div>
+                <div class="form login">
+                    <div class="login__email">
+                        <input id="user_login" name="user[login]" placeholder="用户名或邮箱" size="30" spellcheck="false" type="text">
+                        <i class="icon-user"></i>
+                    </div>
+                    <div class="login__password">
+                        <input focus-on="suggestion:accepted" id="user_password" name="user[password]" placeholder="密码" size="30" spellcheck="false" type="password">
+                        <i class="icon-lock"></i>
+                    </div>
+                    <div class="login__links cf">
+                        <p class="left"><a href="/account/password/new">忘记密码？</a></p>
+                        <button type="submit" class="submit right">登录</button>
+                    </div>
+                </div>
+                <hr>
+                <div class="register__links cf">
+                    <p class="left">没有帐号？ <a class="login__register-btn" href="javascript:void(0)">注册</a></p>
+                </div>
+            </form>
+        </section>
+
+        <section class="register-section">
+            <form accept-charset="UTF-8" action="/account" id="register_form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="HzSqf3l3ZVuTJu5f1GUIu9vL9MMXP/07uC74WyxrQ4g="></div>
+                <input hidden="hidden" id="user_name" name="user[name]" placeholder="昵称" size="30" type="text">
+                <input hidden="hidden" id="user_pw_confirmation" name="user[pw_confirmation]" placeholder="" size="30" type="text">
+                <div class="form register">
+                    <div class="register__username">
+                        <input id="user_login" name="user[login]" placeholder="用户名 仅英文或数字" size="30" spellcheck="false" type="text">
+                        <i class="icon-user"></i>
+                    </div>
+                    <div class="register__email">
+                        <input id="user_email" name="user[email]" placeholder="邮箱" size="30" spellcheck="false" type="email">
+                        <i class="icon-login-mail"></i>
+                    </div>
+                    <div class="register__password">
+                        <input focus-on="suggestion:accepted" id="user_password" name="user[password]" placeholder="密码" size="30" spellcheck="false" type="password">
+                        <i class="icon-lock"></i>
+                    </div>
+                    <div class="login__links cf">
+                        <p class="left">已有帐号？ <a class="register__login-btn" href="javascript:void(0)">登录</a></p>
+                        <button type="submit" class="submit right">注册</button>
+                    </div>
+                </div>
+            </form>
+        </section>
+</div>
+
+<!--[if lt IE 7]>
+<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+<![endif]-->
+
+
+<load href="__PUBLIC__/Home/default/Js/assets/main.js" />
+<load href="__PUBLIC__/Home/default/Js/assets/topics.js" />
+
+<script type="text/javascript">
+    $.extend($.lazyLoadXT, {
+        onload: { addClass: 'loaded' }
+    });
+</script>
+</body>
+</html>

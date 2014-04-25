@@ -1,0 +1,98 @@
+<div class="footer">
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-md-2 col-sm-2 col-xs-2 space-mobile">
+                    <!-- BEGIN CONTACTS -->                                    
+                    <a class="footer-logo" href="__URL__/index">
+                        <img src="__PUBLIC__/Home/default/Images/nav_logo_red.png" id="logoimg" alt="">
+                    </a>
+                    <h2 style="padding-left:16px;color:#DB3A1B">KINGRAY</h2>
+                    
+                    <!-- END CONTACTS -->                                    
+                                  
+                </div>
+
+                <volist name="menu.nav" id="navr">
+                    <div class="col-md-2 col-sm-2 col-xs-2">
+                        <!-- BEGIN TWITTER BLOCK -->
+                        <h2>{$navr.nav_name}</h2>
+                            <notempty name="navr.sub">
+                                <volist name="navr.sub" id="vo">
+
+                                    <dl class="dl-horizontal f-twitter">
+                                        <dt><i class="fa fa-link"></i></dt>
+                                        <dd>
+                                            <a class="footer-link" href="{$vo.url}"> {$vo.nav_name}</a>
+                                        </dd>
+                                    </dl>   
+                                </volist>
+                                <else />
+                                <address class="margin-bottom-40">
+                                    中国, 广东省, 深圳市<br>
+                                    福田区, 车公庙, 天安数码城, 创新科技广场Ⅱ期, 西座1603. <br>
+                                    0755-66659000 <br>
+                                    <i class="fa fa-link"></i> <a href="mailto:kingray@sz-kingray.com">kingray@sz-kingray.com</a>                        
+                                </address>
+                            </notempty>
+                    </div>
+                </volist>                 
+                                                        
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="copyright">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-sm-8 col-xs-8">
+                <p>
+                    <span class="margin-right-10">2013 &copy; KingRay. ALL Rights Reserved.</span> 
+                    <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+                </p>
+            </div>
+            <!-- <div class="col-md-4 col-sm-4 col-xs-4">
+                <ul class="social-footer">
+                    <li><a href="http://weibo.com/u/1884353652"><i class="fa fa-weibo"></i></a></li>
+                    <li><a href="http://github.com/jia58960"><i class="fa fa-github"></i></a></li>
+                    <li><a href="http://google.com.hk"><i class="fa fa-google-plus"></i></a></li>
+                    
+                </ul>                
+            </div> -->
+        </div>
+    </div>
+</div>
+        <!--/Footer Extra-->
+    <script>
+        var __Pub__ = '__PUBLIC__';
+    </script>
+         <!--load js-->
+        <!--[if lt IE 9]>
+            <script src="__PUBLIC__/Home/default/plugins/respond.min.js"></script>  
+        <![endif]--> 
+        
+        <load href="__PUBLIC__/Home/default/plugins/bootstrap/js/bootstrap.min.js" />
+        <load href="__PUBLIC__/Home/default/plugins/hover-dropdown.js" />
+        <load href="__PUBLIC__/Home/default/plugins/back-to-top.js" />
+
+        <!-- BEGIN PAGE LEVEL JAVASCRIPTS(REQUIRED ONLY FOR CURRENT PAGE) -->
+        <load href="__PUBLIC__/Home/default/plugins/fancybox/source/jquery.fancybox.pack.js" />
+        <load href="__PUBLIC__/Home/default/plugins/revolution_slider/rs-plugin/js/jquery.themepunch.plugins.min.js" />
+        <load href="__PUBLIC__/Home/default/plugins/revolution_slider/rs-plugin/js/jquery.themepunch.revolution.min.js" />
+        
+        <load href="__PUBLIC__/Home/default/plugins/bxslider/jquery.bxslider.min.js" />
+        <load href="__PUBLIC__/Home/default/plugins/parallax/js/script.js" />
+        <load href="__PUBLIC__/Home/default/Scripts/app.js" />
+        <load href="__PUBLIC__/Home/default/Scripts/index.js" />
+
+        <script type="text/javascript">
+            jQuery(document).ready(function() {
+                App.init();    
+                App.initBxSlider();
+                Index.initRevolutionSlider();                    
+            });
+        </script>
+
+    </body>
+
+</html>

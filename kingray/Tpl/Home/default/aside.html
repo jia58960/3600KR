@@ -1,0 +1,35 @@
+<section class="aside-today">
+        <h2 class="aside-today__title">今日更新<span>+{$dailyCount}</span></h2>
+        <ul class="aside-today__list">
+            <volist id="dr" name="dailyArticle">
+                <li>
+                    <div class="topic"><span><a target="_blank" href="__URL__/content/detail/{$dr.nav.id}" class="{$dr.nav.sub_color}">{$dr.nav.nav_name} </a> / {$dr.nav.english}</span></div>
+                    <h1><a href="__URL__/article/detail/{$dr.id}" title="{$dr.title}">{$dr.title|strip_tags|msubstr=0,60}</a></h1>
+                </li>
+            </volist>
+        </ul>
+    </section>
+    <!--<section class="aside-social aside-fixed" style="z-index: 1000;">
+        <p>微信公众平台：搜索“36氪”或扫描下面的二维码：</p>
+        <div class="image aside-social__qrcode"><img alt="Qrcode" src="http://d.36kr.com/assets/images/qrcode.jpg"></div>
+        <div class="aside-social__social">
+            <ul>
+                <li class="aside-social__items">
+                    <a href="http://weibo.com/wow36kr" class="icons-weibo external" target="_blank">Weibo</a>
+                    <span class="aside-social__count">56K</span>
+                </li>
+                <li class="aside-social__items">
+                    <a href="https://twitter.com/36kr" class="icons-twitter external" target="_blank">Twitter</a>
+                    <span class="aside-social__count">14K</span>
+                </li>
+                <li class="aside-social__items">
+                    <a href="http://www.facebook.com/X36Kr" class="icons-facebook external" target="_blank">Facebook</a>
+                    <span class="aside-social__count">10K</span>
+                </li>
+                <li class="aside-social__items">
+                    <a target="_blank" href="http://www.36kr.com/feed/" class="icons-rss">RSS</a>
+                    <span class="aside-social__count">100K</span>
+                </li>
+            </ul>
+        </div>
+    </section>-->

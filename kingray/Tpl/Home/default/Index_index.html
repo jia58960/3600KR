@@ -1,0 +1,273 @@
+<include file="./kingray/Tpl/Home/default/header.html" />
+		<eq name="Think.BROWSER" value="true">
+			<div id="browser">
+				<p style="font-size:16px">我们的站点使用了最新HTML5的相关技术，但您的浏览器不支持这些技术，我们推荐您使用<a href="http://www.google.cn/intl/zh-CN/chrome/browser/"> Google Chrome </a>浏览器来访问。</p>
+			</div>
+		</eq>
+		<script>
+			if({$Think.BROWSER}==true){
+				window.onload=function(){
+					$('#browser').delay(7000).fadeOut("slow");
+				};
+			}
+		</script>
+
+        <div class="container row">
+
+            <!-- BEGIN MAIN  -->
+            <div class="main">
+
+            <div class="headline cf">
+                <article class="headline__news">
+                    <a href="__URL__/article/detail/{$hot_main.id}" class="topic-post-big">
+                        <img class="image lazyload loaded" src="__PUBLIC__/Uploads/img/{$hot_main.img}" alt="">
+                        <span class="spinner"></span>
+                        <div class="image-overlay big"></div>
+                        <h1>{$hot_main.title}</h1>
+                    </a>
+                </article>
+
+
+                <article class="headline__news">
+                    <a href="__URL__/article/detail/{$hot2.id}" class="topic-post-small">
+                        <img class="image lazyload loaded" src="__PUBLIC__/Uploads/img/{$hot2.img}" alt="">
+                        <span class="spinner"></span>
+                        <div class="image-overlay small"></div>
+                        <h1>{$hot2.title|strip_tags|msubstr=0,50}</h1>
+                    </a>
+                </article>
+
+                <article class="headline__news">
+                    <a href="__URL__/article/detail/{$hot3.id}" class="topic-post-small">
+                        <img class="image lazyload loaded" src="__PUBLIC__/Uploads/img/{$hot3.img}" alt="">
+                        <span class="spinner"></span>
+                        <div class="image-overlay small"></div>
+                        <h1>{$hot3.title|strip_tags|msubstr=0,50}</h1>
+                    </a>
+                </article>
+
+                <article class="headline__news">
+                    <a href="__URL__/article/detail/{$hot4.id}" class="topic-post-small">
+                        <img class="image lazyload loaded" src="__PUBLIC__/Uploads/img/{$hot4.img}" alt="">
+                        <span class="spinner"></span>
+                        <div class="image-overlay small"></div>
+                        <h1>{$hot4.title|strip_tags|msubstr=0,50}</h1>
+                    </a>
+                </article>
+
+                <article class="headline__news">
+                    <a href="__URL__/article/detail/{$hot5.id}" class="topic-post-small">
+                        <img class="image lazyload loaded" src="__PUBLIC__/Uploads/img/{$hot5.img}" alt="">
+                        <span class="spinner"></span>
+                        <div class="image-overlay small"></div>
+                        <h1>{$hot5.title|strip_tags|msubstr=0,50}</h1>
+                    </a>
+                </article>
+
+            </div>
+
+            <div class="content" id="lastest">
+
+                <div class="content-wrapper">
+
+                    <h2 class="lastest">latest news</h2>
+                    <div class="articles">
+
+                        <volist id="artList" name="list">
+
+                            <article class="posts post-1 cf">
+
+                                <div class="info cf">
+                                    <div class="topic left">
+                            <span><a href="__URL__/content/detail/{$navInfo.id}" class="{$artList.nav.sub_color}">{$artList.nav.nav_name}</a> / {$artList.nav.english}
+                            </span>
+                                    </div>
+                                    <div class="postmeta right">
+                                        <a href="###" class="uname" target="_blank">admin</a> • {$artList.time|date="Y-m-d H:i",###}
+                                    </div>
+                                </div>
+
+                                <div class="left left-col">
+                                    <!--<div class="meta"><a title="回应人数" href="__URL__/article/detail/{$artList.id}"><i class="icon icon-share"></i> 35</a></div>-->
+                                    <div class="image feature-img thumb-180">
+                                        <a href="__URL__/article/detail/{$artList.id}">
+                                            <img alt="104" src="__PUBLIC__/Uploads/img/{$artList.img}">
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="right-col">
+                                    <h1><a href="__URL__/article/detail/{$artList.id}" target="_blank" title="{$artList.title}">{$artList.title}</a></h1>
+                                    <p>{$artList.content|strip_tags|msubstr=0,60}</p>
+                                </div>
+
+                            </article>
+                        </volist>
+
+
+
+                <!--<article class="posts post-ad cf">
+                    <div class="info cf">
+                        <div class="topic left"><span><p><a href="http://cnrdn.com/7JgD" class="external" target="_blank">广告滚粗！ </a> /mikecrm.com</p></span></div>
+                        <div class="postmeta right"><a href="http://www.36kr.com/contact-us/ad-krcom?view=1#details" target="_blank">投放你妹？</a></div>
+                    </div>
+                    <div class="right">
+                        <div class="image feature-img thumb-100"><a href="http://cnrdn.com/7JgD" target="_blank" title="广告滚粗！" class="external"><img alt="广告滚粗！" height="100" src="http://a.36krcnd.com/poster/fd4bfd6a04c3bb306801649d1034af4f.png" width="100"></a>
+                        </div>
+                    </div>
+                    <div class="left-col cf">
+                        <h1><a href="http://cnrdn.com/7JgD" target="_blank" title="广告滚粗！" class="external">广告滚粗！</a></h1>
+                        <p><a href="http://cnrdn.com/7JgD" class="external" target="_blank">信息收集新花样：广告滚粗！推动表单工具成为创业公司标配。</a></p>
+                    </div>
+                </article>-->
+                     </div>
+                    <div class="pagination cf">
+                        {$page}
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="aside">
+                <section class="aside-tags">
+                    <h2>Feature Tags</h2>
+                    <ul class="aside-tags__list cf">
+                        <volist name="hotNav" id="hotN">
+                        <li><a href="__URL__/content/detail/{$hotN.id}">{$hotN.nav_name}</a></li>
+                        </volist>
+
+                    </ul>
+                </section>
+                <!--<section class="aside-social aside-fixed" style="z-index: 1000;">
+                    <p>搜索“56氪”或扫描下面的二维码：</p>
+                    <div class="image aside-social__qrcode"><img alt="Qrcode" src="http://d.36kr.com/assets/images/qrcode.jpg"></div>
+                    <div class="aside-social__social">
+                        <ul>
+                            <li class="aside-social__items">
+                                <a href="http://weibo.com/wow36kr" class="icons-weibo external" target="_blank">Weibo</a>
+                                <span class="aside-social__count">56K</span>
+                            </li>
+                            <li class="aside-social__items">
+                                <a href="https://twitter.com/36kr" class="icons-twitter external" target="_blank">Twitter</a>
+                                <span class="aside-social__count">14K</span>
+                            </li>
+                            <li class="aside-social__items">
+                                <a href="http://www.facebook.com/X36Kr" class="icons-facebook external" target="_blank">Facebook</a>
+                                <span class="aside-social__count">10K</span>
+                            </li>
+                            <li class="aside-social__items">
+                                <a target="_blank" href="http://www.36kr.com/feed/" class="icons-rss">RSS</a>
+                                <span class="aside-social__count">100K</span>
+                            </li>
+                        </ul>
+                    </div>
+                </section>-->
+                <div></div>
+            </div>
+            </div>
+            <!-- END MAIN -->
+
+            <!--BEGIN SIDEBAR-->
+            <div class="sidebar">
+                <section class="sidebar-ad">
+                   <img alt="广告" height="250" src="__PUBLIC__/Uploads/img/36krAd.png" width="280">
+
+                </section>
+                <include file="./kingray/Tpl/Home/default/hot.html" />
+
+                <section class="sidebar-ad">
+
+                </section>
+
+                <section class="sidebar-popular cf">
+                    <h3>赞助商链接</h3>
+                    <div class="sidebar-sponsored__list">
+                        <article class="sidebar-sponsored__posts cf">
+                            <div class="meta"></div>
+                            <div class="image thumb-60 right"><img src="__PUBLIC__/Uploads/img/kry.png"></div>
+                            <a href="http://sz-kingray.com" class="external" target="_blank">金瑞亿投资</a>
+                        </article>
+                        <article class="sidebar-sponsored__posts cf">
+                            <div class="meta"></div>
+                            <div class="image thumb-60 right"><img src="__PUBLIC__/Uploads/img/google.png"></div>
+                            <a href="http://cnrdn.com/BslD" title="谷歌搜索" class="external" target="_blank">谷歌</a>
+                        </article>
+                        <article class="sidebar-sponsored__posts cf">
+                            <div class="meta"></div>
+                            <div class="image thumb-60 right"><img src="__PUBLIC__/Uploads/img/baidu.png"></div>
+                            <a href="http://baidu.com" title="百度搜索引擎" class="external" target="_blank">百度搜索</a>
+                        </article>
+
+                    </div>
+                </section>
+
+                <!--<section id="sidebar-comments">
+                    <h3>优质评论</h3>
+                    <div class="sidebar-comments__list">
+                        <div class="comment-1">
+                            <div class="postmeta"><a href="/u1372654047" class="uname user_u1372654047" data-name="史俊" target="_blank">史俊</a> • 1小时前</div>
+                            <div class="sidebar-comments__comment">
+                                做了太重了，好比一家互联网化的家政公司，在信息对称上做得远远不够，盘不活庞大的家政市场资源。
+                            </div>
+                            <div class="sidebar-comments__title">
+                                <p>评论于<a href="/p/210923.html">诺西高管潜入家政门店半年</a></p>
+                            </div>
+                        </div>
+                        <div class="comment-1">
+                            <div class="postmeta"><a href="/wxjoy0423" class="uname user_wxjoy0423" data-name="黑衣李白" target="_blank">黑衣李白</a> • 1小时前</div>
+                            <div class="sidebar-comments__comment">
+                                #22楼 @一直二着的蛐蛐儿 X小姐要说的就是“没重点”！女人...
+                            </div>
+                            <div class="sidebar-comments__title">
+                                <p>评论于<a href="/p/210943.html">男性思维开发的女性产品争议</a></p>
+                            </div>
+                        </div>
+                        <div class="comment-1">
+                            <div class="postmeta"><a href="/u1375405073" class="uname user_u1375405073" data-name="爲什麽不能叫木頭人" target="_blank">爲什麽不能叫木頭人</a> • 1小时前</div>
+                            <div class="sidebar-comments__comment">
+                                提供免费的WIFI接入，那就顺理的提供了广告的推送加上场内APP，消费者可以直接在室内进行Online to Offline活动，各地方的人流可以一目了然，商销活动的创新看点也一定会更精彩（未来的特价活动的策划一定会随着科技改变而改变）。至于使用室内定位功能的行为习惯养成是一个需要养成过程，最终用户喜欢不喜欢还是依赖于运营团队策划。
+                            </div>
+                            <div class="sidebar-comments__title">
+                                <p>评论于<a href="/p/210951.html">高德地图开放室内地图</a></p>
+                            </div>
+                        </div>
+                        <div class="comment-1">
+                            <div class="postmeta"><a href="http://weibo.com/u/1710984712" class="uname user_1710984712 external" data-name="坤儿汀" target="_blank">坤儿汀</a> • 1小时前</div>
+                            <div class="sidebar-comments__comment">
+                                抓住女性心理需求对做互联网产品是件重要的事情
+                            </div>
+                            <div class="sidebar-comments__title">
+                                <p>评论于<a href="/p/210943.html">男性思维开发的女性产品争议</a></p>
+                            </div>
+                        </div>
+                        <div class="comment-1">
+                            <div class="postmeta"><a href="http://weibo.com/u/2112713367" class="uname user_2112713367 external" data-name="billy元" target="_blank">billy元</a> • 1小时前</div>
+                            <div class="sidebar-comments__comment">
+                                看来智能家居不能为智能而智能，而是真的给客户带来实惠。
+                            </div>
+                            <div class="sidebar-comments__title">
+                                <p>评论于<a href="/p/210873.html">Nest智能恒温器英国开卖</a></p>
+                            </div>
+                        </div>
+                        <div class="comment-1">
+                            <div class="postmeta"><a href="/alex_0415" class="uname user_alex_0415" data-name="我shi關宇" target="_blank">我shi關宇</a> • 1小时前</div>
+                            <div class="sidebar-comments__comment">
+                                我持着忧心、担心的态度。他的增长速度实在是太快了！
+                            </div>
+                            <div class="sidebar-comments__title">
+                                <p>评论于<a href="/p/210889.html">36公开氪第一期</a></p>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>-->
+                <section class="sidebar-ad">
+
+                </section>
+            </div>
+            <!--END SIDEBAR-->
+
+        </div>
+        
+<include file="./kingray/Tpl/Home/default/footer.html" />
+       

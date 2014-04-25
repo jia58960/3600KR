@@ -1,0 +1,115 @@
+<include file="./kingray/Tpl/Home/default/header.html" />
+
+<div class="container row">
+<div class="main">
+    <div class="content">
+        <div class="content-wrapper">
+            <article class="single-post">
+                <section class="single-post-header">
+                    <div class="single-post-header__headline">
+                        <img src="__PUBLIC__/Uploads/img/{$content.para.img}" alt="">
+                    </div>
+                    <header class="single-post-header__meta">
+                        <div class="single-post__postmeta">
+                            <a href="/coldsummer17" class="uname user_coldsummer17" data-name="coldsummer17" target="_blank">admin</a> •
+                            <abbr class="timeago" title='{$content.time|date="Y-m-d H:i",###}'></abbr>
+                        </div>
+                        <h1 class="single-post__title">
+                            {$content.title}
+                        </h1>
+                    </header>
+                </section>
+                <section class="article">
+                    {$content.para.content}
+
+                    <p>[<span>56氪</span>原创文章，作者: admin]</p>
+
+                </section>
+            </article>
+            <section class="single-post-author-social instapaper_ignore">
+                <div class="single-post-author cf">
+                    <div class="single-post-author__avatar left">
+                        <div class="avatar">
+                            <img alt="coldsummer17" class="uface img-rounded" src="__PUBLIC__/Uploads/img/avater.jpg" style="width:48px;height:48px;" title="admin">
+                        </div>
+                    </div>
+                    <div class="single-post-author__info">
+                        <h3 class="single-post-author__name">admin</h3>
+                        <p class="single-post-author__bio"></p>
+                    </div>
+                </div>
+            </section>
+            <!--<section class="single-post-relate">
+                <ul class="cf">
+                    <li>
+                        <a href="/p/210923.html">
+                            <div class="single-post-relate__image"><img alt="Blank" class="image lazyload" data-src="http://a.36krcnd.com/photo/2014/6aef157049ff56f414b4386e18096626.png!slider" src="http://d.36kr.com/assets/images/blank.gif"></div>
+                        </a><div class="single-post-relate__title"><a href="/p/210923.html"></a><h3><a href="/p/210923.html"></a><a href="/p/210923.html?vt=0" rel="twipsy" title="为了做月嫂O2O，前诺西高管潜入一家政门店取经半年">诺西高管潜入家政门店半年</a></h3></div>
+
+                    </li>
+                    <li>
+                        <a href="/p/210931.html">
+                            <div class="single-post-relate__image"><img alt="Blank" class="image lazyload" data-src="http://a.36krcnd.com/photo/2014/07c0280edcc89e5b064a08aad36f0bf6.png!slider" src="http://d.36kr.com/assets/images/blank.gif"></div>
+                        </a><div class="single-post-relate__title"><a href="/p/210931.html"></a><h3><a href="/p/210931.html"></a><a href="/p/210931.html?vt=0" rel="twipsy" title="优惠券想象力不再，创新工场首个O2O孵化项目“布丁优惠券”转战水更深的汽车市场O2O，以违章工具类产品“微车”切入">布丁优惠券转战汽车市场</a></h3></div>
+
+                    </li>
+                    <li>
+                        <a href="/p/210887.html">
+                            <div class="single-post-relate__image"><img alt="Blank" class="image lazyload" data-src="http://a.36krcnd.com/photo/2014/1695d13bf089493805c175aecc07d241.png!slider" src="http://d.36kr.com/assets/images/blank.gif"></div>
+                        </a><div class="single-post-relate__title"><a href="/p/210887.html"></a><h3><a href="/p/210887.html"></a><a href="/p/210887.html?vt=0" rel="twipsy" title="聚喜猫婚庆O2O服务通过婚礼场景的结构化让用户自行设计婚礼，以招标方式找到合适的婚庆公司">DIY+C2B的婚庆聚喜猫</a></h3></div>
+
+                    </li>
+                </ul>
+            </section>-->
+
+            <!--评论区域
+            <section class="single-post-comment" id="replies">
+                <form accept-charset="UTF-8" action="/p/210946/replies" class="new_reply" data-remote="true" id="new_reply" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="HzSqf3l3ZVuTJu5f1GUIu9vL9MMXP/07uC74WyxrQ4g="></div>
+
+                    <h2 class="total">文章评论(<span>0</span>)</h2>
+                    <div class="single-post-comment-reply">
+                        <div href="#panel-login" class="single-post-comment__form cf overlay">
+                            <div class="widearea-wrapper" style="width: 620px; height: 120px;"><textarea class="textarea" cols="40" data-widearea="enable" id="reply_body" name="reply[body]" placeholder="你怎么看？" rows="20" style="height: 120px; width: 620px;"></textarea><div class="widearea-icons"><a class="widearea-icon fullscreen" title="WideArea Mode" href="javascript:void(0);"></a></div></div>
+                            <span class="tip right" style="display:none">请回复有价值的信息，无意义的评论将很快被删除，账号将被禁止发言</span>
+                        </div>
+                        <div class="single-post-comment__bottom cf">
+                            <div class="meta left cf">
+                                <a href="javascript:void(0)" class="overlay">登录</a> 后参与讨论
+                            </div>
+                            <button type="submit" id="btn_reply" hidden="" tabindex="2">提交评论</button>
+                            <a href="javascript:void(0)" class="comment-submit-btn right">提交评论</a>
+                        </div>
+                    </div>
+                    <div class="single-post-comment__comments">
+
+
+                    </div>
+                </form>
+            </section>-->
+
+        </div>
+    </div>
+    <div class="aside">
+        <include file="./kingray/Tpl/Home/default/aside.html" />
+    </div>
+</div>
+<div class="sidebar">
+    <section class="sidebar-ad">
+        <img alt="ad1" height="250" src="__PUBLIC__/Home/default/images/ad1.gif" width="280">
+    </section>
+    <include file="./kingray/Tpl/Home/default/hot.html" />
+    <section class="sidebar-ad">
+        <a href="http://cnrdn.com/jzgD" target="_blank" title="麦客" class="external"><img alt="麦客" height="280" src="http://a.36krcnd.com/poster/6ea466be799d11288937f4a588b49cc2.jpg" width="280"></a>
+
+    </section>
+    <include file="./kingray/Tpl/Home/default/newly.html" />
+
+
+    <section class="sidebar-ad">
+
+    </section>
+</div>
+</div>
+
+
+<include file="./kingray/Tpl/Home/default/footer.html" />

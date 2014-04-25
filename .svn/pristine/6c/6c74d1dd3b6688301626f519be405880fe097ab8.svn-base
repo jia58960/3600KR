@@ -1,0 +1,407 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<!-- BEGIN HEAD -->
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <!-- <meta content="width=device-width, initial-scale=1.0" name="viewport" /> -->
+        <meta name="keywords" content="创业, 想创业, 投资, 融资, 创投媒体, 创业公司, 金融新闻, 创业互联网, 资讯平台,互联网创业">
+        <meta content="jia58960" name="author" />
+
+        <title>
+           56KR资讯平台
+        </title>
+        <link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/default/Js/font-awesome/css/font-awesome.min.css" />
+        <link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/default/Css/kry.css" />
+        
+        <script type="text/javascript" src="__PUBLIC__/Home/default/Js/jquery/2.0.3/jquery.min.js"></script>
+        <script type="text/javascript" src="__PUBLIC__/Home/default/Js/timeago.js"></script>
+        <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+        <![endif]-->
+
+        <link rel="shortcut icon" href="favicon.ico" />
+
+        <style type="text/css">
+            @-moz-keyframes nodeInserted{from{opacity:0.99;}to{opacity:1;}}
+            @-webkit-keyframes nodeInserted{from{opacity:0.99;}to{opacity:1;}}
+            @-o-keyframes nodeInserted{from{opacity:0.99;}to{opacity:1;}}
+            @keyframes nodeInserted{from{opacity:0.99;}to{opacity:1;}}
+            embed,object{
+                animation-duration:.001s;
+                -ms-animation-duration:.001s;
+                -moz-animation-duration:.001s;
+                -webkit-animation-duration:.001s;
+                -o-animation-duration:.001s;
+                animation-name:nodeInserted;
+                -ms-animation-name:nodeInserted;
+                -moz-animation-name:nodeInserted;
+                -webkit-animation-name:nodeInserted;
+                -o-animation-name:nodeInserted;}
+        </style>
+    </head>
+<body id="home" class="js">
+    <!--BEGIN HEADER-->
+    <header class="header header-normal">
+        <div class="inner row">
+
+            <h1 class="logo">
+                <a href="/"><span>36Kr</span></a>
+            </h1>
+
+            <nav class="toggle-nav cf">
+                <ul class="left">
+                    <li><a href="javascript:void(0)" class="toggle__main icon-menu"><span>导航</span></a></li>
+                    <li><a href="javascript:void(0)" class="toggle__search icon-search"><span>搜索</span></a></li>
+                </ul>
+                <a href="http://www.36kr.net/report" class="toggle__submit right external" target="_blank">寻求报道</a>
+            </nav>
+
+            <nav class="main-nav left">
+            <ul>
+                <?php if(is_array($menu["nav"])): $i = 0; $__LIST__ = $menu["nav"];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$navr): $mod = ($i % 2 );++$i;?><li class="drop-1 drop">
+                        <a href="/explore" class="hasdropdown main-nav__item"><?php echo ($navr["nav_name"]); ?></a>
+                            <div class="dropdown">
+                                <div class="dropdown-list dropdown__list">
+                                    <section>
+                                        <h2>CATEGORY</h2>
+                                        <ul class="dropdown__topic cf">
+                                            <?php if(is_array($navr["sub"])): $i = 0; $__LIST__ = $navr["sub"];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li>
+                                                    <span><a href="<?php echo ($vo["url"]); ?>" class="<?php echo ($vo["nav_color"]); ?>">
+                                                        <?php echo ($vo["nav_name"]); ?>
+                                                    </a>
+                                                     / <?php echo ($vo["english"]); ?>
+                                                    </span>
+                                                </li><?php endforeach; endif; else: echo "" ;endif; ?>
+                                        </ul>
+                                    </section>
+                                </div>
+                            </div>
+                    </li><?php endforeach; endif; else: echo "" ;endif; ?>
+            </ul>
+        </nav>
+
+            <div class="search">
+                <form action="/search"><input name="q" type="search" placeholder="搜索"></form>
+            </div>
+            <!--<nav class="second-nav">
+                <ul>
+                    <li><a href="###" class="second-nav__submit">申请投稿</a></li>
+                    <li><a href="#panel-login" class="second-nav__login overlay">登录</a></li>
+                </ul>
+                <a href="/account/sign_out" data-method="delete" rel="nofollow" id="login_out_link"></a>
+            </nav>-->
+        </div>
+    </header>
+    <!--END HEADER-->
+
+
+
+
+<!-- BEGIN PAGE CONTAINER -->
+<div class="container row">
+<div class="main">
+    <div class="content">
+        <div class="content-wrapper">
+            <div class="content-wrapper-border">
+                <div class="category">
+                    <div class="category-header cf">
+                        <div class="category-header__info cf">
+                            <h2 class="category-header__title left">
+                                <span class="translation_missing" title="<?php echo ($navInfo["head_title"]); ?>"><?php echo ($navInfo["head_title"]); ?></span></h2>
+                            <div class="category-header__status right cf">
+                                <span class="week"><?php echo ($weekCount); ?><i>Weekly</i></span>
+                                <span class="total"><?php echo ($count); ?><i>Total</i></span>
+                            </div>
+                        </div>
+                        <p class="category-header__bio">...</p>
+
+                    </div>
+
+                    <div class="category-popular">
+                        <h3><i class="icon-signal"></i>一周热点</h3>
+                        <ul class="category-popular__list">
+                            <?php if(is_array($week)): $i = 0; $__LIST__ = $week;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$weekly): $mod = ($i % 2 );++$i;?><li class="cf">
+                                    <span><?php echo (date("m/d H:i",$weekly["time"])); ?></span>
+                                    <h1>
+                                        <a href="__URL__/article/detail/<?php echo ($weekly["id"]); ?>" title="<?php echo ($weekly["title"]); ?>"><?php echo ($weekly["title"]); ?></a>
+                                    </h1>
+                                </li><?php endforeach; endif; else: echo "" ;endif; ?>
+                        </ul>
+                    </div>
+            </div>
+
+            <div class="articles">
+
+                <?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$artList): $mod = ($i % 2 );++$i;?><article class="posts post-1 cf">
+
+                        <div class="info cf">
+                            <div class="topic left">
+                            <span><a href="__URL__/content/detail/<?php echo ($navInfo["id"]); ?>" class="<?php echo ($navInfo["nav_color"]); ?>"><?php echo ($navInfo["nav_name"]); ?></a> / column
+                            </span>
+                            </div>
+                            <div class="postmeta right">
+                                <a href="###" class="uname" target="_blank">admin</a> • <?php echo (date("Y-m-d H:i",$artList["time"])); ?>
+                            </div>
+                        </div>
+
+                        <div class="left left-col">
+                            <!--<div class="meta"><a title="回应人数" href="__URL__/article/detail/<?php echo ($artList["id"]); ?>"><i class="icon icon-share"></i> 35</a></div>-->
+                            <div class="image feature-img thumb-180">
+                                <a href="__URL__/article/detail/<?php echo ($artList["id"]); ?>">
+                                    <img alt="104" src="__PUBLIC__/Uploads/img/<?php echo ($artList["img"]); ?>">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="right-col">
+                            <h1><a href="__URL__/article/detail/<?php echo ($artList["id"]); ?>" target="_blank" title="<?php echo ($artList["title"]); ?>"><?php echo ($artList["title"]); ?></a></h1>
+                            <p><?php echo (msubstr(strip_tags($artList["content"]),0,100)); ?></p>
+                        </div>
+
+                    </article><?php endforeach; endif; else: echo "" ;endif; ?>
+                <div class="pagination cf">
+                    <?php echo ($page); ?>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="aside">
+    <section class="aside-today">
+        <h2 class="aside-today__title">今日更新<span>+<?php echo ($dailyCount); ?></span></h2>
+        <ul class="aside-today__list">
+            <?php if(is_array($dailyArticle)): $i = 0; $__LIST__ = $dailyArticle;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$dr): $mod = ($i % 2 );++$i;?><li>
+                    <div class="topic"><span><a target="_blank" href="__URL__/content/detail/<?php echo ($dr["nav"]["id"]); ?>" class="<?php echo ($dr["nav"]["sub_color"]); ?>"><?php echo ($dr["nav"]["nav_name"]); ?> </a> / <?php echo ($dr["nav"]["english"]); ?></span></div>
+                    <h1><a href="__URL__/article/detail/<?php echo ($dr["id"]); ?>" title="<?php echo ($dr["title"]); ?>"><?php echo (msubstr(strip_tags($dr["title"]),0,60)); ?></a></h1>
+                </li><?php endforeach; endif; else: echo "" ;endif; ?>
+        </ul>
+    </section>
+    <!--<section class="aside-social aside-fixed" style="z-index: 1000;">
+        <p>微信公众平台：搜索“36氪”或扫描下面的二维码：</p>
+        <div class="image aside-social__qrcode"><img alt="Qrcode" src="http://d.36kr.com/assets/images/qrcode.jpg"></div>
+        <div class="aside-social__social">
+            <ul>
+                <li class="aside-social__items">
+                    <a href="http://weibo.com/wow36kr" class="icons-weibo external" target="_blank">Weibo</a>
+                    <span class="aside-social__count">56K</span>
+                </li>
+                <li class="aside-social__items">
+                    <a href="https://twitter.com/36kr" class="icons-twitter external" target="_blank">Twitter</a>
+                    <span class="aside-social__count">14K</span>
+                </li>
+                <li class="aside-social__items">
+                    <a href="http://www.facebook.com/X36Kr" class="icons-facebook external" target="_blank">Facebook</a>
+                    <span class="aside-social__count">10K</span>
+                </li>
+                <li class="aside-social__items">
+                    <a target="_blank" href="http://www.36kr.com/feed/" class="icons-rss">RSS</a>
+                    <span class="aside-social__count">100K</span>
+                </li>
+            </ul>
+        </div>
+    </section>-->
+</div>
+</div>
+<div class="sidebar">
+
+    <section id="sidebar-ad"><img src="__PUBLIC__/Uploads/img/ad.jpg" alt=""></section>
+    <section class="sidebar-popular cf">
+        <h3>热门文章</h3>
+        <div class="sidebar-popular__list">
+            <?php if(is_array($hot)): $i = 0; $__LIST__ = $hot;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$hotList): $mod = ($i % 2 );++$i;?><article class="sidebar-popular__posts cf">
+                    <div class="meta"></div>
+                    <div class="image thumb-60 left">
+                        <img src="__PUBLIC__/Uploads/img/<?php echo ($hotList["img"]); ?>" alt="" width="60px" height="60px">
+                    </div>
+                    <h1>
+                        <a href="__URL__/article/detail/<?php echo ($hotList["id"]); ?>" title="<?php echo ($hotList["title"]); ?>"><?php echo (msubstr(strip_tags($hotList["title"]),0,28)); ?></a>
+                    </h1>
+                </article><?php endforeach; endif; else: echo "" ;endif; ?>
+        </div>
+    </section>
+    <!--<section id="sidebar-comments">
+        <h3>优质评论</h3>
+        <div class="sidebar-comments__list">
+            <div class="comment-1">
+                <div class="postmeta"><a href="http://weibo.com/u/2112713367" class="uname user_2112713367 external" data-name="billy元" target="_blank">billy元</a> • 1小时前</div>
+                <div class="sidebar-comments__comment">
+                    看来智能家居不能为智能而智能，而是真的给客户带来实惠。
+                </div>
+                <div class="sidebar-comments__title">
+                    <p>评论于<a href="/p/210873.html">Nest智能恒温器英国开卖</a></p>
+                </div>
+            </div>
+            <div class="comment-1">
+                <div class="postmeta"><a href="/alex_0415" class="uname user_alex_0415" data-name="我shi關宇" target="_blank">我shi關宇</a> • 1小时前</div>
+                <div class="sidebar-comments__comment">
+                    我持着忧心、担心的态度。他的增长速度实在是太快了！
+                </div>
+                <div class="sidebar-comments__title">
+                    <p>评论于<a href="/p/210889.html">36公开氪第一期</a></p>
+                </div>
+            </div>
+            <div class="comment-1">
+                <div class="postmeta"><a href="/luweilin57" class="uname user_luweilin57" data-name="芦苇林" target="_blank">芦苇林</a> • 1小时前</div>
+                <div class="sidebar-comments__comment">
+                    猎豹浏览器、猎豹清理专家、金山电池专家和手机毒霸都是很好用的，对于这些应用，我确实是铁杆儿粉丝，支持。
+                    放弃了包袱，才能走得更远
+                </div>
+                <div class="sidebar-comments__title">
+                    <p>评论于<a href="/p/210938.html">猎豹移动招股书解读</a></p>
+                </div>
+            </div>
+            <div class="comment-1">
+                <div class="postmeta"><a href="/u1396576938" class="uname user_u1396576938" data-name="王筱_Alpha" target="_blank">王筱_Alpha</a> • 1小时前</div>
+                <div class="sidebar-comments__comment">
+                    个人的浅见，一谈到创业第一件事就是融资的话，这本身就是一个问题。创业的第一期投资人就是创业者。除非是天使投资，否则一定是有产品（至少要原型）后才找机构投资人。如果你自己都没有信心投入时间或金钱来打造一个产品出来，投资人凭什么投你？
+                </div>
+                <div class="sidebar-comments__title">
+                    <p>评论于<a href="/p/207772.html">投资人拒绝你的101个理由</a></p>
+                </div>
+            </div>
+            <div class="comment-1">
+                <div class="postmeta"><a href="/u1372025675" class="uname user_u1372025675" data-name="左左左右左" target="_blank">左左左右左</a> • 1小时前</div>
+                <div class="sidebar-comments__comment">
+                    看了半天文中附的图，没看出区别。难道是指把楼主内容按叙述顺序置顶后再放别人的评论？
+                    个人拍脑袋觉得结构化的东西几乎只能做工具，深层互动率肯定是要下来的。工具和大堆文字就看怎么平衡了。目前看，还是重工具，轻文字互动。装不下是其一，其他重要方面就先不扯了。
+                </div>
+                <div class="sidebar-comments__title">
+                    <p>评论于<a href="/p/210922.html">结构化博客社区</a></p>
+                </div>
+            </div>
+            <div class="comment-1">
+                <div class="postmeta"><a href="/u1365695215" class="uname user_u1365695215" data-name="迷糊超人" target="_blank">迷糊超人</a> • 1小时前</div>
+                <div class="sidebar-comments__comment">
+                    很欣赏这种把产品与男人比较的思路，从女性客户的生理和心理需求出发，不过能不能更进一步思考一些具体的场景甚至是企业与女性顾客交互的流程设计，会很有意思。期待中。。。。
+                </div>
+                <div class="sidebar-comments__title">
+                    <p>评论于<a href="/p/210943.html">男性思维开发的女性产品争议</a></p>
+                </div>
+            </div>
+        </div>
+    </section>-->
+    <section class="sidebar-popular cf">
+        <h3>最新资讯</h3>
+
+        <div class="sidebar-popular__list sidebar-tab__wrapper">
+            <div id="tab-forum" class="sidebar-tab__forum tabs-pane active">
+                <ul>
+                    <?php if(is_array($newly)): $i = 0; $__LIST__ = $newly;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$newlyList): $mod = ($i % 2 );++$i;?><li>
+                            <h2>
+                                <a href="__URL__/article/detail/<?php echo ($newlyList["id"]); ?>" target="_blank"><?php echo (msubstr(strip_tags($newlyList["title"]),0,50)); ?></a>
+                            </h2>
+                        </li><?php endforeach; endif; else: echo "" ;endif; ?>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+</div>
+</div>
+
+<!-- END BEGIN PAGE CONTAINER -->  
+
+<footer class="footer">
+    <div class="row">
+        <div class="footer-36kr">
+            <h3>56氪</h3>
+            <ul>
+                <li><a href="/about">关于56氪</a></li>
+                <li><a href="/hire">加入我们</a></li>
+                <li><a href="/contact-us/">联系我们</a></li>
+                <li><a href="/sub/">客户端下载</a></li>
+            </ul>
+        </div>
+        <div class="footer-subscribe">
+            <h3>订阅</h3>
+            <ul>
+                <li><a href="/sub/">RSS订阅</a></li>
+                <li><a href="/sub/">邮箱订阅</a></li>
+                <li><a href="/sub/">线下活动订阅</a></li>
+            </ul>
+        </div>
+        <div class="footer-partner">
+            <h3>合作伙伴</h3>
+            <ul class="cf">
+                <li><a href="http://www.sz-kingray.cn" class="external" target="_blank"><img src="http://a.36krcnd.com/photo/2014/0ae4f92e9796a8a8a8cfe97a2c29d1b2.png" alt=""></a></li>
+                <li><a href="http://www.google.com" class="external" target="_blank"><img src="http://a.36krcnd.com/photo/2014/250c3183595b9df6c3986b513319fb9f.png" alt=""></a></li>
+                <li><a href="http://www.baidu.com" class="external" target="_blank"><img src="http://a.36krcnd.com/photo/2014/dd9cae66e3cc32be4ef4cf849c22d70b.png" alt=""></a></li>
+            </ul>
+        </div>
+        <div class="footer-copyright">
+            <p>©2011-2014 56氪</p>
+            <p>京ICP备11027501号</p>
+            <p>京公网安备11010802012285号</p>
+        </div>
+
+    </div>
+</footer>
+<div id="panel-login" class="panel mfp-hide instapaper_ignore">
+        <section class="login-section">
+            <form accept-charset="UTF-8" action="/account/sign_in" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="HzSqf3l3ZVuTJu5f1GUIu9vL9MMXP/07uC74WyxrQ4g="></div>
+                <div class="form login">
+                    <div class="login__email">
+                        <input id="user_login" name="user[login]" placeholder="用户名或邮箱" size="30" spellcheck="false" type="text">
+                        <i class="icon-user"></i>
+                    </div>
+                    <div class="login__password">
+                        <input focus-on="suggestion:accepted" id="user_password" name="user[password]" placeholder="密码" size="30" spellcheck="false" type="password">
+                        <i class="icon-lock"></i>
+                    </div>
+                    <div class="login__links cf">
+                        <p class="left"><a href="/account/password/new">忘记密码？</a></p>
+                        <button type="submit" class="submit right">登录</button>
+                    </div>
+                </div>
+                <hr>
+                <div class="register__links cf">
+                    <p class="left">没有帐号？ <a class="login__register-btn" href="javascript:void(0)">注册</a></p>
+                </div>
+            </form>
+        </section>
+
+        <section class="register-section">
+            <form accept-charset="UTF-8" action="/account" id="register_form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="HzSqf3l3ZVuTJu5f1GUIu9vL9MMXP/07uC74WyxrQ4g="></div>
+                <input hidden="hidden" id="user_name" name="user[name]" placeholder="昵称" size="30" type="text">
+                <input hidden="hidden" id="user_pw_confirmation" name="user[pw_confirmation]" placeholder="" size="30" type="text">
+                <div class="form register">
+                    <div class="register__username">
+                        <input id="user_login" name="user[login]" placeholder="用户名 仅英文或数字" size="30" spellcheck="false" type="text">
+                        <i class="icon-user"></i>
+                    </div>
+                    <div class="register__email">
+                        <input id="user_email" name="user[email]" placeholder="邮箱" size="30" spellcheck="false" type="email">
+                        <i class="icon-login-mail"></i>
+                    </div>
+                    <div class="register__password">
+                        <input focus-on="suggestion:accepted" id="user_password" name="user[password]" placeholder="密码" size="30" spellcheck="false" type="password">
+                        <i class="icon-lock"></i>
+                    </div>
+                    <div class="login__links cf">
+                        <p class="left">已有帐号？ <a class="register__login-btn" href="javascript:void(0)">登录</a></p>
+                        <button type="submit" class="submit right">注册</button>
+                    </div>
+                </div>
+            </form>
+        </section>
+</div>
+
+<!--[if lt IE 7]>
+<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+<![endif]-->
+
+
+<script type="text/javascript" src="__PUBLIC__/Home/default/Js/assets/main.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Home/default/Js/assets/topics.js"></script>
+
+<script type="text/javascript">
+    $.extend($.lazyLoadXT, {
+        onload: { addClass: 'loaded' }
+    });
+</script>
+</body>
+</html>

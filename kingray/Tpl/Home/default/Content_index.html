@@ -1,0 +1,154 @@
+<include file="./kingray/Tpl/Home/default/header.html" />
+
+<!-- BEGIN PAGE CONTAINER -->
+<div class="container row">
+<div class="main">
+    <div class="content">
+        <div class="content-wrapper">
+            <div class="content-wrapper-border">
+                <div class="category">
+                    <div class="category-header cf">
+                        <div class="category-header__info cf">
+                            <h2 class="category-header__title left">
+                                <span class="translation_missing" title="{$navInfo.head_title}">{$navInfo.head_title}</span></h2>
+                            <div class="category-header__status right cf">
+                                <span class="week">{$weekCount}<i>Weekly</i></span>
+                                <span class="total">{$count}<i>Total</i></span>
+                            </div>
+                        </div>
+                        <p class="category-header__bio">...</p>
+
+                    </div>
+
+                    <div class="category-popular">
+                        <h3><i class="icon-signal"></i>一周热点</h3>
+                        <ul class="category-popular__list">
+                            <volist id="weekly" name="week">
+                                <li class="cf">
+                                    <span>{$weekly.time|date="m/d H:i",###}</span>
+                                    <h1>
+                                        <a href="__URL__/article/detail/{$weekly.id}" title="{$weekly.title}">{$weekly.title}</a>
+                                    </h1>
+                                </li>
+                            </volist>
+                        </ul>
+                    </div>
+            </div>
+
+            <div class="articles">
+
+                <volist id="artList" name="list">
+
+                    <article class="posts post-1 cf">
+
+                        <div class="info cf">
+                            <div class="topic left">
+                            <span><a href="__URL__/content/detail/{$navInfo.id}" class="{$navInfo.nav_color}">{$navInfo.nav_name}</a> / column
+                            </span>
+                            </div>
+                            <div class="postmeta right">
+                                <a href="###" class="uname" target="_blank">admin</a> • {$artList.time|date="Y-m-d H:i",###}
+                            </div>
+                        </div>
+
+                        <div class="left left-col">
+                            <!--<div class="meta"><a title="回应人数" href="__URL__/article/detail/{$artList.id}"><i class="icon icon-share"></i> 35</a></div>-->
+                            <div class="image feature-img thumb-180">
+                                <a href="__URL__/article/detail/{$artList.id}">
+                                    <img alt="104" src="__PUBLIC__/Uploads/img/{$artList.img}">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="right-col">
+                            <h1><a href="__URL__/article/detail/{$artList.id}" target="_blank" title="{$artList.title}">{$artList.title}</a></h1>
+                            <p>{$artList.content|strip_tags|msubstr=0,100}</p>
+                        </div>
+
+                    </article>
+                </volist>
+                <div class="pagination cf">
+                    {$page}
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="aside">
+    <include file="./kingray/Tpl/Home/default/aside.html" />
+</div>
+</div>
+<div class="sidebar">
+
+    <section id="sidebar-ad"><img src="__PUBLIC__/Uploads/img/ad.jpg" alt=""></section>
+    <include file="./kingray/Tpl/Home/default/hot.html" />
+    <!--<section id="sidebar-comments">
+        <h3>优质评论</h3>
+        <div class="sidebar-comments__list">
+            <div class="comment-1">
+                <div class="postmeta"><a href="http://weibo.com/u/2112713367" class="uname user_2112713367 external" data-name="billy元" target="_blank">billy元</a> • 1小时前</div>
+                <div class="sidebar-comments__comment">
+                    看来智能家居不能为智能而智能，而是真的给客户带来实惠。
+                </div>
+                <div class="sidebar-comments__title">
+                    <p>评论于<a href="/p/210873.html">Nest智能恒温器英国开卖</a></p>
+                </div>
+            </div>
+            <div class="comment-1">
+                <div class="postmeta"><a href="/alex_0415" class="uname user_alex_0415" data-name="我shi關宇" target="_blank">我shi關宇</a> • 1小时前</div>
+                <div class="sidebar-comments__comment">
+                    我持着忧心、担心的态度。他的增长速度实在是太快了！
+                </div>
+                <div class="sidebar-comments__title">
+                    <p>评论于<a href="/p/210889.html">36公开氪第一期</a></p>
+                </div>
+            </div>
+            <div class="comment-1">
+                <div class="postmeta"><a href="/luweilin57" class="uname user_luweilin57" data-name="芦苇林" target="_blank">芦苇林</a> • 1小时前</div>
+                <div class="sidebar-comments__comment">
+                    猎豹浏览器、猎豹清理专家、金山电池专家和手机毒霸都是很好用的，对于这些应用，我确实是铁杆儿粉丝，支持。
+                    放弃了包袱，才能走得更远
+                </div>
+                <div class="sidebar-comments__title">
+                    <p>评论于<a href="/p/210938.html">猎豹移动招股书解读</a></p>
+                </div>
+            </div>
+            <div class="comment-1">
+                <div class="postmeta"><a href="/u1396576938" class="uname user_u1396576938" data-name="王筱_Alpha" target="_blank">王筱_Alpha</a> • 1小时前</div>
+                <div class="sidebar-comments__comment">
+                    个人的浅见，一谈到创业第一件事就是融资的话，这本身就是一个问题。创业的第一期投资人就是创业者。除非是天使投资，否则一定是有产品（至少要原型）后才找机构投资人。如果你自己都没有信心投入时间或金钱来打造一个产品出来，投资人凭什么投你？
+                </div>
+                <div class="sidebar-comments__title">
+                    <p>评论于<a href="/p/207772.html">投资人拒绝你的101个理由</a></p>
+                </div>
+            </div>
+            <div class="comment-1">
+                <div class="postmeta"><a href="/u1372025675" class="uname user_u1372025675" data-name="左左左右左" target="_blank">左左左右左</a> • 1小时前</div>
+                <div class="sidebar-comments__comment">
+                    看了半天文中附的图，没看出区别。难道是指把楼主内容按叙述顺序置顶后再放别人的评论？
+                    个人拍脑袋觉得结构化的东西几乎只能做工具，深层互动率肯定是要下来的。工具和大堆文字就看怎么平衡了。目前看，还是重工具，轻文字互动。装不下是其一，其他重要方面就先不扯了。
+                </div>
+                <div class="sidebar-comments__title">
+                    <p>评论于<a href="/p/210922.html">结构化博客社区</a></p>
+                </div>
+            </div>
+            <div class="comment-1">
+                <div class="postmeta"><a href="/u1365695215" class="uname user_u1365695215" data-name="迷糊超人" target="_blank">迷糊超人</a> • 1小时前</div>
+                <div class="sidebar-comments__comment">
+                    很欣赏这种把产品与男人比较的思路，从女性客户的生理和心理需求出发，不过能不能更进一步思考一些具体的场景甚至是企业与女性顾客交互的流程设计，会很有意思。期待中。。。。
+                </div>
+                <div class="sidebar-comments__title">
+                    <p>评论于<a href="/p/210943.html">男性思维开发的女性产品争议</a></p>
+                </div>
+            </div>
+        </div>
+    </section>-->
+    <include file="./kingray/Tpl/Home/default/newly.html" />
+
+</div>
+</div>
+
+<!-- END BEGIN PAGE CONTAINER -->  
+
+<include file="./kingray/Tpl/Home/default/footer.html" />

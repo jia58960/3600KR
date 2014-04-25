@@ -1,0 +1,154 @@
+<include file="./kingray/Tpl/Home/default/header.html" />
+
+<!-- BEGIN PAGE CONTAINER -->  
+<div class="page-container">
+
+    <!-- BEGIN BREADCRUMBS -->   
+    <div class="row breadcrumbs margin-bottom-40">
+        <div class="container">
+            <div class="col-md-4 col-sm-4 col-xs-4">
+                <h1> </h1>
+            </div>
+            <div class="col-md-8 col-sm-8 col-xs-8">
+                <ul class="pull-right breadcrumb">
+                <li><a href="__URL__/index" title="">首页</a></li>
+                <volist id="voname" name="navarr">
+                    <li>
+                        <a href="{$voname.url}" title="">
+                        {$voname.name}
+                        </a>
+                    </li>
+                </volist>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- END BREADCRUMBS -->
+
+    <!-- BEGIN CONTAINER -->   
+    <div class="container min-hight">
+        <!-- BEGIN BLOG -->
+        <div class="row">
+            <!-- BEGIN LEFT SIDEBAR -->            
+            <div class="col-md-9 col-sm-9 col-xs-9 blog-posts margin-bottom-40">
+                 <volist id="artList" name="list">
+                
+                    <div class="row">
+                    <div class="col-md-4 col-xs-4 col-sm-4">
+                        <!-- BEGIN CAROUSEL -->            
+                        <div class="front-carousel">
+                            <div id="myCarousel" class="carousel slide">
+                                <!-- Carousel items -->
+                                <div class="carousel-inner">
+                                    <div class="active item">
+                                        <img src="__PUBLIC__/Home/default/Images/works/img1.jpg" alt="">
+                                    </div>
+                                    
+                                </div>
+                                <!-- Carousel nav 
+                                <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+                                    <i class="fa fa-angle-left"></i>
+                                </a>
+                                <a class="carousel-control right" href="#myCarousel" data-slide="next">
+                                    <i class="fa fa-angle-right"></i>
+                                </a>-->
+                            </div>                
+                        </div>
+                        <!-- END CAROUSEL -->             
+                    </div>
+                    <div class="col-md-8 col-xs-8 col-sm-8">
+                        <h2><a href="__URL__/article/detail/{$artList.id}">{$artList.title}</a></h2>
+                        <ul class="blog-info">
+                            <li><i class="fa fa-user"></i> by admin</li>
+                            <li><i class="fa fa-calendar"></i> {$artList.time|date='Y-m-d',###}</li>
+                        </ul>
+                        <p>{$artList.content|strip_tags|msubstr=0,95}</p>
+                        <a class="more" href="__URL__/article/detail/{$artList.id}">Read more <i class="icon-angle-right"></i></a>
+                    </div>
+                </div>
+                <hr class="blog-post-sep">
+                
+                </volist>
+
+                
+                <div class="page-pagination clear">
+                   {$page}
+                </div>               
+            </div>
+            <!-- END LEFT SIDEBAR -->
+            
+
+
+            <!-- BEGIN RIGHT SIDEBAR -->            
+            <div class="col-md-3 col-sm-3 col-xs-3 blog-sidebar">
+                <!-- CATEGORIES START -->
+                <h2 class="no-top-space">{$Lone.name}</h2>
+                <ul class="nav sidebar-categories margin-bottom-40">
+                    <volist id="vosub" name="subList">
+                        <li>
+                            <a href="{$vosub.url}" id="{$vosub.id}">
+                                {$vosub.nav_name}
+                            </a>
+                        </li>
+                    </volist>
+                </ul>
+
+                <input type="hidden" value="{$currentId}" id="CurrentId"/>
+                <script type="text/javascript">
+                    $(function (){
+                        var cureentID = $("#CurrentId").val();
+                            $(".sidebar-categories li a").each(function() {
+                                if($(this).attr('id')==cureentID){
+                                    $(this).parent().addClass('active');
+                                }
+                        });
+                    });
+                </script>
+                <!-- CATEGORIES END -->
+
+                <!-- CATEGORIES START -->
+                <h2>相关链接</h2>
+                <ul class="nav sidebar-categories margin-bottom-40">
+                   <li>
+                        <a target="_blank" href="http://szkingray.f3322.org:8686/krcms/bbs">公司论坛</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="http://mail.sz-kingray.com" title="">公司邮箱</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="http://szkingray.f3322.org:9999">OA</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="http://szkingray.f3322.org:8686/krcms">CMS</a>
+                    </li>
+                </ul>
+                <!-- CATEGORIES END -->                          
+                
+                <!-- BEGIN RECENT NEWS -->                            
+                <!-- <h2>热点新闻</h2>
+                <div class="recent-news margin-bottom-10">
+                    <volist id="hotnews" name="hotNews">
+                        <div class="row margin-bottom-10">
+                            <div class="col-md-3">
+                                <img src="__PUBLIC__/Home/default/Images/people/img2-large.jpg" alt="" class="img-responsive">                        
+                            </div>
+                            <div class="col-md-9 recent-news-inner">
+                                <h3><a href="__URL__/article/detail/{$hotnews.id}">{$hotnews.title}</a></h3>
+                                <p>{$hotnews.content|strip_tags|msubstr=0,20}</p>
+                            </div>                        
+                        </div>
+                    </volist>
+                </div> -->
+                <!-- END RECENT NEWS -->  
+
+            </div>
+            <!-- END RIGHT SIDEBAR -->            
+        </div>
+        <!-- END BEGIN BLOG -->
+    </div>
+    <!-- END CONTAINER -->
+    
+</div>
+<!-- END BEGIN PAGE CONTAINER -->  
+
+<include file="./kingray/Tpl/Home/default/footer.html" />
